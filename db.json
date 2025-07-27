@@ -89,78 +89,210 @@
             "tendm": "PC"
         }
     ],
-    "Mobile": [
+    "products": [
         {
             "id": 1,
             "tensp": "iPhone 16 Pro Max",
             "brand": "Apple",
-            "gia": 35000000,
+            "gia": "35.000.000",
             "category_id": 1,
-            "hinh": ""
+            "hinh": "iphone-16-pro-max.webp",
+            "kichthuoc_id": 2,
+            "size_id": 3,
+            "ram_id": 5,
+            "color_id": 1
         },
         {
             "id": 2,
             "tensp": "Samsung Galaxy S25 Ultra",
             "brand": "Samsung",
-            "gia": 28490000,
+            "gia": "28.490.000",
             "category_id": 1,
-            "hinh": ""
+            "hinh": "iphone-16-pro-max.webp",
+            "kichthuoc_id": 3,
+            "size_id": 4,
+            "ram_id": 5,
+            "color_id": 3
         },
         {
             "id": 3,
             "tensp": "Xiaomi 15 Ultra 5G",
             "brand": "Xiaomi",
-            "gia": 33590000,
+            "gia": "33.590.000",
             "category_id": 1,
-            "hinh": ""
+            "hinh": "iphone-16-pro-max.webp",
+            "kichthuoc_id": 3,
+            "size_id": 3,
+            "ram_id": 4,
+            "color_id": 2
         },
         {
             "id": 4,
             "tensp": "iPhone 16e",
             "brand": "Apple",
-            "gia": 16290000,
+            "gia": "16.290.000",
             "category_id": 1,
-            "hinh": ""
+            "hinh": "iphone-16-pro-max.webp",
+            "kichthuoc_id": 1,
+            "size_id": 1,
+            "ram_id": 2,
+            "color_id": 5
         },
         {
             "id": 5,
             "tensp": "OPPO Reno 14 5G",
             "brand": "Oppo",
-            "gia": 15700000,
+            "gia": "15.700.000",
             "category_id": 1,
-            "hinh": ""
+            "hinh": "iphone-16-pro-max.webp",
+            "kichthuoc_id": 2,
+            "size_id": 2,
+            "ram_id": 3,
+            "color_id": 4
         },
         {
             "id": 6,
             "tensp": "iPad Pro M4",
             "brand": "Apple",
-            "gia": 27390000,
+            "gia": "27.390.000",
             "category_id": 1,
-            "hinh": ""
+            "hinh": "iphone-16-pro-max.webp",
+            "kichthuoc_id": 5,
+            "size_id": 4,
+            "ram_id": 5,
+            "color_id": 1
         },
         {
             "id": 7,
             "tensp": "Samsung Galaxy Tab S10 Plus",
             "brand": "Samsung",
-            "gia": 23520000,
+            "gia": "23.520.000",
             "category_id": 1,
-            "hinh": ""
+            "hinh": "iphone-16-pro-max.webp",
+            "kichthuoc_id": 5,
+            "size_id": 3,
+            "ram_id": 4,
+            "color_id": 3
         },
         {
             "id": 8,
             "tensp": "Xiaomi Pad 7 Pro",
             "brand": "Xiaomi",
-            "gia": 12940000,
+            "gia": "12.940.000",
             "category_id": 1,
-            "hinh": ""
+            "hinh": "iphone-16-pro-max.webp",
+            "kichthuoc_id": 5,
+            "size_id": 2,
+            "ram_id": 3,
+            "color_id": 4
         },
         {
             "id": 9,
             "tensp": "Huawei MatePad Pro",
             "brand": "Huawei",
-            "gia": 20990000,
+            "gia": "20.990.000",
             "category_id": 1,
-            "hinh": ""
+            "hinh": "iphone-16-pro-max.webp",
+            "kichthuoc_id": 5,
+            "size_id": 3,
+            "ram_id": 4,
+            "color_id": 2
+        },
+        {
+            "id": 10,
+            "tensp": "Realme GT 7 Pro",
+            "brand": "Realme",
+            "gia": "17.990.000",
+            "category_id": 1,
+            "hinh": "iphone-16-pro-max.webp",
+            "kichthuoc_id": 2,
+            "size_id": 2,
+            "ram_id": 4,
+            "color_id": 4
+        }
+    ],
+    "colors": [
+        {
+            "id": 1,
+            "name": "Đen"
+        },
+        {
+            "id": 2,
+            "name": "Trắng"
+        },
+        {
+            "id": 3,
+            "name": "Xanh dương"
+        },
+        {
+            "id": 4,
+            "name": "Đỏ"
+        },
+        {
+            "id": 5,
+            "name": "Vàng"
+        }
+    ],
+    "sizes": [
+        {
+            "id": 1,
+            "name": "128GB"
+        },
+        {
+            "id": 2,
+            "name": "256GB"
+        },
+        {
+            "id": 3,
+            "name": "512GB"
+        },
+        {
+            "id": 4,
+            "name": "1TB"
+        }
+    ],
+    "ram": [
+        {
+            "id": 1,
+            "name": "4GB"
+        },
+        {
+            "id": 2,
+            "name": "6GB"
+        },
+        {
+            "id": 3,
+            "name": "8GB"
+        },
+        {
+            "id": 4,
+            "name": "12GB"
+        },
+        {
+            "id": 5,
+            "name": "16GB"
+        }
+    ],
+    "kichthuoc": [
+        {
+            "id": 1,
+            "name": "6.1 inches"
+        },
+        {
+            "id": 2,
+            "name": "6.7 inches"
+        },
+        {
+            "id": 3,
+            "name": "6.9 inches"
+        },
+        {
+            "id": 4,
+            "name": "7.0 inches"
+        },
+        {
+            "id": 5,
+            "name": "10.2 inches"
         }
     ],
     "specifications": [

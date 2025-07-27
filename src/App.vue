@@ -1,11 +1,15 @@
 <template>
-  <Home/>
+  <Navbar />
+  <router-view />
 </template>
 
 <script setup>
-import Home from './components/HomePage.vue'
+import Navbar from './components/Navbar.vue'
 </script>
 
 <style>
-
+/* html, body, #app {
+  height: auto !important;
+  overflow: visible !important;
+} */
 </style>

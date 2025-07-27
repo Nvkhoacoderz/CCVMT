@@ -10,11 +10,11 @@ const routes = [
         component: HomePage
     },
     {
-    path: '/mobile/:id',
-    name: 'MobileProduct',
-    component: MobileProduct,
-    props: true
-  }
+        path: '/product/:id',
+        name: 'MobileProduct',
+        component: MobileProduct,
+        props: true
+    }
 ]
 
 const router = createRouter({

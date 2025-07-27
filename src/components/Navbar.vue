@@ -249,10 +249,10 @@ body {
 }
 
 .header {
-    position: relative;
+    /* position: relative; */
     position: sticky;
     top: 0;
-    z-index: 10;
+    z-index: 1000;
     background: #E30019;
     text-decoration: none;
 }
@@ -292,8 +292,9 @@ body {
     align-items: center;
     justify-content: center;
     padding: 0 20px;
-    position: relative;
+    /* position: relative; */
     width: 100vw;
+    /* z-index: 1000; */
     margin-left: calc(-50vw + 50%);
 }
 
@@ -310,7 +311,7 @@ body {
     display: flex;
     align-items: center;
     gap: 20px;
-    margin-left: 70px;
+    margin-left: 50px;
 }
 
 .left-inner {
@@ -453,10 +454,11 @@ body {
 }
 
 .txt-overflow {
-    font-size: 14px;
+    font-size: 16px;
     text-overflow: ellipsis;
     max-width: 120px;
     font-weight: bold;
+    white-space: nowrap;
 }
 
 a:hover {
@@ -478,8 +480,9 @@ a:hover {
     border-bottom: 1px solid #e0e0e0;
     padding: 10px 0;
     position: sticky;
-    top: 0;
-    z-index: 9;
+    /* top: 0; */
+    z-index: 10;
+    top: 65px;
     width: 100vw;
     margin-left: calc(-50vw + 50%);
 }
