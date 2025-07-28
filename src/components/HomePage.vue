@@ -15,10 +15,7 @@
                 </select>
             </div>
     <div class="product-list">
-      <MobileProduct v-for="sp in store.product" :key="sp.id" :product="sp"
-                                                              :size="store.getSizeByProduct(sp)?.name || ''"
-                                                              :ram="store.getRamByProduct(sp)?.name || ''"
-                                                              :kichthuoc="store.getKichThuocByProduct(sp)?.name || ''"/>
+      <MobileProduct v-for="sp in store.product" :key="sp.id" :product="sp"/>
     </div>
   </section>
 </template>

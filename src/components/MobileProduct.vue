@@ -37,12 +37,12 @@
             <h2>{{ props.product.tensp }}</h2>
             <p class="product-price">
                 {{ props.product.gia }}₫
-                <span v-if="props.product.giaGoc" class="old-price">{{ props.product.giaGoc }}₫</span>
+                <span v-if="props.product.gia_cu" class="old-price">{{ props.product.gia_cu }}₫</span>
             </p>
             <div class="product-specs">
-                <span class="spec">{{ props.kichthuoc }}</span>
-                <span class="spec">{{ props.ram }}</span>
-                <span class="spec">{{ props.size }}</span>
+                <span class="spec">{{ kichthuocValue }}</span>
+                <span class="spec">{{ ramValue }}</span>
+                <span class="spec">{{ sizeValue }}</span>
             </div>
             <div class="s-member-box">
                 Smember giảm đến 300.000đ
@@ -67,12 +67,20 @@
 </template>
 
 <script setup>
+import { computed } from 'vue';
 import { useRouter } from 'vue-router';
+import { useProductsStore } from '../stores/productAPI.js'
 const router = useRouter();
+const store = useProductsStore();
 
 function goToDetail() {
-    router.push({ name: 'ProductDetail', params: { id: props.product.id } });
+    router.push({ name: 'MobileDetail', params: { id: props.product.id } });
   }
+
+function randomItem(arr) {
+  if (!arr || arr.length === 0) return null;
+  return arr[Math.floor(Math.random() * arr.length)];
+}
 
 // eslint-disable-next-line no-undef
 const props = defineProps({
@@ -82,18 +90,51 @@ const props = defineProps({
   },
   size:{
     type: String,
-    required: true
+    required: false
   },
   ram:{
     type: String,
-    required: true
+    required: false
   },
   kichthuoc:{
     type: String,
-    required: true
-  }
+    required: false
+  },
+    color: {
+        type: String,
+        required: false
+    },
+    bh: {
+        type: String,
+        required: false
+    },
+    anh: {
+        type: String,
+        required: false
+    }
 })
+const sizeValue = computed(() => {
+  if (props.size) return props.size;
+  if (store.size.length > 0) return randomItem(store.size)?.name;
+  return '';
+});
 
+const ramValue = computed(() => {
+  if (props.ram) return props.ram;
+  if (store.ram.length > 0) return randomItem(store.ram)?.name;
+  return '';
+});
+
+const kichthuocValue = computed(() => {
+  if (props.kichthuoc) return props.kichthuoc;
+  if (store.kichthuoc.length > 0) return randomItem(store.kichthuoc)?.name;
+  return '';
+});
+
+
+</script>
+
+<script>
 document.addEventListener('DOMContentLoaded', () => {
             const navLinks = document.querySelectorAll('.slider-nav a');
             const images = document.querySelectorAll('.banner-top img');
@@ -137,8 +178,9 @@ document.addEventListener('DOMContentLoaded', () => {
             // Initial setup
             showSlide(currentIndex);
             startAuto();
-        });
+});
 </script>
+
 
 <style scoped>
 .banner-top {
@@ -221,6 +263,8 @@ document.addEventListener('DOMContentLoaded', () => {
     height: 5px;
     border-radius: 0;
 }
+
+
 .product-card {
     background: #fff;
     border-radius: 16px;
@@ -228,20 +272,26 @@ document.addEventListener('DOMContentLoaded', () => {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    align-items: center; /* Center all inner items horizontally */
     transition: box-shadow 0.2s, transform 0.2s;
     width: 100%;
     position: relative;
     border: 1px solid #e3eaf3;
     padding: 0;
+    min-height: 430px; /* Ensure all cards are the same height */
+    justify-content: flex-start;
 }
 
 .product-card img {
     width: 100%;
+    max-width: 220px; /* Restrict max width for card image */
     height: 200px;
     object-fit: contain;
     padding: 16px 16px 0 16px;
     border-radius: 12px;
     background: #fff;
+    display: block;
+    margin: 0 auto;
 }
 
 .product-info {
@@ -250,8 +300,11 @@ document.addEventListener('DOMContentLoaded', () => {
     flex-direction: column;
     flex: 1;
     cursor: pointer;
+    align-items: center; /* Center children horizontally */
+    width: 100%;
 }
 
+/* Name - always center, bold, min height for alignment */
 .product-info h2 {
     font-size: 1.13rem;
     color: #222;
@@ -259,8 +312,11 @@ document.addEventListener('DOMContentLoaded', () => {
     font-weight: 700;
     min-height: 48px;
     line-height: 1.2;
+    text-align: center;
+    width: 100%;
 }
 
+/* Price - bold, big, pink, center */
 .product-price {
     color: #e11d48;
     font-size: 1.35rem;
@@ -270,8 +326,11 @@ document.addEventListener('DOMContentLoaded', () => {
     display: flex;
     align-items: center;
     gap: 8px;
+    justify-content: center;
+    width: 100%;
 }
 
+/* Old price if available */
 .old-price {
     color: #b6b6b6;
     font-size: 1rem;
@@ -280,10 +339,13 @@ document.addEventListener('DOMContentLoaded', () => {
     text-decoration: line-through;
 }
 
+/* Specs - center, horizontal pills */
 .product-specs {
     display: flex;
     gap: 8px;
     margin-bottom: 10px;
+    justify-content: center;
+    width: 100%;
 }
 
 .spec {
@@ -299,6 +361,7 @@ document.addEventListener('DOMContentLoaded', () => {
     margin-bottom: 2px;
 }
 
+/* Smember box - blue bg, center */
 .s-member-box {
     background: #e9f1fb;
     color: #1877f2;
@@ -307,8 +370,11 @@ document.addEventListener('DOMContentLoaded', () => {
     padding: 5px 10px;
     margin-bottom: 6px;
     font-weight: 500;
+    width: 100%;
+    text-align: center;
 }
 
+/* Installment info - gray bg, center, 1 line */
 .installment-info {
     color: #42526e;
     background: #f6f6f6;
@@ -320,14 +386,18 @@ document.addEventListener('DOMContentLoaded', () => {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    width: 100%;
+    text-align: center;
 }
 
+/* Actions (rating, favorite) - center horizontally */
 .product-actions {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     margin-bottom: 10px;
-    gap: 16px;
+    gap: 10px;
+    width: 100%;
 }
 
 .rating {
@@ -349,21 +419,39 @@ document.addEventListener('DOMContentLoaded', () => {
     gap: 3px;
 }
 
+.favorite-btn:hover {
+    text-decoration: underline;
+}
+
+/* Buy button - full width, bold, big, rounded, center text, red */
 .buy-btn {
     display: block;
     text-align: center;
     background: #e11d48;
     color: #fff;
     text-decoration: none;
-    padding: 8px 0;
+    padding: 10px 0;
     border-radius: 8px;
     font-weight: 600;
     letter-spacing: 0.5px;
     transition: background 0.2s;
     margin-top: 8px;
+    width: 100%;
+    font-size: 1.18rem;
 }
 
 .buy-btn:hover {
     background: #be123c;
+}
+
+/* Invalid product placeholder style */
+.product--empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 430px;
+    width: 100%;
+    color: #b3b3b3;
+    font-size: 1.2rem;
 }
 </style>

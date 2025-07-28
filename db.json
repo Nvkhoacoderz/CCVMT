@@ -95,204 +95,193 @@
             "tensp": "iPhone 16 Pro Max",
             "brand": "Apple",
             "gia": "35.000.000",
+            "gia_cu": "38.000.000",
             "category_id": 1,
-            "hinh": "iphone-16-pro-max.webp",
-            "kichthuoc_id": 2,
-            "size_id": 3,
-            "ram_id": 5,
-            "color_id": 1
+            "hinh": "iphone-16-pro-max.webp"
         },
         {
             "id": 2,
             "tensp": "Samsung Galaxy S25 Ultra",
             "brand": "Samsung",
             "gia": "28.490.000",
+            "gia_cu": "32.000.000",
             "category_id": 1,
-            "hinh": "iphone-16-pro-max.webp",
-            "kichthuoc_id": 3,
-            "size_id": 4,
-            "ram_id": 5,
-            "color_id": 3
+            "hinh": "s25_1.webp"
         },
         {
             "id": 3,
             "tensp": "Xiaomi 15 Ultra 5G",
             "brand": "Xiaomi",
             "gia": "33.590.000",
+            "gia_cu": "36.000.000",
             "category_id": 1,
-            "hinh": "iphone-16-pro-max.webp",
-            "kichthuoc_id": 3,
-            "size_id": 3,
-            "ram_id": 4,
-            "color_id": 2
+            "hinh": "Xiaomi-15-Ultra-1.webp"
         },
         {
             "id": 4,
             "tensp": "iPhone 16e",
             "brand": "Apple",
             "gia": "16.290.000",
+            "gia_cu": "18.000.000",
             "category_id": 1,
-            "hinh": "iphone-16-pro-max.webp",
-            "kichthuoc_id": 1,
-            "size_id": 1,
-            "ram_id": 2,
-            "color_id": 5
+            "hinh": "iphone-16e-1.webp"
         },
         {
             "id": 5,
             "tensp": "OPPO Reno 14 5G",
             "brand": "Oppo",
             "gia": "15.700.000",
+            "gia_cu": "17.500.000",
             "category_id": 1,
-            "hinh": "iphone-16-pro-max.webp",
-            "kichthuoc_id": 2,
-            "size_id": 2,
-            "ram_id": 3,
-            "color_id": 4
+            "hinh": "oppo-reno14-1.webp"
         },
         {
             "id": 6,
             "tensp": "iPad Pro M4",
             "brand": "Apple",
             "gia": "27.390.000",
+            "gia_cu": "30.000.000",
             "category_id": 1,
-            "hinh": "iphone-16-pro-max.webp",
-            "kichthuoc_id": 5,
-            "size_id": 4,
-            "ram_id": 5,
-            "color_id": 1
+            "hinh": "Ipad-Pro-M4-1.webp"
         },
         {
             "id": 7,
             "tensp": "Samsung Galaxy Tab S10 Plus",
             "brand": "Samsung",
             "gia": "23.520.000",
+            "gia_cu": "26.000.000",
             "category_id": 1,
-            "hinh": "iphone-16-pro-max.webp",
-            "kichthuoc_id": 5,
-            "size_id": 3,
-            "ram_id": 4,
-            "color_id": 3
+            "hinh": "Tab-S10-1.webp"
         },
         {
             "id": 8,
             "tensp": "Xiaomi Pad 7 Pro",
             "brand": "Xiaomi",
             "gia": "12.940.000",
+            "gia_cu": "15.000.000",
             "category_id": 1,
-            "hinh": "iphone-16-pro-max.webp",
-            "kichthuoc_id": 5,
-            "size_id": 2,
-            "ram_id": 3,
-            "color_id": 4
+            "hinh": "xiaomi-pad-7-1.webp"
         },
         {
             "id": 9,
             "tensp": "Huawei MatePad Pro",
             "brand": "Huawei",
             "gia": "20.990.000",
+            "gia_cu": "24.000.000",
             "category_id": 1,
-            "hinh": "iphone-16-pro-max.webp",
-            "kichthuoc_id": 5,
-            "size_id": 3,
-            "ram_id": 4,
-            "color_id": 2
+            "hinh": "matepad_pro_4-1.webp"
         },
         {
             "id": 10,
-            "tensp": "Realme GT 7 Pro",
-            "brand": "Realme",
+            "tensp": "Onyx Boox Tab Ultra C Pro",
+            "brand": "Onyx Boox",
             "gia": "17.990.000",
+            "gia_cu": "20.000.000",
             "category_id": 1,
-            "hinh": "iphone-16-pro-max.webp",
-            "kichthuoc_id": 2,
-            "size_id": 2,
-            "ram_id": 4,
-            "color_id": 4
+            "hinh": "Onyx-Boox-Tab-Ultra-C-Pro-1.webp"
         }
     ],
     "colors": [
         {
             "id": 1,
-            "name": "Đen"
+            "name": "Đen",
+            "gia": "0"
         },
         {
             "id": 2,
-            "name": "Trắng"
+            "name": "Trắng",
+            "gia": "200.000"
         },
         {
             "id": 3,
-            "name": "Xanh dương"
+            "name": "Xanh dương",
+            "gia": "300.000"
         },
         {
             "id": 4,
-            "name": "Đỏ"
+            "name": "Đỏ",
+            "gia": "250.000"
         },
         {
             "id": 5,
-            "name": "Vàng"
+            "name": "Vàng",
+            "gia": "400.000"
         }
     ],
     "sizes": [
         {
             "id": 1,
-            "name": "128GB"
+            "name": "128GB",
+            "gia": "0"
         },
         {
             "id": 2,
-            "name": "256GB"
+            "name": "256GB",
+            "gia": "1.500.000"
         },
         {
             "id": 3,
-            "name": "512GB"
+            "name": "512GB",
+            "gia": "3.000.000"
         },
         {
             "id": 4,
-            "name": "1TB"
+            "name": "1TB",
+            "gia": "6.000.000"
         }
     ],
     "ram": [
         {
             "id": 1,
-            "name": "4GB"
+            "name": "4GB",
+            "gia": "0"
         },
         {
             "id": 2,
-            "name": "6GB"
+            "name": "6GB",
+            "gia": "500.000"
         },
         {
             "id": 3,
-            "name": "8GB"
+            "name": "8GB",
+            "gia": "1.000.000"
         },
         {
             "id": 4,
-            "name": "12GB"
+            "name": "12GB",
+            "gia": "2.000.000"
         },
         {
             "id": 5,
-            "name": "16GB"
+            "name": "16GB",
+            "gia": "3.000.000"
         }
     ],
     "kichthuoc": [
         {
             "id": 1,
-            "name": "6.1 inches"
+            "name": "6.1 inches",
+            "gia": "0"
         },
         {
             "id": 2,
-            "name": "6.7 inches"
+            "name": "6.7 inches",
+            "gia": "800.000"
         },
         {
             "id": 3,
-            "name": "6.9 inches"
+            "name": "6.9 inches",
+            "gia": "1.200.000"
         },
         {
             "id": 4,
-            "name": "7.0 inches"
+            "name": "7.0 inches",
+            "gia": "1.500.000"
         },
         {
             "id": 5,
-            "name": "10.2 inches"
+            "name": "10.2 inches",
+            "gia": "3.000.000"
         }
     ],
     "specifications": [
@@ -1693,52 +1682,6 @@
             }
         }
     ],
-    "select": [
-        {
-            "id": 1,
-            "tenselect": "Xám",
-            "price": "",
-            "hinh": ""
-        },
-        {
-            "id": 2,
-            "tenselect": "Đỏ",
-            "price": "",
-            "hinh": ""
-        },
-        {
-            "id": 3,
-            "tenselect": "Đen",
-            "price": "",
-            "hinh": ""
-        },
-        {
-            "id": 4,
-            "tenselect": "Trắng",
-            "price": "",
-            "hinh": ""
-        },
-        {
-            "id": 5,
-            "tenselect": "hồng",
-            "price": "",
-            "hinh": ""
-        }
-    ],
-    "storage": [
-        {
-            "id": 1,
-            "name": "256GB"
-        },
-        {
-            "id": 2,
-            "name": "512GB"
-        },
-        {
-            "id": 3,
-            "name": "1TB"
-        }
-    ],
     "muakem": [
         {
             "id": 1,
@@ -1769,22 +1712,324 @@
         {
             "id": 1,
             "ten": "1 đổi 1 VIP 6 tháng",
-            "price": 1300000
+            "price": "1.300.000"
         },
         {
             "id": 2,
             "ten": "S24+ 12 tháng",
-            "price": 1600000
+            "price": "1.600.000"
         },
         {
             "id": 3,
             "ten": "1 đổi 1 VIP 12 tháng",
-            "price": 1800000
+            "price": "1.800.000"
         },
         {
             "id": 4,
             "ten": "Rơi vỡ - rớt nước",
-            "price": 2400000
+            "price": "2.400.000"
+        }
+    ],
+    "images": [
+        {
+            "id": 1,
+            "product_id": 1,
+            "ten": "anh1",
+            "hinh": "iphone-16-pro-max.webp"
+        },
+        {
+            "id": 2,
+            "product_id": 1,
+            "ten": "anh2",
+            "hinh": "iphone-16-pro-max-1.webp"
+        },
+        {
+            "id": 3,
+            "product_id": 1,
+            "ten": "anh3",
+            "hinh": "iphone-16-pro-max-2.webp"
+        },
+        {
+            "id": 4,
+            "product_id": 1,
+            "ten": "anh4",
+            "hinh": "iphone-16-pro-max-3.webp"
+        },
+        {
+            "id": 5,
+            "product_id": 1,
+            "ten": "anh5",
+            "hinh": "iphone-16-pro-max-4.webp"
+        },
+        {
+            "id": 6,
+            "product_id": 2,
+            "ten": "anh1",
+            "hinh": "s25_1.webp"
+        },
+        {
+            "id": 7,
+            "product_id": 2,
+            "ten": "anh2",
+            "hinh": "s25_2.webp"
+        },
+        {
+            "id": 8,
+            "product_id": 2,
+            "ten": "anh3",
+            "hinh": "s25_3.webp"
+        },
+        {
+            "id": 9,
+            "product_id": 2,
+            "ten": "anh4",
+            "hinh": "s25_4.webp"
+        },
+        {
+            "id": 10,
+            "product_id": 2,
+            "ten": "anh5",
+            "hinh": "s25_5.webp"
+        },
+        {
+            "id": 11,
+            "product_id": 3,
+            "ten": "anh1",
+            "hinh": "Xiaomi-15-Ultra-1.webp"
+        },
+        {
+            "id": 12,
+            "product_id": 3,
+            "ten": "anh2",
+            "hinh": "Xiaomi-15-Ultra-2.webp"
+        },
+        {
+            "id": 13,
+            "product_id": 3,
+            "ten": "anh3",
+            "hinh": "Xiaomi-15-Ultra-3.webp"
+        },
+        {
+            "id": 14,
+            "product_id": 3,
+            "ten": "anh4",
+            "hinh": "Xiaomi-15-Ultra-4.webp"
+        },
+        {
+            "id": 15,
+            "product_id": 3,
+            "ten": "anh5",
+            "hinh": "Xiaomi-15-Ultra-5.webp"
+        },
+        {
+            "id": 16,
+            "product_id": 4,
+            "ten": "anh1",
+            "hinh": "iphone-16e-1.webp"
+        },
+        {
+            "id": 17,
+            "product_id": 4,
+            "ten": "anh2",
+            "hinh": "iphone-16e-2.webp"
+        },
+        {
+            "id": 18,
+            "product_id": 4,
+            "ten": "anh3",
+            "hinh": "iphone-16e-3.webp"
+        },
+        {
+            "id": 19,
+            "product_id": 4,
+            "ten": "anh4",
+            "hinh": "iphone-16e-4.webp"
+        },
+        {
+            "id": 20,
+            "product_id": 4,
+            "ten": "anh5",
+            "hinh": "iphone-16e-5.webp"
+        },
+        {
+            "id": 21,
+            "product_id": 5,
+            "ten": "anh1",
+            "hinh": "oppo-reno14-1.webp"
+        },
+        {
+            "id": 22,
+            "product_id": 5,
+            "ten": "anh2",
+            "hinh": "oppo-reno14-2.webp"
+        },
+        {
+            "id": 23,
+            "product_id": 5,
+            "ten": "anh3",
+            "hinh": "oppo-reno14-3.webp"
+        },
+        {
+            "id": 24,
+            "product_id": 5,
+            "ten": "anh4",
+            "hinh": "oppo-reno14-4.webp"
+        },
+        {
+            "id": 25,
+            "product_id": 5,
+            "ten": "anh5",
+            "hinh": "oppo-reno14-5.webp"
+        },
+        {
+            "id": 26,
+            "product_id": 6,
+            "ten": "anh1",
+            "hinh": "Ipad-Pro-M4-1.webp"
+        },
+        {
+            "id": 27,
+            "product_id": 6,
+            "ten": "anh2",
+            "hinh": "Ipad-Pro-M4-2.webp"
+        },
+        {
+            "id": 28,
+            "product_id": 6,
+            "ten": "anh3",
+            "hinh": "Ipad-Pro-M4-3.webp"
+        },
+        {
+            "id": 29,
+            "product_id": 6,
+            "ten": "anh4",
+            "hinh": "Ipad-Pro-M4-4.webp"
+        },
+        {
+            "id": 30,
+            "product_id": 6,
+            "ten": "anh5",
+            "hinh": "Ipad-Pro-M4-5.webp"
+        },
+        {
+            "id": 31,
+            "product_id": 7,
+            "ten": "anh1",
+            "hinh": "Tab-S10-1.webp"
+        },
+        {
+            "id": 32,
+            "product_id": 7,
+            "ten": "anh2",
+            "hinh": "Tab-S10-2.webp"
+        },
+        {
+            "id": 33,
+            "product_id": 7,
+            "ten": "anh3",
+            "hinh": "Tab-S10-3.webp"
+        },
+        {
+            "id": 34,
+            "product_id": 7,
+            "ten": "anh4",
+            "hinh": "Tab-S10-4.png"
+        },
+        {
+            "id": 35,
+            "product_id": 7,
+            "ten": "anh5",
+            "hinh": "Tab-S10-5.webp"
+        },
+        {
+            "id": 36,
+            "product_id": 8,
+            "ten": "anh1",
+            "hinh": "xiaomi-pad-7-1.webp"
+        },
+        {
+            "id": 37,
+            "product_id": 8,
+            "ten": "anh2",
+            "hinh": "xiaomi-pad-7-2.webp"
+        },
+        {
+            "id": 38,
+            "product_id": 8,
+            "ten": "anh3",
+            "hinh": "xiaomi-pad-7-3.webp"
+        },
+        {
+            "id": 39,
+            "product_id": 8,
+            "ten": "anh4",
+            "hinh": "xiaomi-pad-7-4.webp"
+        },
+        {
+            "id": 40,
+            "product_id": 8,
+            "ten": "anh5",
+            "hinh": "xiaomi-pad-7-5.webp"
+        },
+        {
+            "id": 41,
+            "product_id": 9,
+            "ten": "anh1",
+            "hinh": "matepad_pro_4-1.webp"
+        },
+        {
+            "id": 42,
+            "product_id": 9,
+            "ten": "anh2",
+            "hinh": "matepad_pro_4-2.webp"
+        },
+        {
+            "id": 43,
+            "product_id": 9,
+            "ten": "anh3",
+            "hinh": "matepad_pro_4-3.webp"
+        },
+        {
+            "id": 44,
+            "product_id": 9,
+            "ten": "anh4",
+            "hinh": "matepad_pro_4-4.webp"
+        },
+        {
+            "id": 45,
+            "product_id": 9,
+            "ten": "anh5",
+            "hinh": "matepad_pro_4-5.webp"
+        },
+        {
+            "id": 46,
+            "product_id": 10,
+            "ten": "anh1",
+            "hinh": "Onyx-Boox-Tab-Ultra-C-Pro-1.webp"
+        },
+        {
+            "id": 47,
+            "product_id": 10,
+            "ten": "anh2",
+            "hinh": "Onyx-Boox-Tab-Ultra-C-Pro-2.webp"
+        },
+        {
+            "id": 48,
+            "product_id": 10,
+            "ten": "anh3",
+            "hinh": "Onyx-Boox-Tab-Ultra-C-Pro-3.webp"
+        },
+        {
+            "id": 49,
+            "product_id": 10,
+            "ten": "anh4",
+            "hinh": "Onyx-Boox-Tab-Ultra-C-Pro-4.webp"
+        },
+        {
+            "id": 50,
+            "product_id": 10,
+            "ten": "anh5",
+            "hinh": "Onyx-Boox-Tab-Ultra-C-Pro-5.webp"
         }
     ]
 }

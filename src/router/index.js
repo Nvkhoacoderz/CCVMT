@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router"
 
 import HomePage from "../components/HomePage.vue"
-import MobileProduct from "../components/MobileProduct.vue"
+import MobileDetail from "../components/MobileDetail.vue"
 
 const routes = [
     {
@@ -11,8 +11,8 @@ const routes = [
     },
     {
         path: '/product/:id',
-        name: 'MobileProduct',
-        component: MobileProduct,
+        name: 'MobileDetail',
+        component: MobileDetail,
         props: true
     }
 ]
