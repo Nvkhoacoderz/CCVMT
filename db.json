@@ -1,2035 +1,3018 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "username": "nvkhoacoder",
-            "ten": "Nguyễn Vũ Khoa",
-            "matkhau": "admin123",
-            "email": "nvkhoacoder@gmail.com"
+  "users": [
+    {
+      "id": "1",
+      "username": "nvkhoacoder",
+      "ten": "Nguyễn Vũ Khoa",
+      "matkhau": "admin123",
+      "email": "nvkhoacoder@gmail.com"
+    },
+    {
+      "id": "2",
+      "username": "tranthanh123",
+      "ten": "Trần Thanh",
+      "matkhau": "pass123",
+      "email": "tranthanh123@gmail.com"
+    },
+    {
+      "id": "3",
+      "username": "lethimy",
+      "ten": "Lê Thị Mỹ",
+      "matkhau": "abc456",
+      "email": "lemy@gmail.com"
+    },
+    {
+      "id": "4",
+      "username": "phamvanan",
+      "ten": "Phạm Văn An",
+      "matkhau": "qwerty789",
+      "email": "anpham@gmail.com"
+    },
+    {
+      "id": "5",
+      "username": "hoanghuy",
+      "ten": "Hoàng Huy",
+      "matkhau": "huyhoang321",
+      "email": "hoanghuy321@gmail.com"
+    },
+    {
+      "id": "6",
+      "username": "nguyenthutrang",
+      "ten": "Nguyễn Thu Trang",
+      "matkhau": "trangdepzai",
+      "email": "trangnt@gmail.com"
+    },
+    {
+      "id": "7",
+      "username": "dinhminh",
+      "ten": "Đinh Minh",
+      "matkhau": "minhdinh456",
+      "email": "minhdinh@gmail.com"
+    },
+    {
+      "id": "8",
+      "username": "buituananh",
+      "ten": "Bùi Tuấn Anh",
+      "matkhau": "tuananh999",
+      "email": "tuananhbui@gmail.com"
+    },
+    {
+      "id": "9",
+      "username": "doanvanlong",
+      "ten": "Doãn Văn Long",
+      "matkhau": "longlong123",
+      "email": "longdv@gmail.com"
+    },
+    {
+      "id": "10",
+      "username": "phanthithao",
+      "ten": "Phan Thị Thảo",
+      "matkhau": "thaothaoxinh",
+      "email": "thaophan@gmail.com"
+    },
+    {
+      "id": "838a",
+      "username": "locphuoc",
+      "matkhau": "Phuoc123",
+      "email": "locphuoc@gmail.com",
+      "ten": "locphuoc"
+    },
+    {
+      "id": "a915",
+      "username": "Nvkhoacoder123",
+      "matkhau": "Nguyenvukhoa544",
+      "email": "nvkhoacoder544@gmail.com",
+      "ten": "Nvkhoacoder123"
+    },
+    {
+      "id": "9de4",
+      "username": "khoaeditor",
+      "matkhau": "Nguyenvukhoa544",
+      "email": "khoamessimcfcb456@gmail.com",
+      "ten": "khoaeditor"
+    },
+    {
+      "id": "f7c5",
+      "username": "LamKhung",
+      "matkhau": "Lamlo123",
+      "email": "lam@gmail.com",
+      "ten": "LamKhung"
+    },
+    {
+      "id": "2e05",
+      "username": "AnKhung",
+      "matkhau": "An123456",
+      "email": "An@gmail.com",
+      "ten": "AnKhung"
+    },
+    {
+      "id": "d86e",
+      "username": "Nguyễn Khoa",
+      "matkhau": "123456",
+      "email": "nvkhoaaa@codecademy.nvk.com",
+      "ten": "Nguyễn Khoa"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "tendm": "Điện thoại, Tablet"
+    },
+    {
+      "id": "2",
+      "tendm": "Laptop"
+    },
+    {
+      "id": "3",
+      "tendm": "Phụ kiện"
+    },
+    {
+      "id": "4",
+      "tendm": "PC"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "tensp": "iPhone 16 Pro Max",
+      "brand": "Apple",
+      "gia": 35000000,
+      "gia_cu": 38000000,
+      "category_id": 1,
+      "hinh": "iphone-16-pro-max.webp"
+    },
+    {
+      "id": "2",
+      "tensp": "Samsung Galaxy S25 Ultra",
+      "brand": "Samsung",
+      "gia": 28490000,
+      "gia_cu": 32000000,
+      "category_id": 1,
+      "hinh": "s25_1.webp"
+    },
+    {
+      "id": "3",
+      "tensp": "Xiaomi 15 Ultra 5G",
+      "brand": "Xiaomi",
+      "gia": 33590000,
+      "gia_cu": 36000000,
+      "category_id": 1,
+      "hinh": "Xiaomi-15-Ultra-1.webp"
+    },
+    {
+      "id": "4",
+      "tensp": "iPhone 16e",
+      "brand": "Apple",
+      "gia": 16290000,
+      "gia_cu": 18000000,
+      "category_id": 1,
+      "hinh": "iphone-16e-1.webp"
+    },
+    {
+      "id": "5",
+      "tensp": "OPPO Reno 14 5G",
+      "brand": "Oppo",
+      "gia": 15700000,
+      "gia_cu": 17500000,
+      "category_id": 1,
+      "hinh": "oppo-reno14-1.webp"
+    },
+    {
+      "id": "6",
+      "tensp": "iPad Pro M4",
+      "brand": "Apple",
+      "gia": 27390000,
+      "gia_cu": 30000000,
+      "category_id": 1,
+      "hinh": "Ipad-Pro-M4-1.webp"
+    },
+    {
+      "id": "7",
+      "tensp": "Samsung Galaxy Tab S10 Plus",
+      "brand": "Samsung",
+      "gia": 23520000,
+      "gia_cu": 26000000,
+      "category_id": 1,
+      "hinh": "Tab-S10-1.webp"
+    },
+    {
+      "id": "8",
+      "tensp": "Xiaomi Pad 7 Pro",
+      "brand": "Xiaomi",
+      "gia": 12940000,
+      "gia_cu": 15000000,
+      "category_id": 1,
+      "hinh": "xiaomi-pad-7-1.webp"
+    },
+    {
+      "id": "9",
+      "tensp": "Huawei MatePad Pro",
+      "brand": "Huawei",
+      "gia": 20990000,
+      "gia_cu": 24000000,
+      "category_id": 1,
+      "hinh": "matepad_pro_4-1.webp"
+    },
+    {
+      "id": "10",
+      "tensp": "Onyx Boox Tab Ultra C Pro",
+      "brand": "Onyx Boox",
+      "gia": 17990000,
+      "gia_cu": 20000000,
+      "category_id": 1,
+      "hinh": "Onyx-Boox-Tab-Ultra-C-Pro-1.webp"
+    },
+    {
+      "id": "11",
+      "tensp": "iPhone 17 Pro Max",
+      "brand": "Apple",
+      "gia": 50000,
+      "gia_cu": 40000000,
+      "category_id": 1,
+      "hinh": "iphone-16-pro-max.webp"
+    }
+  ],
+  "colors": [
+    {
+      "id": "1",
+      "name": "Đen",
+      "gia": 0
+    },
+    {
+      "id": "2",
+      "name": "Trắng",
+      "gia": 200000
+    },
+    {
+      "id": "3",
+      "name": "Xanh dương",
+      "gia": 300000
+    },
+    {
+      "id": "4",
+      "name": "Đỏ",
+      "gia": 250000
+    },
+    {
+      "id": "5",
+      "name": "Vàng",
+      "gia": 400000
+    }
+  ],
+  "sizes": [
+    {
+      "id": "1",
+      "name": "128GB",
+      "gia": 0
+    },
+    {
+      "id": "2",
+      "name": "256GB",
+      "gia": 1500000
+    },
+    {
+      "id": "3",
+      "name": "512GB",
+      "gia": 3000000
+    },
+    {
+      "id": "4",
+      "name": "1TB",
+      "gia": 6000000
+    }
+  ],
+  "ram": [
+    {
+      "id": "1",
+      "name": "4GB",
+      "gia": 0
+    },
+    {
+      "id": "2",
+      "name": "6GB",
+      "gia": 500000
+    },
+    {
+      "id": "3",
+      "name": "8GB",
+      "gia": 1000000
+    },
+    {
+      "id": "4",
+      "name": "12GB",
+      "gia": 2000000
+    },
+    {
+      "id": "5",
+      "name": "16GB",
+      "gia": 3000000
+    }
+  ],
+  "kichthuoc": [
+    {
+      "id": "1",
+      "name": "6.1 inches",
+      "gia": 0
+    },
+    {
+      "id": "2",
+      "name": "6.7 inches",
+      "gia": 800000
+    },
+    {
+      "id": "3",
+      "name": "6.9 inches",
+      "gia": 1200000
+    },
+    {
+      "id": "4",
+      "name": "7.0 inches",
+      "gia": 1500000
+    },
+    {
+      "id": "5",
+      "name": "10.2 inches",
+      "gia": 3000000
+    }
+  ],
+  "specifications": [
+    {
+      "id": "1",
+      "product_id": 1,
+      "display": {
+        "title_vi": "Màn hình",
+        "size": "6.9 inches",
+        "technology": "Super Retina XDR OLED",
+        "resolution": "2868 x 1320 pixels",
+        "features": [
+          "Dynamic Island",
+          "Always-On Display",
+          "ProMotion technology with adaptive refresh rates up to 120Hz",
+          "HDR display",
+          "True Tone",
+          "Wide color gamut (P3)",
+          "Haptic Touch",
+          "2,000,000:1 contrast ratio"
+        ],
+        "refresh_rate": "120Hz",
+        "screen_Style": "Dynamic Island"
+      },
+      "camera": {
+        "title_vi": "Camera sau",
+        "rear": {
+          "main": {
+            "megapixels": "48MP",
+            "aperture": "f/1.78",
+            "focal_length": "24mm",
+            "sensor_size": "2μm",
+            "features": [
+              "Sensor-shift optical image stabilization",
+              "Focus Pixels 100%"
+            ]
+          },
+          "telephoto": {
+            "megapixels": "12MP",
+            "aperture": "f/1.6",
+            "focal_length": "52mm",
+            "zoom": "2x"
+          },
+          "ultra_wide": {
+            "megapixels": "48MP",
+            "aperture": "f/2.2",
+            "focal_length": "13mm",
+            "field_of_view": "120°",
+            "features": ["Hybrid Focus Pixels", "Super-resolution photos"]
+          },
+          "video_recording": [
+            "4K@24fps",
+            "4K@25fps",
+            "4K@30fps",
+            "4K@60fps",
+            "4K@100fps",
+            "4K@120fps",
+            "1080p@25fps",
+            "1080p@30fps",
+            "1080p@60fps",
+            "1080p@120fps",
+            "720p@30fps"
+          ],
+          "camera_features": [
+            "True Tone flash",
+            "Photonic Engine",
+            "Deep Fusion",
+            "Smart HDR 5",
+            "Improved Portrait mode with Focus and Depth Control",
+            "Portrait Lighting with six effects",
+            "Night mode portraits",
+            "Panorama (up to 63MP)",
+            "Photographic Styles - latest generation",
+            "Macro photography"
+          ]
         },
-        {
-            "id": 2,
-            "username": "tranthanh123",
-            "ten": "Trần Thanh",
-            "matkhau": "pass123",
-            "email": "tranthanh123@gmail.com"
-        },
-        {
-            "id": 3,
-            "username": "lethimy",
-            "ten": "Lê Thị Mỹ",
-            "matkhau": "abc456",
-            "email": "lemy@gmail.com"
-        },
-        {
-            "id": 4,
-            "username": "phamvanan",
-            "ten": "Phạm Văn An",
-            "matkhau": "qwerty789",
-            "email": "anpham@gmail.com"
-        },
-        {
-            "id": 5,
-            "username": "hoanghuy",
-            "ten": "Hoàng Huy",
-            "matkhau": "huyhoang321",
-            "email": "hoanghuy321@gmail.com"
-        },
-        {
-            "id": 6,
-            "username": "nguyenthutrang",
-            "ten": "Nguyễn Thu Trang",
-            "matkhau": "trangdepzai",
-            "email": "trangnt@gmail.com"
-        },
-        {
-            "id": 7,
-            "username": "dinhminh",
-            "ten": "Đinh Minh",
-            "matkhau": "minhdinh456",
-            "email": "minhdinh@gmail.com"
-        },
-        {
-            "id": 8,
-            "username": "buituananh",
-            "ten": "Bùi Tuấn Anh",
-            "matkhau": "tuananh999",
-            "email": "tuananhbui@gmail.com"
-        },
-        {
-            "id": 9,
-            "username": "doanvanlong",
-            "ten": "Doãn Văn Long",
-            "matkhau": "longlong123",
-            "email": "longdv@gmail.com"
-        },
-        {
-            "id": 10,
-            "username": "phanthithao",
-            "ten": "Phan Thị Thảo",
-            "matkhau": "thaothaoxinh",
-            "email": "thaophan@gmail.com"
+        "front": {
+          "title_vi": "Camera trước",
+          "megapixels": 12,
+          "aperture": "f/1.9",
+          "features": ["Autofocus with Focus Pixels"],
+          "video_recording": [
+            "4K@24fps",
+            "4K@25fps",
+            "4K@30fps",
+            "4K@60fps",
+            "1080p@25fps",
+            "1080p@30fps",
+            "1080p@60fps"
+          ]
         }
+      },
+      "processor": {
+        "title_vi": "Vi xử lý & Đồ họa",
+        "chipset": "Apple A18 Pro",
+        "gpu": "6-core GPU",
+        "cpu": "6-core CPU with 2 performance and 4 efficiency cores"
+      },
+      "connectivity": {
+        "title_vi": "Giao tiếp & kết nối",
+        "nfc": "Có",
+        "sim": "Dual SIM (nano-SIM and eSIM) - Support for 2 eSIMs",
+        "network": "5G",
+        "gps": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou", "NavIC"],
+        "wifi": "Wi-Fi 7 (802.11be) with 2x2 MIMO7",
+        "bluetooth": "Bluetooth 5.3"
+      },
+      "storage": {
+        "title_vi": "RAM & lưu trữ",
+        "RAM": "",
+        "internal": "1TB"
+      },
+      "operating_system": {
+        "title_vi": "Hệ điều hành",
+        "os": "IOS 18"
+      },
+      "dimensions": {
+        "title_vi": "Kích thước & Trọng lượng",
+        "height": "163mm",
+        "width": "77.6mm",
+        "depth": "8.25mm",
+        "weight": "227g",
+        "back_material": "Glass",
+        "frame_material": "Titanium"
+      },
+      "other_features": {
+        "title_vi": "Tính năng khác",
+        "compatibility": "Compatible with AI Assistant",
+        "dust_water_resistance": "IP68 (maximum depth of 6 meters up to 30 minutes) - IEC 60529",
+        "biometrics": ["Face ID", "FaceTime"],
+        "payment": "Apple Pay",
+        "emergency": ["Emergency SOS", "Emergency and Safety Detection"],
+        "audio": [
+          "AAC",
+          "APAC",
+          "MP3",
+          "Apple Lossless",
+          "FLAC",
+          "Dolby Digital",
+          "Dolby Digital Plus",
+          "Dolby Atmos"
+        ],
+        "charging": {
+          "battery": "4685 mAh",
+          "wireless": [
+            "MagSafe wireless charging up to 25W with compatible 30W adapter or higher",
+            "Qi2 wireless charging up to 15W",
+            "Qi wireless charging up to 7.5W"
+          ],
+          "port": "USB Type-C"
+        },
+        "sensors": [
+          "Accelerometer",
+          "Proximity sensor",
+          "Ambient light sensor",
+          "Compass",
+          "Gyroscope",
+          "Barometer",
+          "Pressure sensor"
+        ],
+        "special_features": [
+          "5G support",
+          "Wireless charging",
+          "Face unlock",
+          "Water resistant",
+          "Dustproof",
+          "AI Phone"
+        ]
+      },
+      "G_information": {
+        "title_vi": "Thông tin chung",
+        "release_date": "2023-09-22"
+      }
+    },
+    {
+      "id": "2",
+      "product_id": 2,
+      "display": {
+        "title_vi": "Màn hình",
+        "size": "6.9 inches",
+        "technology": "Dynamic AMOLED 2X",
+        "resolution": "3120 x 1440 pixels (Quad HD+)",
+        "features": ["120Hz", "2600 nits", "Corning® Gorilla® Armor 2"],
+        "refresh_rate": "120Hz",
+        "screen_Style": "Dynamic AMOLED"
+      },
+      "camera": {
+        "title_vi": "Camera sau",
+        "rear": {
+          "main": {
+            "megapixels": "50MP",
+            "aperture": "",
+            "focal_length": "",
+            "sensor_size": "",
+            "features": []
+          },
+          "telephoto": {
+            "megapixels": "50MP",
+            "aperture": "",
+            "focal_length": "",
+            "zoom": "5x"
+          },
+          "ultra_wide": {
+            "megapixels": "200MP",
+            "aperture": "",
+            "focal_length": "",
+            "field_of_view": "",
+            "features": []
+          },
+          "video_recording": [],
+          "camera_features": [
+            "Chế độ quay phim 10-bit HDR",
+            "Quay Log Video",
+            "Zoom quang học 100x",
+            "Chụp hình Super HDR",
+            "Chân dung",
+            "Tự động lấy nét",
+            "Quay Video đêm"
+          ]
+        },
+        "front": {
+          "title_vi": "Camera trước",
+          "megapixels": 12,
+          "aperture": "",
+          "features": [],
+          "video_recording": []
+        }
+      },
+      "processor": {
+        "title_vi": "Vi xử lý & Đồ họa",
+        "chipset": "Snapdragon 8 Elite dành cho Galaxy (3nm)",
+        "gpu": "",
+        "cpu": ""
+      },
+      "connectivity": {
+        "title_vi": "Giao tiếp & kết nối",
+        "nfc": "Có",
+        "sim": "2 Nano-SIM + eSIM",
+        "network": "5G",
+        "gps": "Có",
+        "wifi": "Có",
+        "bluetooth": "Có"
+      },
+      "storage": {
+        "title_vi": "RAM & lưu trữ",
+        "RAM": "12 GB",
+        "internal": "256 GB"
+      },
+      "operating_system": {
+        "title_vi": "Hệ điều hành",
+        "os": "Android 15"
+      },
+      "dimensions": {
+        "title_vi": "Kích thước & Trọng lượng",
+        "height": "162.8mm",
+        "width": "77.6mm",
+        "depth": "8.2mm",
+        "weight": "",
+        "back_material": "",
+        "frame_material": "Titanium"
+      },
+      "other_features": {
+        "title_vi": "Tính năng khác",
+        "compatibility": "",
+        "dust_water_resistance": "IP68",
+        "biometrics": "Thực hiện tác vụ liên ứng dụng bằng lời nói (Seamless Actions across Apps)",
+        "payment": "Samsung Pay",
+        "emergency": ["Emergency SOS", "Emergency and Safety Detection"],
+        "audio": "Lọc âm thanh (Audio Eraser)",
+        "charging": {
+          "battery": "5000 mAh",
+          "wireless": [
+            "Sạc nhanh 45W",
+            "Super Fast Charging 2.0*",
+            "Fast Wireless Charging 2.0",
+            "Wireless PowerShare"
+          ],
+          "port": "USB Type-C"
+        },
+        "sensors": ["Cảm biến vân tay trong màn hình"],
+        "special_features": [
+          "5G support",
+          "Comes with a stylus pen",
+          "Face unlock",
+          "Water resistant",
+          "Dustproof",
+          "AI Phone"
+        ]
+      },
+      "G_information": {
+        "title_vi": "Thông tin chung",
+        "release_date": "2025-02"
+      }
+    },
+    {
+      "id": "3",
+      "product_id": 3,
+      "display": {
+        "title_vi": "Màn hình",
+        "size": "6.73 inches",
+        "technology": "AMOLED",
+        "resolution": "3200 x 1440 pixel",
+        "features": [
+          "68 tỷ màu",
+          "Tần số quét 1-120Hz",
+          "Tốc độ phản hồi cảm ứng 300Hz",
+          "Độ sáng tối đa 3200 nits trong nhiều tình huống",
+          "Điều chỉnh độ sáng PWM 1920Hz/DC dimming",
+          "Original color PRO | Pro HDR | Công nghệ cảm ứng khi ướt",
+          "HDR10+",
+          "Dolby Vision"
+        ],
+        "refresh_rate": "144Hz",
+        "screen_Style": ""
+      },
+      "camera": {
+        "title_vi": "Camera sau",
+        "rear": {
+          "main": {
+            "megapixels": "50MP",
+            "aperture": "f/1.63 OIS",
+            "focal_length": "",
+            "sensor_size": "",
+            "features": []
+          },
+          "telephoto": {
+            "megapixels": "200MP",
+            "aperture": "f/2.6 OIS",
+            "focal_length": "",
+            "zoom": ""
+          },
+          "ultra_wide": {
+            "megapixels": "50MP",
+            "aperture": "f/2.2",
+            "focal_length": "",
+            "field_of_view": "115°",
+            "features": ["FOV"]
+          },
+          "video_recording": [
+            "8K@30fps",
+            "4K@30fps",
+            "4K@60fps",
+            "4K@120fps",
+            "1080p@30fps",
+            "1080p@60fps",
+            "720p@30fps",
+            "Quay chuyển động chậm 720p",
+            "Quay chuyển động chậm 1080p"
+          ],
+          "camera_features": [
+            "Xiaomi ProFocus",
+            "Thu phóng kỹ thuật số lên đến 120x",
+            "HDR",
+            "Chụp ảnh động",
+            "Super marcro",
+            "Toàn cảnh",
+            "Định dạng video log",
+            "Quay đêm Ultra Night Video",
+            "Chuyển động chậm",
+            "Chuyển động nhanh",
+            "Quay video trong dolby vision"
+          ]
+        },
+        "front": {
+          "title_vi": "Camera trước",
+          "megapixels": 32,
+          "aperture": "f/2.0",
+          "features": ["90° FOV", "Cảm biến OV32B", "Tiêu cự 21mm"],
+          "video_recording": [
+            "4K@30fps",
+            "4K@60fps",
+            "720p@30fps",
+            "1080p@30fps",
+            "1080p@60fps"
+          ]
+        }
+      },
+      "processor": {
+        "title_vi": "Vi xử lý & Đồ họa",
+        "chipset": "Snapdragon 8 Elite (Tiến trình sản xuất 3nm)",
+        "gpu": "Adreno GPU",
+        "cpu": [
+          "2 x Lõi Prime, tốc độ tối đa 4,32GHz",
+          "6 x Lõi hiệu suất, lên đến 3,53GHz"
+        ]
+      },
+      "connectivity": {
+        "title_vi": "Giao tiếp & kết nối",
+        "nfc": "Có",
+        "sim": "Sim kép (nano-Sim và e-Sim) - Hỗ trợ 2 e-Sim",
+        "network": "5G",
+        "gps": [
+          "GPS: L1+L5",
+          "Galileo: E1+E5a",
+          "GLONASS: G1",
+          "Beidou",
+          "QZSS: L1 + L5",
+          "NavIC: L5"
+        ],
+        "wifi": "Hỗ trợ Wi-Fi 7",
+        "bluetooth": "Bluetooth 6.0"
+      },
+      "storage": {
+        "title_vi": "RAM & lưu trữ",
+        "RAM": "16 GB LPDDR5X",
+        "internal": "1TB"
+      },
+      "operating_system": {
+        "title_vi": "Hệ điều hành",
+        "os": "Xiaomi HyperOS 2.0 (Android 15)"
+      },
+      "dimensions": {
+        "title_vi": "Kích thước & Trọng lượng",
+        "height": "161.3mm",
+        "width": "75.3mm",
+        "depth": "9.35mm",
+        "weight": "226g",
+        "back_material": "",
+        "frame_material": ""
+      },
+      "other_features": {
+        "title_vi": "Tính năng khác",
+        "compatibility": "",
+        "dust_water_resistance": "IP68 (maximum depth of 6 meters up to 30 minutes) - IEC 60529",
+        "biometrics": [],
+        "payment": "",
+        "emergency": [],
+        "audio": [
+          "Dolby Atmos",
+          "Hi-Res & Hi-Res Audio Wireless certification",
+          "M4-Mic array"
+        ],
+        "charging": {
+          "battery": "5410 mAh",
+          "wireless": [
+            "Sạc nhanh 90W",
+            "Sạc không dây 80W",
+            "Hỗ trợ QC3+ / QC3.0 / QC2.0 / PD3.0 / PD2.0 / MI FC 2.0"
+          ],
+          "port": "USB Type-C"
+        },
+        "sensors": [
+          "Cảm biến gia tốc",
+          "Cảm biến tiệm cận",
+          "Cảm biến ánh sáng",
+          "La bàn",
+          "Con quay hồi chuyển",
+          "Cảm biến áp kế"
+        ],
+        "special_features": [
+          "Xiaomi HyperAI",
+          "Viết AI",
+          "Phiên dịch AI",
+          "Nhận diện giọng nói AI",
+          "Trợ lý sáng tạo AI",
+          "Khoanh tròn để tìm kiếm bằng google"
+        ]
+      },
+      "G_information": {
+        "title_vi": "Thông tin chung",
+        "release_date": ""
+      }
+    },
+    {
+      "id": "4",
+      "product_id": 4,
+      "display": {
+        "title_vi": "Màn hình",
+        "size": "6.1 inches",
+        "technology": "Super Retina XDR",
+        "resolution": "2532 x 1170 pixels",
+        "features": [
+          "Màn hình HDR",
+          "True Tone",
+          "Dải màu rộng (P3)",
+          "Độ sáng tối đa 800 nit (tiêu chuẩn); độ sáng đỉnh 1200 nit (HDR)",
+          "Lớp phủ kháng dầu chống in dấu vân tay",
+          "Thu Phóng Màn Hình",
+          "Haptic Touch",
+          "Tỷ lệ tương phản 2.000.000:1 (tiêu chuẩn)"
+        ],
+        "refresh_rate": "60Hz",
+        "screen_Style": "Tai Thỏ"
+      },
+      "camera": {
+        "title_vi": "Camera sau",
+        "rear": {
+          "main": {
+            "megapixels": "48MP",
+            "aperture": "f/1.6",
+            "focal_length": "26mm",
+            "sensor_size": "",
+            "features": [
+              "Hệ thống camera 2 trong 1",
+              "chống rung quang học",
+              "Hybrid Focus Pixels",
+              "ảnh có độ phân giải siêu cao (24MP và 48MP)"
+            ]
+          },
+          "telephoto": {
+            "megapixels": "12MP",
+            "aperture": "f/1.6",
+            "focal_length": "52mm",
+            "zoom": "2x"
+          },
+          "ultra_wide": {
+            "megapixels": "",
+            "aperture": "",
+            "focal_length": "",
+            "field_of_view": "",
+            "features": ["chống rung quang học", "Hybrid Focus Pixels"]
+          },
+          "video_recording": [
+            "4K@24fps",
+            "4K@25fps",
+            "4K@30fps",
+            "4K@60fps",
+            "1080p@240fps",
+            "1080p@120fps"
+          ],
+          "camera_features": [
+            "Chế độ quay video QuickTake",
+            "Chống rung quang học cho video",
+            "Video tự động lấy nét liên tiếp",
+            "Độ thu phóng kỹ thuật số lên đến 10x",
+            "Lớp bảo vệ ống kính bằng sapphire",
+            "Flash True Tone",
+            "HDR thông minh thế hệ 5",
+            "Chế độ chụp Chân Dung với tính năng Điều Khiển Chiều Sâu",
+            "Chụp ảnh toàn cảnh Panorama (lên đến 63MP)",
+            "Deep Fusion"
+          ]
+        },
+        "front": {
+          "title_vi": "Camera trước",
+          "megapixels": 12,
+          "aperture": "f/1.9",
+          "features": ["Camera TrueDepth hỗ trợ nhận diện khuôn mặt"],
+          "video_recording": []
+        }
+      },
+      "processor": {
+        "title_vi": "Vi xử lý & Đồ họa",
+        "chipset": "Apple A18",
+        "gpu": "GPU 4 lõi mới, Neural Engine 16 lõi mới",
+        "cpu": "CPU 6 lõi mới với 2 lõi hiệu năng và 4 lõi tiết kiệm điện"
+      },
+      "connectivity": {
+        "title_vi": "Giao tiếp & kết nối",
+        "nfc": "Có",
+        "sim": "Sim kép (nano-Sim và e-Sim) - Hỗ trợ 2 e-Sim",
+        "network": "5G",
+        "gps": [
+          "GPS",
+          "GLONASS",
+          "Galileo",
+          "QZSS",
+          "BeiDou",
+          "NavIC",
+          "La bàn kỹ thuật số",
+          "Mạng di động",
+          "Định vị vi mô iBeacon"
+        ],
+        "wifi": "Wi‑Fi 6 (802.11ax) với 2x2 MIMO",
+        "bluetooth": "Bluetooth 5.3"
+      },
+      "storage": {
+        "title_vi": "RAM & lưu trữ",
+        "RAM": "",
+        "internal": "256 GB"
+      },
+      "operating_system": {
+        "title_vi": "Hệ điều hành",
+        "os": "IOS 18"
+      },
+      "dimensions": {
+        "title_vi": "Kích thước & Trọng lượng",
+        "height": "146.7mm",
+        "width": "71.5mm",
+        "depth": "7.80mm",
+        "weight": "167g",
+        "back_material": "",
+        "frame_material": ""
+      },
+      "other_features": {
+        "title_vi": "Tính năng khác",
+        "compatibility": [
+          "Sạc USB-C",
+          "Sạc không dây (tương thích sạc không dây Qi lên đến 7.5W)"
+        ],
+        "dust_water_resistance": "IP68 (maximum depth of 6 meters up to 30 minutes) - IEC 60529",
+        "biometrics": ["Face ID"],
+        "payment": "Apple Pay",
+        "emergency": ["Emergency SOS", "Emergency and Safety Detection"],
+        "audio": [
+          "AAC",
+          "APAC",
+          "MP3",
+          "Apple Lossless",
+          "FLAC",
+          "Dolby Digital",
+          "Dolby Digital Plus",
+          "Dolby Atmos"
+        ],
+        "charging": {
+          "battery": "3.961 mAh",
+          "wireless": [
+            "Khả năng sạc nhanh Sạc lên đến 50% trong 30 phút với bộ tiếp hợp 20W trở lên (được bán riêng)"
+          ],
+          "port": "USB Type-C"
+        },
+        "sensors": [
+          "Accelerometer",
+          "Proximity sensor",
+          "Ambient light sensor",
+          "Compass",
+          "Gyroscope",
+          "Barometer",
+          "Pressure sensor"
+        ],
+        "special_features": [
+          "5G support",
+          "Wireless charging",
+          "Face unlock",
+          "Water resistant",
+          "Dustproof",
+          "AI Phone",
+          "Tương Thích Với Thiết Bị Trợ Thính",
+          "AirPlay có thể phản chiếu màn hình, ảnh và video có độ phân giải lên đến 4K HDR lên Apple TV (thế hệ thứ 2 trở lên) hoặc TV thông minh có hỗ trợ AirPlay"
+        ]
+      },
+      "G_information": {
+        "title_vi": "Thông tin chung",
+        "release_date": "2025-02"
+      }
+    },
+    {
+      "id": "5",
+      "product_id": 5,
+      "display": {
+        "title_vi": "Màn hình",
+        "size": "6.59 inches",
+        "technology": "AMOLED",
+        "resolution": "1256 x 2760 pixels",
+        "features": ["Tần số quét 120Hz", "độ sáng 1200 nits", "kính GG7i"],
+        "refresh_rate": "120Hz",
+        "screen_Style": ""
+      },
+      "camera": {
+        "title_vi": "Camera sau",
+        "rear": {
+          "main": {
+            "megapixels": "50MP",
+            "aperture": "f/1.8 OIS",
+            "focal_length": "",
+            "sensor_size": "",
+            "features": []
+          },
+          "telephoto": {
+            "megapixels": "50MP",
+            "aperture": "f/2.8",
+            "focal_length": "",
+            "zoom": ""
+          },
+          "ultra_wide": {
+            "megapixels": "48MP",
+            "aperture": "f/2.2",
+            "focal_length": "",
+            "field_of_view": "",
+            "features": []
+          },
+          "video_recording": [],
+          "camera_features": [
+            "Chống rung OIS",
+            "Chụp góc rộng",
+            "Chụp chân dung/tele",
+            "Làm đẹp",
+            "HDR",
+            "Zoom quang học"
+          ]
+        },
+        "front": {
+          "title_vi": "Camera trước",
+          "megapixels": 50,
+          "aperture": "f/2.0",
+          "features": [],
+          "video_recording": ["Có"]
+        }
+      },
+      "processor": {
+        "title_vi": "Vi xử lý & Đồ họa",
+        "chipset": "MediaTek Dimensity 8350 5G, tối đa 3.35GHz",
+        "gpu": "ARM G615-MC6",
+        "cpu": "8 nhân, 3.35GHz"
+      },
+      "connectivity": {
+        "title_vi": "Giao tiếp & kết nối",
+        "nfc": "Có",
+        "sim": "2 Nano-SIM",
+        "network": "5G",
+        "gps": ["GPS", "GLONASS", "Galileo", "BDS"],
+        "wifi": "Wi-Fi 6 (802.11 a/b/g/n/ac/ax), 2.4G/5G",
+        "bluetooth": "5.4 BLE"
+      },
+      "storage": {
+        "title_vi": "RAM & lưu trữ",
+        "RAM": "12 GB",
+        "internal": "256 GB"
+      },
+      "operating_system": {
+        "title_vi": "Hệ điều hành",
+        "os": "ColorOS 15, Android 15"
+      },
+      "dimensions": {
+        "title_vi": "Kích thước & Trọng lượng",
+        "height": "157.9mm",
+        "width": "74.73mm",
+        "depth": "7.42mm",
+        "weight": "187g",
+        "back_material": "Kính",
+        "frame_material": "Hợp Kim"
+      },
+      "other_features": {
+        "title_vi": "Tính năng khác",
+        "compatibility": "",
+        "dust_water_resistance": "IP66, IP68, IP69",
+        "biometrics": ["Face ID", "FaceTime"],
+        "payment": "",
+        "emergency": [],
+        "audio": ["Loa kép"],
+        "charging": {
+          "battery": "6000 mAh",
+          "wireless": ["SuperVOOC 80W"],
+          "port": "USB Type-C"
+        },
+        "sensors": [
+          "Cảm biến gia tốc",
+          "Cảm biến tiệm cận",
+          "Cảm biến ánh sáng",
+          "La bàn",
+          "Cảm biến vân tay dưới màn hình"
+        ],
+        "special_features": [
+          "5G support",
+          "Bảo mật vân tay",
+          "Face unlock",
+          "Water resistant",
+          "AI Phone"
+        ]
+      },
+      "G_information": {
+        "title_vi": "Thông tin chung",
+        "release_date": "2025-07"
+      }
+    },
+    {
+      "id": "6",
+      "product_id": 6,
+      "display": {
+        "title_vi": "Màn hình",
+        "size": "11 inches",
+        "technology": "Ultra Retina XDR",
+        "resolution": "2420 x 1668 pixel",
+        "features": [
+          "Công nghệ ProMotion",
+          "Độ sáng 1000nits, 264 ppi",
+          "True Tone",
+          "Công nghệ ép kín"
+        ],
+        "refresh_rate": "120Hz",
+        "screen_Style": ""
+      },
+      "camera": {
+        "title_vi": "Camera sau",
+        "rear": {
+          "main": {
+            "megapixels": "12MP",
+            "aperture": "f/2.4",
+            "focal_length": "",
+            "sensor_size": "",
+            "features": []
+          },
+          "telephoto": {
+            "megapixels": "",
+            "aperture": "",
+            "focal_length": "",
+            "zoom": ""
+          },
+          "ultra_wide": {
+            "megapixels": "",
+            "aperture": "",
+            "focal_length": "",
+            "field_of_view": "",
+            "features": []
+          },
+          "video_recording": [
+            "4K@24fps",
+            "4K@25fps",
+            "4K@30fps",
+            "4K@60fps",
+            "1080p@25fps",
+            "1080p@30fps",
+            "1080p@60fps",
+            "720p@30fps",
+            "Quay video ProRes lên đến 4K ở tốc độ 30 fps"
+          ],
+          "camera_features": [
+            "Quay video ProRes lên đến 4K",
+            "Phóng đại âm thanh",
+            "Video tua nhanh có chống rung",
+            "Video tự động lấy nét liên tiếp",
+            "Thu phóng khi xem",
+            "Zoom kỹ thuật số",
+            "Xoá phông",
+            "Tua nhanh thời gian (Time‑lapse)",
+            "Toàn cảnh (Panorama)",
+            "Smart HDR 4"
+          ]
+        },
+        "front": {
+          "title_vi": "Camera trước",
+          "megapixels": "12MP",
+          "aperture": "f/1.8",
+          "features": [],
+          "video_recording": []
+        }
+      },
+      "processor": {
+        "title_vi": "Vi xử lý & Đồ họa",
+        "chipset": "Apple M4",
+        "gpu": "Apple GPU 10 nhân",
+        "cpu": "CPU 9 lõi với 3 lõi hiệu năng và 6 lõi tiết kiệm điện"
+      },
+      "connectivity": {
+        "title_vi": "Giao tiếp & kết nối",
+        "nfc": "Không",
+        "sim": "",
+        "network": "",
+        "gps": ["GPS", "GNSS", "Mạng di động"],
+        "wifi": "Wi‑Fi 6E (802.11ax) với 4x4 MIMO5",
+        "bluetooth": "Bluetooth 5.3"
+      },
+      "storage": {
+        "title_vi": "RAM & lưu trữ",
+        "RAM": "8 GB",
+        "internal": "256 GB"
+      },
+      "operating_system": {
+        "title_vi": "Hệ điều hành",
+        "os": "iPadOS 17"
+      },
+      "dimensions": {
+        "title_vi": "Kích thước & Trọng lượng",
+        "height": "177,5mm",
+        "width": "249,7mm",
+        "depth": "5.3mm",
+        "weight": "444g",
+        "back_material": "",
+        "frame_material": ""
+      },
+      "other_features": {
+        "title_vi": "Tính năng khác",
+        "compatibility": [
+          "Apple Pencil Pro",
+          "Apple Pencil USB-C 2023",
+          "Bàn phím iPad Pro 11 M4 Apple Magic Keyboard + Trackpad"
+        ],
+        "dust_water_resistance": "",
+        "biometrics": ["Face ID", "LiDAR Scanner"],
+        "payment": "Apple Pay",
+        "emergency": ["Phát Âm Thanh Không Gian"],
+        "audio": ["Hệ thống âm thanh bốn loa"],
+        "charging": {
+          "battery": "",
+          "wireless": ["Sạc tối đa 20 W"],
+          "port": "USB Type-C"
+        },
+        "sensors": [
+          "Cảm biến gia tốc",
+          "Cảm biến ánh sáng",
+          "La bàn",
+          "Con quay hồi chuyển",
+          "Cảm biến áp kế",
+          "Cảm biến vân tay cạnh bên"
+        ],
+        "special_features": []
+      },
+      "G_information": {
+        "title_vi": "Thông tin chung",
+        "release_date": "2024-05"
+      }
+    },
+    {
+      "id": "7",
+      "product_id": 7,
+      "display": {
+        "title_vi": "Màn hình",
+        "size": "12.4 inches",
+        "technology": "Dynamic AMOLED 2X",
+        "resolution": "1752 x 2800 pixel",
+        "features": [
+          "650 nits",
+          "Kính cường lực Corning Gorilla Glass",
+          "Lớp phủ chống chói (mới)",
+          "Độ sâu màu sắc 16M"
+        ],
+        "refresh_rate": "120Hz",
+        "screen_Style": ""
+      },
+      "camera": {
+        "title_vi": "Camera sau",
+        "rear": {
+          "main": {
+            "megapixels": "13.0 MP + 8.0 MP",
+            "aperture": "f/2.4",
+            "focal_length": "",
+            "sensor_size": "",
+            "features": []
+          },
+          "telephoto": {
+            "megapixels": "",
+            "aperture": "",
+            "focal_length": "",
+            "zoom": ""
+          },
+          "ultra_wide": {
+            "megapixels": "",
+            "aperture": "",
+            "focal_length": "",
+            "field_of_view": "",
+            "features": []
+          },
+          "video_recording": ["UHD 4K (3840 x 2160)@30fps"],
+          "camera_features": [
+            "Đèn Flash",
+            "Tự động lấy nét",
+            "Quét mã QR Code",
+            "Quét tài liệu",
+            "Zoom kỹ thuật số",
+            "Xoá phông",
+            "Góc siêu rộng",
+            "Toàn cảnh (Panorama)",
+            "Tua nhanh thời gian (Time‑lapse)",
+            "Chế Độ Chuyên nghiệp",
+            "HDR"
+          ]
+        },
+        "front": {
+          "title_vi": "Camera trước",
+          "megapixels": "12MP",
+          "aperture": "",
+          "features": [],
+          "video_recording": []
+        }
+      },
+      "processor": {
+        "title_vi": "Vi xử lý & Đồ họa",
+        "chipset": "MediaTek Dimensity 9300+",
+        "gpu": "ARM Immortalis G720",
+        "cpu": "8 nhân, 3.4GHz,2.8GHz,2GHz"
+      },
+      "connectivity": {
+        "title_vi": "Giao tiếp & kết nối",
+        "nfc": "Không",
+        "sim": "Nano-SIM + eSIM",
+        "network": "5G",
+        "gps": ["GPS", "Glonass", "Beidou", "Galileo", "QZSS"],
+        "wifi": "Wi-Fi 6E 802.11 a/b/g/n/ac/ax 2.4G+5GHz+6GHz, HE160, MIMO, 1024-QAM",
+        "bluetooth": "v5.3"
+      },
+      "storage": {
+        "title_vi": "RAM & lưu trữ",
+        "RAM": "12 GB",
+        "internal": "256 GB"
+      },
+      "operating_system": {
+        "title_vi": "Hệ điều hành",
+        "os": "Android 14, One UI 6.1.1"
+      },
+      "dimensions": {
+        "title_vi": "Kích thước & Trọng lượng",
+        "height": "285.4mm",
+        "width": "185.4mm",
+        "depth": "5.6mm",
+        "weight": "576g",
+        "back_material": "",
+        "frame_material": ""
+      },
+      "other_features": {
+        "title_vi": "Tính năng khác",
+        "compatibility": "Bút S Pen",
+        "dust_water_resistance": "IP68",
+        "biometrics": [],
+        "payment": "",
+        "emergency": [],
+        "audio": ["4 Loa AKG hỗ trợ Dolby Atmos"],
+        "charging": {
+          "battery": "10,090 mAh",
+          "wireless": ["Sạc tối đa 20 W"],
+          "port": "USB Type-C"
+        },
+        "sensors": [
+          "Cảm biến gia tốc",
+          "Cảm biến ánh sáng",
+          "Con quay hồi chuyển",
+          "Cảm biến trọng lực",
+          "Cảm biến vân tay trong màn hình"
+        ],
+        "special_features": [
+          "Phiên dịch viên",
+          "Phiên dịch trực tiếp",
+          "Trợ lý Note quyền năng",
+          "Trợ lý ghi âm",
+          "Chỉnh ảnh chuyên nghiệp",
+          "Khoanh tròn để tìm kiếm với Google",
+          "Phác thảo thông minh"
+        ]
+      },
+      "G_information": {
+        "title_vi": "Thông tin chung",
+        "release_date": "2024-10"
+      }
+    },
+    {
+      "id": "8",
+      "product_id": 8,
+      "display": {
+        "title_vi": "Màn hình",
+        "size": "11.2 inches",
+        "technology": "IPS LCD",
+        "resolution": "2136 x 3200 pixels",
+        "features": [
+          "68 tỷ màu",
+          "HDR10",
+          "Dolby Vision",
+          "800 nits",
+          "Tỷ lệ 3:2, mật độ điểm ảnh 345 ppi",
+          "DCI-P3"
+        ],
+        "refresh_rate": "144Hz",
+        "screen_Style": ""
+      },
+      "camera": {
+        "title_vi": "Camera sau",
+        "rear": {
+          "main": {
+            "megapixels": "50MP",
+            "aperture": "f/1.8",
+            "focal_length": " 1/2.76",
+            "sensor_size": "0.64µm",
+            "features": ["PDAF"]
+          },
+          "telephoto": {
+            "megapixels": "",
+            "aperture": "",
+            "focal_length": "",
+            "zoom": ""
+          },
+          "ultra_wide": {
+            "megapixels": "",
+            "aperture": "",
+            "focal_length": "",
+            "field_of_view": "",
+            "features": []
+          },
+          "video_recording": [
+            "4K@30fps",
+            "4K@60fps",
+            "1080p@30fps",
+            "1080p@60fps",
+            "720p@30fps"
+          ],
+          "camera_features": [
+            "Video kép",
+            "Chế độ đạo diễn",
+            "Công cụ nhắc chữ",
+            "Chụp ảnh động",
+            "HDR",
+            "Tài Liệu"
+          ]
+        },
+        "front": {
+          "title_vi": "Camera trước",
+          "megapixels": "32MP",
+          "aperture": "f/2.2",
+          "features": [],
+          "video_recording": ["1080p@30fps", "720p@30fps"]
+        }
+      },
+      "processor": {
+        "title_vi": "Vi xử lý & Đồ họa",
+        "chipset": "Qualcomm SM8635 Snapdragon 8s Gen 3",
+        "gpu": "Adreno 735",
+        "cpu": "1x2.8 GHz Cortex-X4 & 4x2.6 GHz Cortex-A720 & 3x1.9 GHz Cortex-A520"
+      },
+      "connectivity": {
+        "title_vi": "Giao tiếp & kết nối",
+        "nfc": "Không",
+        "sim": "",
+        "network": "",
+        "gps": [],
+        "wifi": "Wi-Fi 7, Wi-Fi Direct, 2x2 MIMO, 8x8 cho MU-MIMO",
+        "bluetooth": "v5.4"
+      },
+      "storage": {
+        "title_vi": "RAM & lưu trữ",
+        "RAM": "8 GB",
+        "internal": "256 GB"
+      },
+      "operating_system": {
+        "title_vi": "Hệ điều hành",
+        "os": "Android 15, Xiaomi HyperOS 2"
+      },
+      "dimensions": {
+        "title_vi": "Kích thước & Trọng lượng",
+        "height": "251.2mm",
+        "width": "173.4mm",
+        "depth": "6.2mm",
+        "weight": "500g",
+        "back_material": "Nhôm",
+        "frame_material": "Nhôm"
+      },
+      "other_features": {
+        "title_vi": "Tính năng khác",
+        "compatibility": "",
+        "dust_water_resistance": "",
+        "biometrics": [],
+        "payment": "",
+        "emergency": [],
+        "audio": ["4 loa", "âm thanh Dolby Atmos"],
+        "charging": {
+          "battery": "8850 mAh",
+          "wireless": ["Sạc nhanh 67W"],
+          "port": "USB Type-C"
+        },
+        "sensors": [
+          "Cảm biến gia tốc",
+          "Cảm biến ánh sáng",
+          "Cảm biến tiệm cận",
+          "Con quay hồi chuyển",
+          "Cảm biến trọng lực",
+          "Cảm biến vân tay cạnh bên"
+        ],
+        "special_features": [
+          "Xiaomi HyperAI - tìm kiếm, tạo văn bản và hình ảnh",
+          "Xiaomi HyperConnect kết nối hiệu quả"
+        ]
+      },
+      "G_information": {
+        "title_vi": "Thông tin chung",
+        "release_date": ""
+      }
+    },
+    {
+      "id": "9",
+      "product_id": 9,
+      "display": {
+        "title_vi": "Màn hình",
+        "size": "12.2 inches",
+        "technology": "Tandem OLED PaperMatte",
+        "resolution": "2800 x 1840 pixels",
+        "features": [
+          "1.07 tỷ màu",
+          "2000 nits",
+          "gam màu rộng P3",
+          "274 ppi",
+          "Độ tương phản 2,000,000:1"
+        ],
+        "refresh_rate": "144Hz",
+        "screen_Style": ""
+      },
+      "camera": {
+        "title_vi": "Camera sau",
+        "rear": {
+          "main": {
+            "megapixels": "13MP",
+            "aperture": "f/1.8 AF",
+            "focal_length": "",
+            "sensor_size": "",
+            "features": []
+          },
+          "telephoto": {
+            "megapixels": "",
+            "aperture": "",
+            "focal_length": "",
+            "zoom": ""
+          },
+          "ultra_wide": {
+            "megapixels": "8MP",
+            "aperture": "f/2.2",
+            "focal_length": "",
+            "field_of_view": "",
+            "features": ["FF", "LED Flash"]
+          },
+          "video_recording": ["3840 × 2160 pixel", "1080p@30fps"],
+          "camera_features": [
+            "Tua nhanh thời gian",
+            "Ống kính góc rộng",
+            "Ban đêm",
+            "Chân dung",
+            "Chuyên nghiệp",
+            "Quay chậm",
+            "Toàn cảnh",
+            "Ảnh Động",
+            "Ghi lại nụ cười",
+            "Điều khiển bằng âm thanh",
+            "Hẹn giờ",
+            "Chụp liên tục"
+          ]
+        },
+        "front": {
+          "title_vi": "Camera trước",
+          "megapixels": "",
+          "aperture": "f/2.2 FF",
+          "features": [],
+          "video_recording": []
+        }
+      },
+      "processor": {
+        "title_vi": "Vi xử lý & Đồ họa",
+        "chipset": "",
+        "gpu": "",
+        "cpu": ""
+      },
+      "connectivity": {
+        "title_vi": "Giao tiếp & kết nối",
+        "nfc": "",
+        "sim": "",
+        "network": "",
+        "gps": ["GPS", "GLONASS", "BeiDou", "Galileo", "QZSS"],
+        "wifi": "2.4 GHz và 5 GHz",
+        "bluetooth": "v5.2"
+      },
+      "storage": {
+        "title_vi": "RAM & lưu trữ",
+        "RAM": "12 GB",
+        "internal": "256 GB"
+      },
+      "operating_system": {
+        "title_vi": "Hệ điều hành",
+        "os": "HarmonyOS 4.2"
+      },
+      "dimensions": {
+        "title_vi": "Kích thước & Trọng lượng",
+        "height": "182.53mm",
+        "width": "271.25mm",
+        "depth": "5.5mm",
+        "weight": "508g",
+        "back_material": "",
+        "frame_material": ""
+      },
+      "other_features": {
+        "title_vi": "Tính năng khác",
+        "compatibility": ["Bàn Phím Trượt HUAWEI Glide", "Bút HUAWEI M-Pencil"],
+        "dust_water_resistance": "",
+        "biometrics": [],
+        "payment": "",
+        "emergency": [],
+        "audio": ["4 loa", "HUAWEI SOUND"],
+        "charging": {
+          "battery": "10.100 mAh",
+          "wireless": [
+            "Bộ sạc tiêu chuẩn hỗ trợ sạc nhanh HUAWEI",
+            "SuperCharge, lên đến 20V/5 A"
+          ],
+          "port": "USB Type-C"
+        },
+        "sensors": [
+          "Cảm biến gia tốc",
+          "Cảm biến ánh sáng",
+          "La bàn",
+          "Con quay hồi chuyển",
+          "Cảm biến trọng lực",
+          "Cảm biến vân tay cạnh bên"
+        ],
+        "special_features": ["Ứng Dụng GoPaint", "Công nghệ NearLink"]
+      },
+      "G_information": {
+        "title_vi": "Thông tin chung",
+        "release_date": ""
+      }
+    },
+    {
+      "id": "11",
+      "product_id": 11,
+      "display": {
+        "title_vi": "Màn hình",
+        "size": "",
+        "technology": "",
+        "resolution": "",
+        "features": [],
+        "refresh_rate": "",
+        "screen_Style": ""
+      },
+      "camera": {
+        "title_vi": "Camera sau",
+        "rear": {
+          "main": {
+            "megapixels": "",
+            "aperture": "",
+            "focal_length": "",
+            "sensor_size": "",
+            "features": []
+          },
+          "telephoto": {
+            "megapixels": "",
+            "aperture": "",
+            "focal_length": "",
+            "zoom": ""
+          },
+          "ultra_wide": {
+            "megapixels": "",
+            "aperture": "",
+            "focal_length": "",
+            "field_of_view": "",
+            "features": []
+          },
+          "video_recording": [],
+          "camera_features": []
+        },
+        "front": {
+          "title_vi": "Camera trước",
+          "megapixels": "",
+          "aperture": "",
+          "features": [],
+          "video_recording": []
+        }
+      },
+      "processor": {
+        "title_vi": "Vi xử lý & Đồ họa",
+        "chipset": "",
+        "gpu": "",
+        "cpu": ""
+      },
+      "connectivity": {
+        "title_vi": "Giao tiếp & kết nối",
+        "nfc": "",
+        "sim": "",
+        "network": "",
+        "gps": [],
+        "wifi": "",
+        "bluetooth": ""
+      },
+      "storage": {
+        "title_vi": "RAM & lưu trữ",
+        "RAM": "",
+        "internal": ""
+      },
+      "operating_system": {
+        "title_vi": "Hệ điều hành",
+        "os": ""
+      },
+      "dimensions": {
+        "title_vi": "Kích thước & Trọng lượng",
+        "height": "",
+        "width": "",
+        "depth": "",
+        "weight": "",
+        "back_material": "",
+        "frame_material": ""
+      },
+      "other_features": {
+        "title_vi": "Tính năng khác",
+        "compatibility": [],
+        "dust_water_resistance": "",
+        "biometrics": [],
+        "payment": "",
+        "emergency": [],
+        "audio": [],
+        "charging": {
+          "battery": "",
+          "wireless": [],
+          "port": ""
+        },
+        "sensors": [],
+        "special_features": []
+      },
+      "G_information": {
+        "title_vi": "Thông tin chung",
+        "release_date": ""
+      }
+    }
+  ],
+  "muathem": [
+    {
+      "id": "1",
+      "ten": "Mua kèm sim",
+      "description": "Giảm tối đa 50k",
+      "hinh": ""
+    },
+    {
+      "id": "2",
+      "ten": "Mua kèm ốp",
+      "description": "Giảm thêm 10%",
+      "hinh": ""
+    },
+    {
+      "id": "3",
+      "ten": "Mua kèm dán",
+      "description": "Giảm thêm 10%",
+      "hinh": ""
+    },
+    {
+      "id": "4",
+      "ten": "Mua kèm loa,....",
+      "description": "Giảm thêm 5%",
+      "hinh": ""
+    }
+  ],
+  "baohanh": [
+    {
+      "id": "1",
+      "ten": "1 đổi 1 VIP 6 tháng",
+      "price": 1300000
+    },
+    {
+      "id": "2",
+      "ten": "S24+ 12 tháng",
+      "price": 1600000
+    },
+    {
+      "id": "3",
+      "ten": "1 đổi 1 VIP 12 tháng",
+      "price": 1800000
+    },
+    {
+      "id": "4",
+      "ten": "Rơi vỡ - rớt nước",
+      "price": 2400000
+    }
+  ],
+  "images": [
+    {
+      "id": "1",
+      "product_id": 1,
+      "ten": "anh1",
+      "hinh": "iphone-16-pro-max.webp"
+    },
+    {
+      "id": "2",
+      "product_id": 1,
+      "ten": "anh2",
+      "hinh": "iphone-16-pro-max-1.webp"
+    },
+    {
+      "id": "3",
+      "product_id": 1,
+      "ten": "anh3",
+      "hinh": "iphone-16-pro-max-2.webp"
+    },
+    {
+      "id": "4",
+      "product_id": 1,
+      "ten": "anh4",
+      "hinh": "iphone-16-pro-max-3.webp"
+    },
+    {
+      "id": "5",
+      "product_id": 1,
+      "ten": "anh5",
+      "hinh": "iphone-16-pro-max-4.webp"
+    },
+    {
+      "id": "6",
+      "product_id": 2,
+      "ten": "anh1",
+      "hinh": "s25_1.webp"
+    },
+    {
+      "id": "7",
+      "product_id": 2,
+      "ten": "anh2",
+      "hinh": "s25_2.webp"
+    },
+    {
+      "id": "8",
+      "product_id": 2,
+      "ten": "anh3",
+      "hinh": "s25_3.webp"
+    },
+    {
+      "id": "9",
+      "product_id": 2,
+      "ten": "anh4",
+      "hinh": "s25_4.webp"
+    },
+    {
+      "id": "10",
+      "product_id": 2,
+      "ten": "anh5",
+      "hinh": "s25_5.webp"
+    },
+    {
+      "id": "11",
+      "product_id": 3,
+      "ten": "anh1",
+      "hinh": "Xiaomi-15-Ultra-1.webp"
+    },
+    {
+      "id": "12",
+      "product_id": 3,
+      "ten": "anh2",
+      "hinh": "Xiaomi-15-Ultra-2.webp"
+    },
+    {
+      "id": "13",
+      "product_id": 3,
+      "ten": "anh3",
+      "hinh": "Xiaomi-15-Ultra-3.webp"
+    },
+    {
+      "id": "14",
+      "product_id": 3,
+      "ten": "anh4",
+      "hinh": "Xiaomi-15-Ultra-4.webp"
+    },
+    {
+      "id": "15",
+      "product_id": 3,
+      "ten": "anh5",
+      "hinh": "Xiaomi-15-Ultra-5.webp"
+    },
+    {
+      "id": "16",
+      "product_id": 4,
+      "ten": "anh1",
+      "hinh": "iphone-16e-1.webp"
+    },
+    {
+      "id": "17",
+      "product_id": 4,
+      "ten": "anh2",
+      "hinh": "iphone-16e-2.webp"
+    },
+    {
+      "id": "18",
+      "product_id": 4,
+      "ten": "anh3",
+      "hinh": "iphone-16e-3.webp"
+    },
+    {
+      "id": "19",
+      "product_id": 4,
+      "ten": "anh4",
+      "hinh": "iphone-16e-4.webp"
+    },
+    {
+      "id": "20",
+      "product_id": 4,
+      "ten": "anh5",
+      "hinh": "iphone-16e-5.webp"
+    },
+    {
+      "id": "21",
+      "product_id": 5,
+      "ten": "anh1",
+      "hinh": "oppo-reno14-1.webp"
+    },
+    {
+      "id": "22",
+      "product_id": 5,
+      "ten": "anh2",
+      "hinh": "oppo-reno14-2.webp"
+    },
+    {
+      "id": "23",
+      "product_id": 5,
+      "ten": "anh3",
+      "hinh": "oppo-reno14-3.webp"
+    },
+    {
+      "id": "24",
+      "product_id": 5,
+      "ten": "anh4",
+      "hinh": "oppo-reno14-4.webp"
+    },
+    {
+      "id": "25",
+      "product_id": 5,
+      "ten": "anh5",
+      "hinh": "oppo-reno14-5.webp"
+    },
+    {
+      "id": "26",
+      "product_id": 6,
+      "ten": "anh1",
+      "hinh": "Ipad-Pro-M4-1.webp"
+    },
+    {
+      "id": "27",
+      "product_id": 6,
+      "ten": "anh2",
+      "hinh": "Ipad-Pro-M4-2.webp"
+    },
+    {
+      "id": "28",
+      "product_id": 6,
+      "ten": "anh3",
+      "hinh": "Ipad-Pro-M4-3.webp"
+    },
+    {
+      "id": "29",
+      "product_id": 6,
+      "ten": "anh4",
+      "hinh": "Ipad-Pro-M4-4.webp"
+    },
+    {
+      "id": "30",
+      "product_id": 6,
+      "ten": "anh5",
+      "hinh": "Ipad-Pro-M4-5.webp"
+    },
+    {
+      "id": "31",
+      "product_id": 7,
+      "ten": "anh1",
+      "hinh": "Tab-S10-1.webp"
+    },
+    {
+      "id": "32",
+      "product_id": 7,
+      "ten": "anh2",
+      "hinh": "Tab-S10-2.webp"
+    },
+    {
+      "id": "33",
+      "product_id": 7,
+      "ten": "anh3",
+      "hinh": "Tab-S10-3.webp"
+    },
+    {
+      "id": "34",
+      "product_id": 7,
+      "ten": "anh4",
+      "hinh": "Tab-S10-4.png"
+    },
+    {
+      "id": "35",
+      "product_id": 7,
+      "ten": "anh5",
+      "hinh": "Tab-S10-5.webp"
+    },
+    {
+      "id": "36",
+      "product_id": 8,
+      "ten": "anh1",
+      "hinh": "xiaomi-pad-7-1.webp"
+    },
+    {
+      "id": "37",
+      "product_id": 8,
+      "ten": "anh2",
+      "hinh": "xiaomi-pad-7-2.webp"
+    },
+    {
+      "id": "38",
+      "product_id": 8,
+      "ten": "anh3",
+      "hinh": "xiaomi-pad-7-3.webp"
+    },
+    {
+      "id": "39",
+      "product_id": 8,
+      "ten": "anh4",
+      "hinh": "xiaomi-pad-7-4.webp"
+    },
+    {
+      "id": "40",
+      "product_id": 8,
+      "ten": "anh5",
+      "hinh": "xiaomi-pad-7-5.webp"
+    },
+    {
+      "id": "41",
+      "product_id": 9,
+      "ten": "anh1",
+      "hinh": "matepad_pro_4-1.webp"
+    },
+    {
+      "id": "42",
+      "product_id": 9,
+      "ten": "anh2",
+      "hinh": "matepad_pro_4-2.webp"
+    },
+    {
+      "id": "43",
+      "product_id": 9,
+      "ten": "anh3",
+      "hinh": "matepad_pro_4-3.webp"
+    },
+    {
+      "id": "44",
+      "product_id": 9,
+      "ten": "anh4",
+      "hinh": "matepad_pro_4-4.webp"
+    },
+    {
+      "id": "45",
+      "product_id": 9,
+      "ten": "anh5",
+      "hinh": "matepad_pro_4-5.webp"
+    },
+    {
+      "id": "46",
+      "product_id": 10,
+      "ten": "anh1",
+      "hinh": "Onyx-Boox-Tab-Ultra-C-Pro-1.webp"
+    },
+    {
+      "id": "47",
+      "product_id": 10,
+      "ten": "anh2",
+      "hinh": "Onyx-Boox-Tab-Ultra-C-Pro-2.webp"
+    },
+    {
+      "id": "48",
+      "product_id": 10,
+      "ten": "anh3",
+      "hinh": "Onyx-Boox-Tab-Ultra-C-Pro-3.webp"
+    },
+    {
+      "id": "49",
+      "product_id": 10,
+      "ten": "anh4",
+      "hinh": "Onyx-Boox-Tab-Ultra-C-Pro-4.webp"
+    },
+    {
+      "id": "50",
+      "product_id": 10,
+      "ten": "anh5",
+      "hinh": "Onyx-Boox-Tab-Ultra-C-Pro-5.webp"
+    },
+    {
+      "id": "51",
+      "product_id": 11,
+      "ten": "anh1",
+      "hinh": "iphone-16-pro-max.webp"
+    },
+    {
+      "id": "52",
+      "product_id": 11,
+      "ten": "anh2",
+      "hinh": "iphone-16-pro-max-1.webp"
+    },
+    {
+      "id": "53",
+      "product_id": 11,
+      "ten": "anh3",
+      "hinh": "iphone-16-pro-max-2.webp"
+    },
+    {
+      "id": "54",
+      "product_id": 11,
+      "ten": "anh4",
+      "hinh": "iphone-16-pro-max-3.webp"
+    },
+    {
+      "id": "55",
+      "product_id": 11,
+      "ten": "anh5",
+      "hinh": "iphone-16-pro-max-4.webp"
+    },
+    {
+      "id": "56",
+      "product_id": 11,
+      "ten": "anh6",
+      "hinh": "iphone-16-pro-max.webp"
+    },
+    {
+      "id": "57",
+      "product_id": 11,
+      "ten": "anh7",
+      "hinh": "iphone-16-pro-max-1.webp"
+    },
+    {
+      "id": "58",
+      "product_id": 11,
+      "ten": "anh8",
+      "hinh": "iphone-16-pro-max-2.webp"
+    }
+  ],
+  "phu-kien": [
+    {
+      "id": "1",
+      "name": "Bộ sạc nhanh GaN 100W Ugreen CD226 15336 (Trắng)",
+      "price": 1490000,
+      "categoryId": "3",
+      "output": "100W",
+      "color": "trắng",
+      "warranty": "18 tháng",
+      "weight": "165g",
+      "img": {
+        "img1": "nexode-4-cong-3-usb-type-c-va-1-usb-type-a-ho-tro-qc4-chinh-hang-p1866_7e719f748eec47738f0521d9d0984361_master.jpg",
+        "img2": "cu-sac-nhanh-gan-100w-ugreen-cd226-2__1__019d64f203ea4360af5783bf8275db5f_compact.jpg"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Cáp sạc Belkin Type C - Type C 60W 1m trắng CAB003",
+      "price": 350000,
+      "categoryId": "3",
+      "output": "60W",
+      "color": "trắng",
+      "warranty": "24 tháng",
+      "weight": "",
+      "img": {
+        "img1": "4_ea89d17d062e496380edd8923f699591_compact.jpg",
+        "img2": "5_bcc2ea5077aa45c7b60af1cdc39857bf_master.jpg"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Sạc dự phòng Recci RPB-P40 Gray",
+      "price": 490000,
+      "categoryId": "3",
+      "output": "",
+      "color": "",
+      "warranty": "6 tháng",
+      "weight": "",
+      "img": {
+        "img1": "6_69ff3a4605ef4119909b3aad407b77d2_compact.jpg",
+        "img2": "7_8228bbce35a44cf580458b4873addcbf_master.jpg"
+      }
+    }
+  ],
+  "man-hinh": [
+    {
+      "id": "1",
+      "name": "Màn hình ASUS ROG Strix XG259CMS 25 Fast IPS 310Hz 1ms G-Sync",
+      "price": 8490000,
+      "categoryId": "4",
+      "manufactory": "asus",
+      "support": 7,
+      "stats": {
+        "size": "25 inch",
+        "refreshRate": "310 Hz",
+        "screenType": "IPS LCD"
+      },
+      "img": {
+        "img1": "asus_xg259cms_gearvn_6c2308acee8a467d96ea13b8ac20c5f8_master.jpg",
+        "img2": "h732__4__abb0cbe8ad5349d299627403d53878e3_master.png"
+      },
+      "warranty": "36 tháng"
+    },
+    {
+      "id": "2",
+      "name": "Màn hình LG 24GS65F-B 24 IPS 180Hz HDR10 Gsync chuyên game",
+      "price": 4390000,
+      "categoryId": "4",
+      "manufactory": "lg",
+      "support": 7,
+      "stats": {
+        "size": "24 inch",
+        "refreshRate": "180 Hz",
+        "screenType": "IPS LCD"
+      },
+      "img": {
+        "img1": "lg_24gs65f-b_gearvn_af476af1e4514a2684591304b3e4164a_master.jpg",
+        "img2": "thum-1600x1062__4__54f4ecdf2a2a451ba504ec6a4eb91e06_master.jpg"
+      },
+      "warranty": "24 tháng"
+    },
+    {
+      "id": "3",
+      "name": "Màn hình ASUS VY279HGR 27 IPS 120Hz viền mỏng",
+      "price": 3790000,
+      "categoryId": "4",
+      "manufactory": "asus",
+      "support": 7,
+      "stats": {
+        "size": "27 inch",
+        "refreshRate": "120 Hz",
+        "screenType": "IPS LCD"
+      },
+      "img": {
+        "img1": "asus_vy279hgr_120hz_gearvn_82956fa8030e4a16a9bbfdcbdd07bebe_master.jpg",
+        "img2": "vy279hgr-02_ee6a400fe7e14a93a1cc54741c675a1f_master.jpg"
+      },
+      "warranty": "36 tháng"
+    }
+  ],
+  "laptop": [
+    {
+      "id": "1",
+      "tensp": "Laptop Acer Aspire 5 A515 58P 9841",
+      "gia": 20490000,
+      "category_id": 2,
+      "hinh": "acer-aspire-5-a515-58p-56rp_3648_cdccb4e993ed48d2b56bd3efef958f25_medium.png"
+    },
+    {
+      "id": "2",
+      "tensp": "Laptop ACER Swift Lite 14 SFL14 51M 56HS",
+      "gia": 18490000,
+      "category_id": 2,
+      "hinh": "-ai-sfl14-51m-56hs-ultra-5-nxj1hsv002-glr-1-638666740130608231-750x500_2ef5554a9e6d42f7a9edb153bac591c8_medium.jpg"
+    },
+    {
+      "id": "3",
+      "tensp": "Laptop Lenovo IdeaPad Slim 3 15IRH10 83K1000GVN",
+      "gia": 15490000,
+      "category_id": 2,
+      "hinh": "ideapad_slim_3_15irh10_ct2_06_d927ac853d7241138eb02d35a9fb46e2_medium (1).png"
+    },
+    {
+      "id": "4",
+      "tensp": "Laptop Lenovo V14 G4 IRU 83A000BEVN",
+      "gia": 12890000,
+      "category_id": 2,
+      "hinh": "lenovo_v14_g4_iru_ct1_09_cec3749729ee42f3ab1b318c2348639e_medium.png"
+    },
+    {
+      "id": "5",
+      "tensp": "Laptop Lenovo IdeaPad Slim 3 15IRH10",
+      "gia": 15490000,
+      "category_id": 2,
+      "hinh": "ideapad_slim_5_14akp10_ct2_07_fd9bd66673264ee687a8b4de2263c938_medium.png"
+    },
+    {
+      "id": "6",
+      "tensp": "Laptop Avita PURA A+ AF14A3VNF56F Silver",
+      "gia": 7990000,
+      "category_id": 2,
+      "hinh": "4_2295693202614981b7c53bb2056fed47_medium.png"
+    }
+  ],
+  "information": [
+    {
+      "Product_id": 1,
+      "CPU": "Intel® Core™ i9-13900H 2.6 GHz (24MB Cache, up to 5.4 GHz, 14 cores, 20 Threads)",
+      "RAM": "16GBx1 LPDDR5 5200MHz (không nâng cấp)",
+      "Ocung": "512GB PCIe NVMe SSD (chỉ 1 slot, nâng cấp tối đa 1TB SSD)",
+      "Card": "Intel® UHD Graphics",
+      "ManHinh": "15.6\" FHD (1920 × 1080), IPS SlimBezel, 60Hz, Acer ComfyView™",
+      "CongGT": [
+        "1x USB 3.2 Gen 1",
+        "1x USB 3.2 Gen 1 featuring power off USB charging",
+        "1x HDMI® 2.1 port with HDCP support",
+        "1x Headphone/speaker jack"
+      ],
+      "Audio": "Acer Purified.Voice technology",
+      "DocTN": "None",
+      "LAN": "None",
+      "Wifi": "802.11a/b/g/n/ac+ax (2×2)",
+      "Bluetooth": "v5.1",
+      "Webcam": "720p HD video at 30 fps with Temporal Noise Reduction",
+      "HeDieuHanh": "Windows 11 Home",
+      "Pin": "3 Cell 48Whr",
+      "TrongLuong": "1.7 kg",
+      "MauSac": "Steel Gray",
+      "KichThuoc": "362.9 × 237.5 × 17.99 (mm)",
+      "id": "2678"
+    },
+    {
+      "Product_id": 2,
+      "CPU": "Intel Core Ultra 5 125U (12 lõi / 14 luồng; 3.6 GHz; 4.3 GHz; 12 MB Intel Smart Cache)",
+      "RAM": "16GB (2×8GB) LPDDR5 4800 MHz (2 Slot Max 32GB)",
+      "Ocung": "512GB PCIe NVMe SSD (1 khe SSD; Hỗ trợ nâng cấp tối đa 2TB)",
+      "Card": "Intel Arc Graphics (Onboard)",
+      "ManHinh": "14\" FHD+ (1920 × 1200), IPS SlimBezel (16:10), 380 nits, 60Hz",
+      "CongGT": [],
+      "Audio": null,
+      "DocTN": null,
+      "LAN": null,
+      "Wifi": "Intel® Wireless Wi-Fi 6 AX201",
+      "Bluetooth": "Bluetooth 5",
+      "Webcam": "Video conferencing Camera, FHD Camera MISC 2M FHD Camera_CTE",
+      "HeDieuHanh": "Windows 11 Home Single Language",
+      "Pin": "58Whr 3-cell",
+      "TrongLuong": "1.27 kg",
+      "MauSac": null,
+      "KichThuoc": "314.4 (W) × 221.9 (D) × 17.5/17.5 (H) mm",
+      "id": "cecd"
+    },
+    {
+      "Product_id": 3,
+      "CPU": "Intel® Core™ i5-13420H, 8C (4P + 4E) / 12T, P-core 2.1 / 4.6GHz, E-core 1.5 / 3.4GHz, 12MB",
+      "RAM": "8GB Soldered DDR5-4800 + 16GB SO-DIMM DDR5-4800 - Up to 24GB (8GB soldered + 16GB SO-DIMM)",
+      "Ocung": "512GB SSD M.2 2242 PCIe® 4.0×4 NVMe® (Tổng 2 khe M.2 2242 SSD, max 2TB)",
+      "Card": "Integrated Intel® UHD Graphics",
+      "ManHinh": "15.3\" WUXGA (1920×1200), IPS, 300nits, Anti-glare, 45% NTSC, 60Hz",
+      "CongGT": [
+        "2x USB-A (USB 5Gbps / USB 3.2 Gen 1)",
+        "1x USB-C (USB 5Gbps / USB 3.2 Gen 1), with USB PD 3.0 and DisplayPort™ 1.2",
+        "1x HDMI® 1.4",
+        "1x Headphone / microphone combo jack (3.5mm)",
+        "1x SD card reader",
+        "1x Power connector"
+      ],
+      "Audio": "Stereo speakers, 2W x2, optimized with Dolby Audio™",
+      "DocTN": "1x SD card reader",
+      "LAN": "None",
+      "Wifi": "Wi-Fi® 6, 802.11ax 2×2",
+      "Bluetooth": "Bluetooth® 5.2",
+      "Webcam": "HD 720p with Privacy Shutter",
+      "HeDieuHanh": "Windows® 11 Home Single Language, English",
+      "Pin": "Integrated 60W",
+      "TrongLuong": "1.62 kg",
+      "MauSac": "Luna Grey",
+      "KichThuoc": "343.4 × 239.5 × 16.9~17.9 mm",
+      "id": "d8eb"
+    },
+    {
+      "Product_id": 4,
+      "CPU": "AMD Ryzen™ AI 7 350 (8C / 16T, 2.0 / 5.0GHz, 8MB L2 / 16MB L3)",
+      "RAM": "32 GB (2×16GB) SO-DIMM DDR5-5600 (Two DDR5 SO-DIMM slots, Up to 32GB DDR5-5600 offering)",
+      "Ocung": "1TB SSD M.2 2242 PCIe® 4.0×4 NVMe® (Two M.2 slots: One M.2 2242 PCIe® 4.0 x4 slot + One M.2 2280 PCIe 4.0 x4 slot)",
+      "Card": "Integrated AMD Radeon™ 860M Graphics",
+      "ManHinh": "14\" WUXGA (1920×1200) OLED, 400nits Glossy, 100% DCI-P3, DisplayHDR™ True Black 500, 60Hz",
+      "CongGT": [
+        "1x USB-A (USB 5Gbps / USB 3.2 Gen 1)",
+        "1x USB-A (USB 5Gbps / USB 3.2 Gen 1), Always On",
+        "2x USB-C® (USB 10Gbps / USB 3.2 Gen 2), with USB PD 3.0 and DisplayPort™ 1.4",
+        "1x HDMI® 2.1, up to 4K/60Hz",
+        "1x Headphone / microphone combo jack (3.5mm)",
+        "1x microSD card reader"
+      ],
+      "Audio": "Stereo speakers, 2W x2, optimized with Dolby Audio™",
+      "DocTN": "1x microSD card reader",
+      "LAN": "None",
+      "Wifi": "Wi-Fi® 7, 802.11be 2×2",
+      "Bluetooth": "Bluetooth® 5.4",
+      "Webcam": "FHD 1080p + IR with Privacy Shutter, ToF Sensor",
+      "HeDieuHanh": "Windows® 11 Home Single Language, English",
+      "Pin": "Integrated 60Wh",
+      "TrongLuong": "1.46 kg",
+      "MauSac": "Luna Grey",
+      "KichThuoc": "313.4 × 222 × 16.9 mm",
+      "id": "bf66"
+    },
+    {
+      "Product_id": 5,
+      "CPU": "Intel® Core™ i5-13420H, 8C (4P + 4E) / 12T, P-core 2.1 / 4.6GHz, E-core 1.5 / 3.4GHz, 12MB",
+      "RAM": "8GB (1×8GB) DDR4 3200MHz onboard (Còn 1 Slot)",
+      "Ocung": "512GB SSD M.2 2242 PCIe® 4.0×4 NVMe® (Còn trống 1 khe 2.5\" HDD, hỗ trợ lên đến 1TB, Không kèm cáp Sata HDD)",
+      "Card": "Intel® UHD Graphics",
+      "ManHinh": "14\" FHD (1920×1080), IPS 300nits, Anti-glare, 45% NTSC, 60Hz",
+      "CongGT": [
+        "1x USB 2.0",
+        "1x USB 3.2 Gen 1",
+        "1x USB-C® 3.2 Gen 1 (hỗ trợ truyền dữ liệu, Power Delivery 3.0 và DisplayPort™ 1.2)",
+        "1x HDMI® 1.4b",
+        "1x Headphone / microphone combo jack (3.5mm)",
+        "1x Ethernet (RJ-45)",
+        "1x Power connector"
+      ],
+      "Audio": "Stereo speakers, 1.5W ×2, Dolby® Audio",
+      "DocTN": null,
+      "LAN": "100/1000M",
+      "Wifi": "Wi-Fi® 6, 11ax 2×2",
+      "Bluetooth": "v5.1",
+      "Webcam": "HD 720p with Privacy Shutter",
+      "HeDieuHanh": "Windows 11 Home",
+      "Pin": "Integrated 38Wh",
+      "TrongLuong": "1.43 kg",
+      "MauSac": "Iron Grey",
+      "KichThuoc": "324.2 × 215.2 × 19.9 mm",
+      "id": "def3"
+    }
+  ],
+  "uudai": [
+    {
+      "id": "1",
+      "text": "Bảo hành chính hãng 24 tháng."
+    },
+    {
+      "id": "2",
+      "text": "Hỗ trợ đổi mới trong 7 ngày."
+    },
+    {
+      "id": "3",
+      "text": "Windows bản quyền tích hợp."
+    },
+    {
+      "id": "4",
+      "text": "Miễn phí giao hàng toàn quốc."
+    }
+  ],
+  "showroom": {
+    "HCM": [
+      "78-80-82 Hoàng Hoa Thám, Phường Bảy Hiền, TP.HCM",
+      "905 Kha Vạn Cân, Phường Linh Tây, TP.HCM",
+      "1081-1083 Trần Hưng Đạo, Phường An Đông, TP.HCM",
+      "63 Nguyễn Cửu Vân, Phường Gia Định, TP.HCM"
     ],
-    "categories": [
+    "HN": ["162-164 Thái Hà, Phường Đống Đa, Hà Nội"]
+  },
+  "muaKem": [
+    {
+      "id": "1",
+      "ten": "Chuột ROG",
+      "hinh": "chuot_aa348bf0177b4795a39ab66d51e62ed7.jpg"
+    },
+    {
+      "id": "2",
+      "ten": "Bàn phím cơ",
+      "hinh": "ban_phim_93a4d3cefd8345dfac23829818a3c5d4.jpg"
+    },
+    {
+      "id": "3",
+      "ten": "Màn hình",
+      "hinh": "asus_pg27aqdm_gearvn_53c46bd0ca1f40f1a7abfb0246800081_e341bb95b0724bee845ba8f093678245_master.jpg"
+    },
+    {
+      "id": "4",
+      "ten": "Adapter HDMI",
+      "hinh": "icon19_0197366bbf124fed9b939c9b7075c2db.png"
+    }
+  ],
+  "PCProducts": [
+    {
+      "id": "1",
+      "tensp": "PC GVN Intel i5-14400F/ VGA RTX 5060 (DDR5)",
+      "gia": 24590000,
+      "category_id": 4,
+      "hinh": "/image/cpu1.png"
+    },
+    {
+      "id": "2",
+      "tensp": "PC GVN Intel i5-12400F/ VGA RTX 5060 (Main H)",
+      "gia": 18990000,
+      "category_id": 4,
+      "hinh": "/image/cpu2.png"
+    },
+    {
+      "id": "3",
+      "tensp": "PC GVN Intel i7-14700F/ VGA RTX 5060",
+      "gia": 34790000,
+      "category_id": 4,
+      "hinh": "/image/cpu3.png"
+    },
+    {
+      "id": "4",
+      "tensp": "PC GVN Intel i5-12400F/ VGA RX 7600",
+      "gia": 17190000,
+      "category_id": 4,
+      "hinh": "/image/cpu4.png"
+    },
+    {
+      "id": "5",
+      "tensp": "PC GVN Intel i5-12400F/ VGA RTX 3050 (Main H)",
+      "gia": 13390000,
+      "category_id": 4,
+      "hinh": "/image/cpu5.png"
+    },
+    {
+      "id": "6",
+      "tensp": "PC GVN Intel i5-12400F/ VGA RTX 3060 (Main H)",
+      "gia": 16190000,
+      "category_id": 4,
+      "hinh": "/image/cpu6.png"
+    },
+    {
+      "id": "7",
+      "tensp": "PC GVN Intel i5-12400F/ VGA RTX 4060",
+      "gia": 18190000,
+      "category_id": 4,
+      "hinh": "/image/cpu7.png"
+    },
+    {
+      "id": "8",
+      "tensp": "PC GVN X Corsair iCUE (Intel i5-14400F/ VGA RTX 5060)",
+      "gia": 26990000,
+      "category_id": 4,
+      "hinh": "/image/cpu8.png"
+    },
+    {
+      "id": "9",
+      "tensp": "PC GVN Intel i7-14700F/ VGA RTX 5070",
+      "gia": 49490000,
+      "category_id": 4,
+      "hinh": "/image/cpu9.png"
+    },
+    {
+      "id": "10",
+      "tensp": "PC GVN Intel i7-14700F/ VGA RTX 5080",
+      "gia": 69880000,
+      "category_id": 4,
+      "hinh": "/image/cpu10.png"
+    },
+    {
+      "id": "11",
+      "tensp": "PC GVN Intel i7-14700F/ VGA RTX 5060Ti",
+      "gia": 37390000,
+      "category_id": 4,
+      "hinh": "/image/cpu11.png"
+    },
+    {
+      "id": "12",
+      "tensp": "PC GVN Intel i7-14700F/ VGA RTX 4070 Super",
+      "gia": 41990000,
+      "category_id": 4,
+      "hinh": "/image/cpu12.png"
+    },
+    {
+      "id": "13",
+      "tensp": "PC GVN Intel i5-12400F/ VGA RTX 3060",
+      "gia": 17390000,
+      "category_id": 4,
+      "hinh": "/image/cpu13.png"
+    },
+    {
+      "id": "14",
+      "tensp": "PC GVN Intel i5-14400F/ VGA RTX 5060 Ti",
+      "gia": 27490000,
+      "category_id": 4,
+      "hinh": "/image/cpu14.png"
+    },
+    {
+      "id": "15",
+      "tensp": "PC GVN Intel Core Ultra 7 265KF/ VGA RTX 5080...",
+      "gia": 79990000,
+      "category_id": 4,
+      "hinh": "/image/cpu15.png"
+    },
+    {
+      "id": "16",
+      "tensp": "PC GVN Intel Core Ultra 7 265KF/ VGA RTX 4070 Super",
+      "gia": 47490000,
+      "category_id": 4,
+      "hinh": "/image/cpu16.png"
+    },
+    {
+      "id": "17",
+      "tensp": "PC GVN Dragon GODLIKE (Intel Core Ultra 9 285K/ VGA RTX 5090)",
+      "gia": 178990000,
+      "category_id": 4,
+      "hinh": "/image/cpu17.png"
+    },
+    {
+      "id": "18",
+      "tensp": "PC GVN Intel Core Ultra 7 265KF/ VGA RTX 5080",
+      "gia": 71990000,
+      "category_id": 4,
+      "hinh": "/image/cpu18.png"
+    },
+    {
+      "id": "19",
+      "tensp": "PC GVN INTEL I9-14900K/VGA RTX 5090",
+      "gia": 169990000,
+      "category_id": 4,
+      "hinh": "/image/cpu19.png"
+    },
+    {
+      "id": "20",
+      "tensp": "PC GVN Intel Core Ultra 7 265KF/ VGA RTX 5070",
+      "gia": 50990000,
+      "category_id": 4,
+      "hinh": "/image/cpu20.png"
+    },
+    {
+      "id": "21",
+      "tensp": "PC GVN Intel Core Ultra 7 265KF/ VGA RTX 3060",
+      "gia": 35490000,
+      "category_id": 4,
+      "hinh": "/image/cpu21.jpg"
+    },
+    {
+      "id": "22",
+      "tensp": "PC GVN AMD R7-9800x3D/ VGA RTX 5090 (Powered by ASUS)",
+      "gia": 140000000,
+      "category_id": 4,
+      "hinh": "/image/cpu22.jpg"
+    },
+    {
+      "id": "23",
+      "tensp": "PC GVN Dragon ACE (Intel Core Ultra 9 285K/ VGA RTX 5090 (Powered by MSI))",
+      "gia": 159000000,
+      "category_id": 4,
+      "hinh": "/image/cpu23.png"
+    },
+    {
+      "id": "24",
+      "tensp": "PC GVN Intel Core Ultra 7 265K/ VGA RTX 5080 (Powered by ASUS)",
+      "gia": 102990000,
+      "category_id": 4,
+      "hinh": "/image/cpu24.jpg"
+    },
+    {
+      "id": "25",
+      "tensp": "PC GVN AMD R7-8700X/ RTX 5070Ti",
+      "gia": 62990000,
+      "category_id": 4,
+      "hinh": "/image/cpu25.png"
+    },
+    {
+      "id": "26",
+      "tensp": "PC GVN AMD R7-7700X/ RTX 4060",
+      "gia": 31990000,
+      "category_id": 4,
+      "hinh": "/image/cpu26.png"
+    },
+    {
+      "id": "27",
+      "tensp": "PC GVN AMD R7-7800X3D/ VGA RTX 5080 (Powered by ASUS)",
+      "gia": 87990000,
+      "category_id": 4,
+      "hinh": "/image/cpu27.png"
+    },
+    {
+      "id": "28",
+      "tensp": "PC GVN Intel Core Ultra 7 265KF/ VGA RTX 5070Ti",
+      "gia": 58990000,
+      "category_id": 4,
+      "hinh": "/image/cpu28.png"
+    },
+    {
+      "id": "29",
+      "tensp": "PC GVN X ASUS Blackwell (Intel Core Ultra 9 285K/ VGA RTX 5090)",
+      "gia": 188880000,
+      "category_id": 4,
+      "hinh": "/image/cpu29.png"
+    },
+    {
+      "id": "30",
+      "tensp": "PC GVN Intel i3-12100F/ VGA RX 6500XT (Powered by ASUS)",
+      "gia": 10490000,
+      "category_id": 4,
+      "hinh": "/image/cpu30.png"
+    },
+    {
+      "id": "31",
+      "tensp": "PC GVN Intel i5-12400F/ VGA RX 6500XT (H610)",
+      "gia": 12990000,
+      "category_id": 4,
+      "hinh": "/image/cpu31.png"
+    },
+    {
+      "id": "32",
+      "tensp": "PC GVN x MSI PROJECT ZERO WHITE (Intel i5-14400F/ VGA RTX 5060)",
+      "gia": 30990000,
+      "category_id": 4,
+      "hinh": "/image/cpu32.png"
+    },
+    {
+      "id": "33",
+      "tensp": "PC GVN AMD R5-8400F/ VGA RX 7600 (Powered by ASUS)",
+      "gia": 23390000,
+      "category_id": 4,
+      "hinh": "/image/cpu33.png"
+    },
+    {
+      "id": "34",
+      "tensp": "PC GVN x Corsair iCUE (Intel i5-13400F/ VGA RTX 4060)",
+      "gia": 23890000,
+      "category_id": 4,
+      "hinh": "/image/cpu34.png"
+    },
+    {
+      "id": "35",
+      "tensp": "PC GVN Intel i3-12100F/ VGA RTX 3050",
+      "gia": 11390000,
+      "category_id": 4,
+      "hinh": "/image/cpu35.png"
+    },
+    {
+      "id": "36",
+      "tensp": "PC GVN Intel i5-12400F/ VGA RTX 3050",
+      "gia": 14290000,
+      "category_id": 4,
+      "hinh": "/image/cpu36.png"
+    },
+    {
+      "id": "37",
+      "tensp": "PC GVN AMD R5-5500/ VGA RTX 3050",
+      "gia": 14990000,
+      "category_id": 4,
+      "hinh": "/image/cpu37.png"
+    },
+    {
+      "id": "38",
+      "tensp": "PC GVN Intel i7-14700F/ VGA RTX 4060",
+      "gia": 32690000,
+      "category_id": 4,
+      "hinh": "/image/cpu38.png"
+    },
+    {
+      "id": "39",
+      "tensp": "PC GVN AMD R5-5600X/ VGA RTX 3060",
+      "gia": 19990000,
+      "category_id": 4,
+      "hinh": "/image/cpu39.png"
+    },
+    {
+      "id": "40",
+      "tensp": "PC GVN AMD R5-7600/ VGA RTX 4060",
+      "gia": 25790000,
+      "category_id": 4,
+      "hinh": "/image/cpu40.png"
+    },
+    {
+      "id": "41",
+      "tensp": "PC GVN Intel i7-14700F/ VGA RTX 3050",
+      "gia": 27690000,
+      "category_id": 4,
+      "hinh": "/image/cpu41.png"
+    },
+    {
+      "id": "42",
+      "tensp": "PC GVN Intel i7-14700F/ VGA RTX 3060",
+      "gia": 31990000,
+      "category_id": 4,
+      "hinh": "/image/cpu42.png"
+    },
+    {
+      "id": "43",
+      "tensp": "PC GVN AMD R7-7700/ VGA RTX 3060",
+      "gia": 30490000,
+      "category_id": 4,
+      "hinh": "/image/cpu43.png"
+    },
+    {
+      "id": "44",
+      "tensp": "PC GVN AMD R9-7900/ VGA RTX 3060",
+      "gia": 39990000,
+      "category_id": 4,
+      "hinh": "/image/cpu44.png"
+    },
+    {
+      "id": "45",
+      "tensp": "PC GVN G-STUDIO AMD R9-7950X3D/ VGA RX 7900 XT",
+      "gia": 96990000,
+      "category_id": 4,
+      "hinh": "/image/cpu45.png"
+    },
+    {
+      "id": "46",
+      "tensp": "Máy in HP LaserJet MFP M236dw 9YF95A",
+      "gia": 5390000,
+      "category_id": 4,
+      "hinh": "/image/mi46.png"
+    },
+    {
+      "id": "47",
+      "tensp": "Máy in HP LaserJet MFP M236sdw 9YG09A",
+      "gia": 6390000,
+      "category_id": 4,
+      "hinh": "/image/mi47.png"
+    }
+  ],
+  "orders": [
+    {
+      "id": "90b4",
+      "user_id": "1",
+      "items": [
         {
-            "id": 1,
-            "tendm": "Điện thoại, Tablet"
-        },
-        {
-            "id": 2,
-            "tendm": "Laptop"
-        },
-        {
-            "id": 3,
-            "tendm": "Phụ kiện"
-        },
-        {
-            "id": 4,
-            "tendm": "PC"
+          "id": "2",
+          "name": "Samsung Galaxy S25 Ultra",
+          "image": "/assets/image/s25_1.webp",
+          "size": "128GB",
+          "color": "Đen",
+          "warranty": null,
+          "note": "",
+          "price": 28490000,
+          "quantity": 1
         }
-    ],
-    "products": [
+      ],
+      "shipping": {
+        "name": "Nvkhoaaa",
+        "phone": "0789521586",
+        "email": "nvkhoaaa@codecademy.nvk.com",
+        "address": "Nha Hố 2",
+        "note": "",
+        "payment": "cod"
+      },
+      "total": 28490000,
+      "payment": "cod",
+      "created_at": "2025-08-13T17:45:54.247Z",
+      "timestamp": "00:45:54 14/08/2025"
+    },
+    {
+      "id": "7201",
+      "user_id": "1",
+      "items": [
         {
-            "id": 1,
-            "tensp": "iPhone 16 Pro Max",
-            "brand": "Apple",
-            "gia": "35.000.000",
-            "gia_cu": "38.000.000",
-            "category_id": 1,
-            "hinh": "iphone-16-pro-max.webp"
-        },
-        {
-            "id": 2,
-            "tensp": "Samsung Galaxy S25 Ultra",
-            "brand": "Samsung",
-            "gia": "28.490.000",
-            "gia_cu": "32.000.000",
-            "category_id": 1,
-            "hinh": "s25_1.webp"
-        },
-        {
-            "id": 3,
-            "tensp": "Xiaomi 15 Ultra 5G",
-            "brand": "Xiaomi",
-            "gia": "33.590.000",
-            "gia_cu": "36.000.000",
-            "category_id": 1,
-            "hinh": "Xiaomi-15-Ultra-1.webp"
-        },
-        {
-            "id": 4,
-            "tensp": "iPhone 16e",
-            "brand": "Apple",
-            "gia": "16.290.000",
-            "gia_cu": "18.000.000",
-            "category_id": 1,
-            "hinh": "iphone-16e-1.webp"
-        },
-        {
-            "id": 5,
-            "tensp": "OPPO Reno 14 5G",
-            "brand": "Oppo",
-            "gia": "15.700.000",
-            "gia_cu": "17.500.000",
-            "category_id": 1,
-            "hinh": "oppo-reno14-1.webp"
-        },
-        {
-            "id": 6,
-            "tensp": "iPad Pro M4",
-            "brand": "Apple",
-            "gia": "27.390.000",
-            "gia_cu": "30.000.000",
-            "category_id": 1,
-            "hinh": "Ipad-Pro-M4-1.webp"
-        },
-        {
-            "id": 7,
-            "tensp": "Samsung Galaxy Tab S10 Plus",
-            "brand": "Samsung",
-            "gia": "23.520.000",
-            "gia_cu": "26.000.000",
-            "category_id": 1,
-            "hinh": "Tab-S10-1.webp"
-        },
-        {
-            "id": 8,
-            "tensp": "Xiaomi Pad 7 Pro",
-            "brand": "Xiaomi",
-            "gia": "12.940.000",
-            "gia_cu": "15.000.000",
-            "category_id": 1,
-            "hinh": "xiaomi-pad-7-1.webp"
-        },
-        {
-            "id": 9,
-            "tensp": "Huawei MatePad Pro",
-            "brand": "Huawei",
-            "gia": "20.990.000",
-            "gia_cu": "24.000.000",
-            "category_id": 1,
-            "hinh": "matepad_pro_4-1.webp"
-        },
-        {
-            "id": 10,
-            "tensp": "Onyx Boox Tab Ultra C Pro",
-            "brand": "Onyx Boox",
-            "gia": "17.990.000",
-            "gia_cu": "20.000.000",
-            "category_id": 1,
-            "hinh": "Onyx-Boox-Tab-Ultra-C-Pro-1.webp"
+          "id": "1",
+          "name": "iPhone 16 Pro Max",
+          "image": "/assets/image/iphone-16-pro-max.webp",
+          "size": "1TB",
+          "color": "Vàng",
+          "warranty": "Rơi vỡ - rớt nước",
+          "note": "",
+          "price": 43800000,
+          "quantity": 1
         }
-    ],
-    "colors": [
+      ],
+      "shipping": {
+        "name": "Nvkhoacoder",
+        "phone": "0785621591",
+        "email": "nvkhoacoder@gmail.com",
+        "address": "Nha Hố 2 ",
+        "note": "",
+        "payment": "bank"
+      },
+      "total": 43800000,
+      "payment": "bank",
+      "created_at": "2025-08-13T17:49:55.707Z",
+      "timestamp": "00:49:55 14/08/2025"
+    },
+    {
+      "id": "8c1a",
+      "user_id": "1",
+      "items": [
         {
-            "id": 1,
-            "name": "Đen",
-            "gia": "0"
-        },
-        {
-            "id": 2,
-            "name": "Trắng",
-            "gia": "200.000"
-        },
-        {
-            "id": 3,
-            "name": "Xanh dương",
-            "gia": "300.000"
-        },
-        {
-            "id": 4,
-            "name": "Đỏ",
-            "gia": "250.000"
-        },
-        {
-            "id": 5,
-            "name": "Vàng",
-            "gia": "400.000"
+          "id": "4",
+          "name": "iPhone 16e",
+          "image": "/assets/image/iphone-16e-1.webp",
+          "size": "128GB",
+          "color": "Vàng",
+          "warranty": "Rơi vỡ - rớt nước",
+          "price": 19090000,
+          "quantity": 1,
+          "note": ""
         }
-    ],
-    "sizes": [
+      ],
+      "shipping": {
+        "name": "Nvkhoacoder",
+        "phone": "07856214478",
+        "email": "khoanv23150315@student.giadinh.edu.vn",
+        "address": "Nha Hố 1",
+        "note": "",
+        "payment": "bank"
+      },
+      "total": 19090000,
+      "payment": "bank",
+      "created_at": "2025-08-13T17:57:28.223Z",
+      "timestamp": "00:57:28 14/08/2025"
+    },
+    {
+      "id": 1755121698070.3298,
+      "user_id": "1",
+      "items": [
         {
-            "id": 1,
-            "name": "128GB",
-            "gia": "0"
-        },
-        {
-            "id": 2,
-            "name": "256GB",
-            "gia": "1.500.000"
-        },
-        {
-            "id": 3,
-            "name": "512GB",
-            "gia": "3.000.000"
-        },
-        {
-            "id": 4,
-            "name": "1TB",
-            "gia": "6.000.000"
+          "id": "3",
+          "name": "Xiaomi 15 Ultra 5G",
+          "image": "/assets/image/Xiaomi-15-Ultra-1.webp",
+          "size": "512GB",
+          "color": "Vàng",
+          "warranty": "Rơi vỡ - rớt nước",
+          "price": 39390000,
+          "quantity": 1,
+          "note": ""
         }
-    ],
-    "ram": [
-        {
-            "id": 1,
-            "name": "4GB",
-            "gia": "0"
-        },
-        {
-            "id": 2,
-            "name": "6GB",
-            "gia": "500.000"
-        },
-        {
-            "id": 3,
-            "name": "8GB",
-            "gia": "1.000.000"
-        },
-        {
-            "id": 4,
-            "name": "12GB",
-            "gia": "2.000.000"
-        },
-        {
-            "id": 5,
-            "name": "16GB",
-            "gia": "3.000.000"
-        }
-    ],
-    "kichthuoc": [
-        {
-            "id": 1,
-            "name": "6.1 inches",
-            "gia": "0"
-        },
-        {
-            "id": 2,
-            "name": "6.7 inches",
-            "gia": "800.000"
-        },
-        {
-            "id": 3,
-            "name": "6.9 inches",
-            "gia": "1.200.000"
-        },
-        {
-            "id": 4,
-            "name": "7.0 inches",
-            "gia": "1.500.000"
-        },
-        {
-            "id": 5,
-            "name": "10.2 inches",
-            "gia": "3.000.000"
-        }
-    ],
-    "specifications": [
-        {
-            "id": 1,
-            "product_id": 1,
-            "display": {
-                "title_vi": "Màn hình",
-                "size": "6.9 inches",
-                "technology": "Super Retina XDR OLED",
-                "resolution": "2868 x 1320 pixels",
-                "features": [
-                    "Dynamic Island",
-                    "Always-On Display",
-                    "ProMotion technology with adaptive refresh rates up to 120Hz",
-                    "HDR display",
-                    "True Tone",
-                    "Wide color gamut (P3)",
-                    "Haptic Touch",
-                    "2,000,000:1 contrast ratio"
-                ],
-                "refresh_rate": "120Hz",
-                "screen_Style": "Dynamic Island"
-            },
-            "camera": {
-                "title_vi": "Camera sau",
-                "rear": {
-                    "main": {
-                        "megapixels": "48MP",
-                        "aperture": "f/1.78",
-                        "focal_length": "24mm",
-                        "sensor_size": "2μm",
-                        "features": [
-                            "Sensor-shift optical image stabilization",
-                            "Focus Pixels 100%"
-                        ]
-                    },
-                    "telephoto": {
-                        "megapixels": "12MP",
-                        "aperture": "f/1.6",
-                        "focal_length": "52mm",
-                        "zoom": "2x"
-                    },
-                    "ultra_wide": {
-                        "megapixels": "48MP",
-                        "aperture": "f/2.2",
-                        "focal_length": "13mm",
-                        "field_of_view": "120°",
-                        "features": [
-                            "Hybrid Focus Pixels",
-                            "Super-resolution photos"
-                        ]
-                    },
-                    "video_recording": [
-                        "4K@24fps",
-                        "4K@25fps",
-                        "4K@30fps",
-                        "4K@60fps",
-                        "4K@100fps",
-                        "4K@120fps",
-                        "1080p@25fps",
-                        "1080p@30fps",
-                        "1080p@60fps",
-                        "1080p@120fps",
-                        "720p@30fps"
-                    ],
-                    "camera_features": [
-                        "True Tone flash",
-                        "Photonic Engine",
-                        "Deep Fusion",
-                        "Smart HDR 5",
-                        "Improved Portrait mode with Focus and Depth Control",
-                        "Portrait Lighting with six effects",
-                        "Night mode portraits",
-                        "Panorama (up to 63MP)",
-                        "Photographic Styles - latest generation",
-                        "Macro photography"
-                    ]
-                },
-                "front": {
-                    "title_vi": "Camera trước",
-                    "megapixels": 12,
-                    "aperture": "f/1.9",
-                    "features": [
-                        "Autofocus with Focus Pixels"
-                    ],
-                    "video_recording": [
-                        "4K@24fps",
-                        "4K@25fps",
-                        "4K@30fps",
-                        "4K@60fps",
-                        "1080p@25fps",
-                        "1080p@30fps",
-                        "1080p@60fps"
-                    ]
-                }
-            },
-            "processor": {
-                "title_vi": "Vi xử lý & Đồ họa",
-                "chipset": "Apple A18 Pro",
-                "gpu": "6-core GPU",
-                "cpu": "6-core CPU with 2 performance and 4 efficiency cores"
-            },
-            "connectivity": {
-                "title_vi": "Giao tiếp & kết nối",
-                "nfc": "Có",
-                "sim": "Dual SIM (nano-SIM and eSIM) - Support for 2 eSIMs",
-                "network": "5G",
-                "gps": [
-                    "GPS",
-                    "GLONASS",
-                    "Galileo",
-                    "QZSS",
-                    "BeiDou",
-                    "NavIC"
-                ],
-                "wifi": "Wi-Fi 7 (802.11be) with 2x2 MIMO7",
-                "bluetooth": "Bluetooth 5.3"
-            },
-            "storage": {
-                "title_vi": "RAM & lưu trữ",
-                "RAM": "",
-                "internal": "1TB"
-            },
-            "operating_system": {
-                "title_vi": "Hệ điều hành",
-                "os": "IOS 18"
-            },
-            "dimensions": {
-                "title_vi": "Kích thước & Trọng lượng",
-                "height": "163mm",
-                "width": "77.6mm",
-                "depth": "8.25mm",
-                "weight": "227g",
-                "back_material": "Glass",
-                "frame_material": "Titanium"
-            },
-            "other_features": {
-                "title_vi": "Tính năng khác",
-                "compatibility": "Compatible with AI Assistant",
-                "dust_water_resistance": "IP68 (maximum depth of 6 meters up to 30 minutes) - IEC 60529",
-                "biometrics": [
-                    "Face ID",
-                    "FaceTime"
-                ],
-                "payment": "Apple Pay",
-                "emergency": [
-                    "Emergency SOS",
-                    "Emergency and Safety Detection"
-                ],
-                "audio": [
-                    "AAC",
-                    "APAC",
-                    "MP3",
-                    "Apple Lossless",
-                    "FLAC",
-                    "Dolby Digital",
-                    "Dolby Digital Plus",
-                    "Dolby Atmos"
-                ],
-                "charging": {
-                    "battery": "4685 mAh",
-                    "wireless": [
-                        "MagSafe wireless charging up to 25W with compatible 30W adapter or higher",
-                        "Qi2 wireless charging up to 15W",
-                        "Qi wireless charging up to 7.5W"
-                    ],
-                    "port": "USB Type-C"
-                },
-                "sensors": [
-                    "Accelerometer",
-                    "Proximity sensor",
-                    "Ambient light sensor",
-                    "Compass",
-                    "Gyroscope",
-                    "Barometer",
-                    "Pressure sensor"
-                ],
-                "special_features": [
-                    "5G support",
-                    "Wireless charging",
-                    "Face unlock",
-                    "Water resistant",
-                    "Dustproof",
-                    "AI Phone"
-                ]
-            },
-            "G_information": {
-                "title_vi": "Thông tin chung",
-                "release_date": "2023-09-22"
-            }
-        },
-        {
-            "id": 2,
-            "product_id": 2,
-            "display": {
-                "title_vi": "Màn hình",
-                "size": "6.9 inches",
-                "technology": "Dynamic AMOLED 2X",
-                "resolution": "3120 x 1440 pixels (Quad HD+)",
-                "features": [
-                    "120Hz",
-                    "2600 nits",
-                    "Corning® Gorilla® Armor 2"
-                ],
-                "refresh_rate": "120Hz",
-                "screen_Style": "Dynamic AMOLED"
-            },
-            "camera": {
-                "title_vi": "Camera sau",
-                "rear": {
-                    "main": {
-                        "megapixels": "50MP",
-                        "aperture": "",
-                        "focal_length": "",
-                        "sensor_size": "",
-                        "features": []
-                    },
-                    "telephoto": {
-                        "megapixels": "50MP",
-                        "aperture": "",
-                        "focal_length": "",
-                        "zoom": "5x"
-                    },
-                    "ultra_wide": {
-                        "megapixels": "200MP",
-                        "aperture": "",
-                        "focal_length": "",
-                        "field_of_view": "",
-                        "features": []
-                    },
-                    "video_recording": [],
-                    "camera_features": [
-                        "Chế độ quay phim 10-bit HDR",
-                        "Quay Log Video",
-                        "Zoom quang học 100x",
-                        "Chụp hình Super HDR",
-                        "Chân dung",
-                        "Tự động lấy nét",
-                        "Quay Video đêm"
-                    ]
-                },
-                "front": {
-                    "title_vi": "Camera trước",
-                    "megapixels": 12,
-                    "aperture": "",
-                    "features": [],
-                    "video_recording": []
-                }
-            },
-            "processor": {
-                "title_vi": "Vi xử lý & Đồ họa",
-                "chipset": "Snapdragon 8 Elite dành cho Galaxy (3nm)",
-                "gpu": "",
-                "cpu": ""
-            },
-            "connectivity": {
-                "title_vi": "Giao tiếp & kết nối",
-                "nfc": "Có",
-                "sim": "2 Nano-SIM + eSIM",
-                "network": "5G",
-                "gps": "Có",
-                "wifi": "Có",
-                "bluetooth": "Có"
-            },
-            "storage": {
-                "title_vi": "RAM & lưu trữ",
-                "RAM": "12 GB",
-                "internal": "256 GB"
-            },
-            "operating_system": {
-                "title_vi": "Hệ điều hành",
-                "os": "Android 15"
-            },
-            "dimensions": {
-                "title_vi": "Kích thước & Trọng lượng",
-                "height": "162.8mm",
-                "width": "77.6mm",
-                "depth": "8.2mm",
-                "weight": "",
-                "back_material": "",
-                "frame_material": "Titanium"
-            },
-            "other_features": {
-                "title_vi": "Tính năng khác",
-                "compatibility": "",
-                "dust_water_resistance": "IP68",
-                "biometrics": "Thực hiện tác vụ liên ứng dụng bằng lời nói (Seamless Actions across Apps)",
-                "payment": "Samsung Pay",
-                "emergency": [
-                    "Emergency SOS",
-                    "Emergency and Safety Detection"
-                ],
-                "audio": "Lọc âm thanh (Audio Eraser)",
-                "charging": {
-                    "battery": "5000 mAh",
-                    "wireless": [
-                        "Sạc nhanh 45W",
-                        "Super Fast Charging 2.0*",
-                        "Fast Wireless Charging 2.0",
-                        "Wireless PowerShare"
-                    ],
-                    "port": "USB Type-C"
-                },
-                "sensors": [
-                    "Cảm biến vân tay trong màn hình"
-                ],
-                "special_features": [
-                    "5G support",
-                    "Comes with a stylus pen",
-                    "Face unlock",
-                    "Water resistant",
-                    "Dustproof",
-                    "AI Phone"
-                ]
-            },
-            "G_information": {
-                "title_vi": "Thông tin chung",
-                "release_date": "2025-02"
-            }
-        },
-        {
-            "id": 3,
-            "product_id": 3,
-            "display": {
-                "title_vi": "Màn hình",
-                "size": "6.73 inches",
-                "technology": "AMOLED",
-                "resolution": "3200 x 1440 pixel",
-                "features": [
-                    "68 tỷ màu",
-                    "Tần số quét 1-120Hz",
-                    "Tốc độ phản hồi cảm ứng 300Hz",
-                    "Độ sáng tối đa 3200 nits trong nhiều tình huống",
-                    "Điều chỉnh độ sáng PWM 1920Hz/DC dimming",
-                    "Original color PRO | Pro HDR | Công nghệ cảm ứng khi ướt",
-                    "HDR10+",
-                    "Dolby Vision"
-                ],
-                "refresh_rate": "144Hz",
-                "screen_Style": ""
-            },
-            "camera": {
-                "title_vi": "Camera sau",
-                "rear": {
-                    "main": {
-                        "megapixels": "50MP",
-                        "aperture": "f/1.63 OIS",
-                        "focal_length": "",
-                        "sensor_size": "",
-                        "features": []
-                    },
-                    "telephoto": {
-                        "megapixels": "200MP",
-                        "aperture": "f/2.6 OIS",
-                        "focal_length": "",
-                        "zoom": ""
-                    },
-                    "ultra_wide": {
-                        "megapixels": "50MP",
-                        "aperture": "f/2.2",
-                        "focal_length": "",
-                        "field_of_view": "115°",
-                        "features": [
-                            "FOV"
-                        ]
-                    },
-                    "video_recording": [
-                        "8K@30fps",
-                        "4K@30fps",
-                        "4K@60fps",
-                        "4K@120fps",
-                        "1080p@30fps",
-                        "1080p@60fps",
-                        "720p@30fps",
-                        "Quay chuyển động chậm 720p",
-                        "Quay chuyển động chậm 1080p"
-                    ],
-                    "camera_features": [
-                        "Xiaomi ProFocus",
-                        "Thu phóng kỹ thuật số lên đến 120x",
-                        "HDR",
-                        "Chụp ảnh động",
-                        "Super marcro",
-                        "Toàn cảnh",
-                        "Định dạng video log",
-                        "Quay đêm Ultra Night Video",
-                        "Chuyển động chậm",
-                        "Chuyển động nhanh",
-                        "Quay video trong dolby vision"
-                    ]
-                },
-                "front": {
-                    "title_vi": "Camera trước",
-                    "megapixels": 32,
-                    "aperture": "f/2.0",
-                    "features": [
-                        "90° FOV",
-                        "Cảm biến OV32B",
-                        "Tiêu cự 21mm"
-                    ],
-                    "video_recording": [
-                        "4K@30fps",
-                        "4K@60fps",
-                        "720p@30fps",
-                        "1080p@30fps",
-                        "1080p@60fps"
-                    ]
-                }
-            },
-            "processor": {
-                "title_vi": "Vi xử lý & Đồ họa",
-                "chipset": "Snapdragon 8 Elite (Tiến trình sản xuất 3nm)",
-                "gpu": "Adreno GPU",
-                "cpu": [
-                    "2 x Lõi Prime, tốc độ tối đa 4,32GHz",
-                    "6 x Lõi hiệu suất, lên đến 3,53GHz"
-                ]
-            },
-            "connectivity": {
-                "title_vi": "Giao tiếp & kết nối",
-                "nfc": "Có",
-                "sim": "Sim kép (nano-Sim và e-Sim) - Hỗ trợ 2 e-Sim",
-                "network": "5G",
-                "gps": [
-                    "GPS: L1+L5",
-                    "Galileo: E1+E5a",
-                    "GLONASS: G1",
-                    "Beidou",
-                    "QZSS: L1 + L5",
-                    "NavIC: L5"
-                ],
-                "wifi": "Hỗ trợ Wi-Fi 7",
-                "bluetooth": "Bluetooth 6.0"
-            },
-            "storage": {
-                "title_vi": "RAM & lưu trữ",
-                "RAM": "16 GB LPDDR5X",
-                "internal": "1TB"
-            },
-            "operating_system": {
-                "title_vi": "Hệ điều hành",
-                "os": "Xiaomi HyperOS 2.0 (Android 15)"
-            },
-            "dimensions": {
-                "title_vi": "Kích thước & Trọng lượng",
-                "height": "161.3mm",
-                "width": "75.3mm",
-                "depth": "9.35mm",
-                "weight": "226g",
-                "back_material": "",
-                "frame_material": ""
-            },
-            "other_features": {
-                "title_vi": "Tính năng khác",
-                "compatibility": "",
-                "dust_water_resistance": "IP68 (maximum depth of 6 meters up to 30 minutes) - IEC 60529",
-                "biometrics": [],
-                "payment": "",
-                "emergency": [],
-                "audio": [
-                    "Dolby Atmos",
-                    "Hi-Res & Hi-Res Audio Wireless certification",
-                    "M4-Mic array"
-                ],
-                "charging": {
-                    "battery": "5410 mAh",
-                    "wireless": [
-                        "Sạc nhanh 90W",
-                        "Sạc không dây 80W",
-                        "Hỗ trợ QC3+ / QC3.0 / QC2.0 / PD3.0 / PD2.0 / MI FC 2.0"
-                    ],
-                    "port": "USB Type-C"
-                },
-                "sensors": [
-                    "Cảm biến gia tốc",
-                    "Cảm biến tiệm cận",
-                    "Cảm biến ánh sáng",
-                    "La bàn",
-                    "Con quay hồi chuyển",
-                    "Cảm biến áp kế"
-                ],
-                "special_features": [
-                    "Xiaomi HyperAI",
-                    "Viết AI",
-                    "Phiên dịch AI",
-                    "Nhận diện giọng nói AI",
-                    "Trợ lý sáng tạo AI",
-                    "Khoanh tròn để tìm kiếm bằng google"
-                ]
-            },
-            "G_information": {
-                "title_vi": "Thông tin chung",
-                "release_date": ""
-            }
-        },
-        {
-            "id": 4,
-            "product_id": 4,
-            "display": {
-                "title_vi": "Màn hình",
-                "size": "6.1 inches",
-                "technology": "Super Retina XDR",
-                "resolution": "2532 x 1170 pixels",
-                "features": [
-                    "Màn hình HDR",
-                    "True Tone",
-                    "Dải màu rộng (P3)",
-                    "Độ sáng tối đa 800 nit (tiêu chuẩn); độ sáng đỉnh 1200 nit (HDR)",
-                    "Lớp phủ kháng dầu chống in dấu vân tay",
-                    "Thu Phóng Màn Hình",
-                    "Haptic Touch",
-                    "Tỷ lệ tương phản 2.000.000:1 (tiêu chuẩn)"
-                ],
-                "refresh_rate": "60Hz",
-                "screen_Style": "Tai Thỏ"
-            },
-            "camera": {
-                "title_vi": "Camera sau",
-                "rear": {
-                    "main": {
-                        "megapixels": "48MP",
-                        "aperture": "f/1.6",
-                        "focal_length": "26mm",
-                        "sensor_size": "",
-                        "features": [
-                            "Hệ thống camera 2 trong 1",
-                            "chống rung quang học",
-                            "Hybrid Focus Pixels",
-                            "ảnh có độ phân giải siêu cao (24MP và 48MP)"
-                        ]
-                    },
-                    "telephoto": {
-                        "megapixels": "12MP",
-                        "aperture": "f/1.6",
-                        "focal_length": "52mm",
-                        "zoom": "2x"
-                    },
-                    "ultra_wide": {
-                        "megapixels": "",
-                        "aperture": "",
-                        "focal_length": "",
-                        "field_of_view": "",
-                        "features": [
-                            "chống rung quang học",
-                            "Hybrid Focus Pixels"
-                        ]
-                    },
-                    "video_recording": [
-                        "4K@24fps",
-                        "4K@25fps",
-                        "4K@30fps",
-                        "4K@60fps",
-                        "1080p@240fps",
-                        "1080p@120fps"
-                    ],
-                    "camera_features": [
-                        "Chế độ quay video QuickTake",
-                        "Chống rung quang học cho video",
-                        "Video tự động lấy nét liên tiếp",
-                        "Độ thu phóng kỹ thuật số lên đến 10x",
-                        "Lớp bảo vệ ống kính bằng sapphire",
-                        "Flash True Tone",
-                        "HDR thông minh thế hệ 5",
-                        "Chế độ chụp Chân Dung với tính năng Điều Khiển Chiều Sâu",
-                        "Chụp ảnh toàn cảnh Panorama (lên đến 63MP)",
-                        "Deep Fusion"
-                    ]
-                },
-                "front": {
-                    "title_vi": "Camera trước",
-                    "megapixels": 12,
-                    "aperture": "f/1.9",
-                    "features": [
-                        "Camera TrueDepth hỗ trợ nhận diện khuôn mặt"
-                    ],
-                    "video_recording": []
-                }
-            },
-            "processor": {
-                "title_vi": "Vi xử lý & Đồ họa",
-                "chipset": "Apple A18",
-                "gpu": "GPU 4 lõi mới, Neural Engine 16 lõi mới",
-                "cpu": "CPU 6 lõi mới với 2 lõi hiệu năng và 4 lõi tiết kiệm điện"
-            },
-            "connectivity": {
-                "title_vi": "Giao tiếp & kết nối",
-                "nfc": "Có",
-                "sim": "Sim kép (nano-Sim và e-Sim) - Hỗ trợ 2 e-Sim",
-                "network": "5G",
-                "gps": [
-                    "GPS",
-                    "GLONASS",
-                    "Galileo",
-                    "QZSS",
-                    "BeiDou",
-                    "NavIC",
-                    "La bàn kỹ thuật số",
-                    "Mạng di động",
-                    "Định vị vi mô iBeacon"
-                ],
-                "wifi": "Wi‑Fi 6 (802.11ax) với 2x2 MIMO",
-                "bluetooth": "Bluetooth 5.3"
-            },
-            "storage": {
-                "title_vi": "RAM & lưu trữ",
-                "RAM": "",
-                "internal": "256 GB"
-            },
-            "operating_system": {
-                "title_vi": "Hệ điều hành",
-                "os": "IOS 18"
-            },
-            "dimensions": {
-                "title_vi": "Kích thước & Trọng lượng",
-                "height": "146.7mm",
-                "width": "71.5mm",
-                "depth": "7.80mm",
-                "weight": "167g",
-                "back_material": "",
-                "frame_material": ""
-            },
-            "other_features": {
-                "title_vi": "Tính năng khác",
-                "compatibility": [
-                    "Sạc USB-C",
-                    "Sạc không dây (tương thích sạc không dây Qi lên đến 7.5W)"
-                ],
-                "dust_water_resistance": "IP68 (maximum depth of 6 meters up to 30 minutes) - IEC 60529",
-                "biometrics": [
-                    "Face ID"
-                ],
-                "payment": "Apple Pay",
-                "emergency": [
-                    "Emergency SOS",
-                    "Emergency and Safety Detection"
-                ],
-                "audio": [
-                    "AAC",
-                    "APAC",
-                    "MP3",
-                    "Apple Lossless",
-                    "FLAC",
-                    "Dolby Digital",
-                    "Dolby Digital Plus",
-                    "Dolby Atmos"
-                ],
-                "charging": {
-                    "battery": "3.961 mAh",
-                    "wireless": [
-                        "Khả năng sạc nhanh Sạc lên đến 50% trong 30 phút với bộ tiếp hợp 20W trở lên (được bán riêng)"
-                    ],
-                    "port": "USB Type-C"
-                },
-                "sensors": [
-                    "Accelerometer",
-                    "Proximity sensor",
-                    "Ambient light sensor",
-                    "Compass",
-                    "Gyroscope",
-                    "Barometer",
-                    "Pressure sensor"
-                ],
-                "special_features": [
-                    "5G support",
-                    "Wireless charging",
-                    "Face unlock",
-                    "Water resistant",
-                    "Dustproof",
-                    "AI Phone",
-                    "Tương Thích Với Thiết Bị Trợ Thính",
-                    "AirPlay có thể phản chiếu màn hình, ảnh và video có độ phân giải lên đến 4K HDR lên Apple TV (thế hệ thứ 2 trở lên) hoặc TV thông minh có hỗ trợ AirPlay"
-                ]
-            },
-            "G_information": {
-                "title_vi": "Thông tin chung",
-                "release_date": "2025-02"
-            }
-        },
-        {
-            "id": 5,
-            "product_id": 5,
-            "display": {
-                "title_vi": "Màn hình",
-                "size": "6.59 inches",
-                "technology": "AMOLED",
-                "resolution": "1256 x 2760 pixels",
-                "features": [
-                    "Tần số quét 120Hz",
-                    "độ sáng 1200 nits",
-                    "kính GG7i"
-                ],
-                "refresh_rate": "120Hz",
-                "screen_Style": ""
-            },
-            "camera": {
-                "title_vi": "Camera sau",
-                "rear": {
-                    "main": {
-                        "megapixels": "50MP",
-                        "aperture": "f/1.8 OIS",
-                        "focal_length": "",
-                        "sensor_size": "",
-                        "features": []
-                    },
-                    "telephoto": {
-                        "megapixels": "50MP",
-                        "aperture": "f/2.8",
-                        "focal_length": "",
-                        "zoom": ""
-                    },
-                    "ultra_wide": {
-                        "megapixels": "48MP",
-                        "aperture": "f/2.2",
-                        "focal_length": "",
-                        "field_of_view": "",
-                        "features": []
-                    },
-                    "video_recording": [],
-                    "camera_features": [
-                        "Chống rung OIS",
-                        "Chụp góc rộng",
-                        "Chụp chân dung/tele",
-                        "Làm đẹp",
-                        "HDR",
-                        "Zoom quang học"
-                    ]
-                },
-                "front": {
-                    "title_vi": "Camera trước",
-                    "megapixels": 50,
-                    "aperture": "f/2.0",
-                    "features": [],
-                    "video_recording": [
-                        "Có"
-                    ]
-                }
-            },
-            "processor": {
-                "title_vi": "Vi xử lý & Đồ họa",
-                "chipset": "MediaTek Dimensity 8350 5G, tối đa 3.35GHz",
-                "gpu": "ARM G615-MC6",
-                "cpu": "8 nhân, 3.35GHz"
-            },
-            "connectivity": {
-                "title_vi": "Giao tiếp & kết nối",
-                "nfc": "Có",
-                "sim": "2 Nano-SIM",
-                "network": "5G",
-                "gps": [
-                    "GPS",
-                    "GLONASS",
-                    "Galileo",
-                    "BDS"
-                ],
-                "wifi": "Wi-Fi 6 (802.11 a/b/g/n/ac/ax), 2.4G/5G",
-                "bluetooth": "5.4 BLE"
-            },
-            "storage": {
-                "title_vi": "RAM & lưu trữ",
-                "RAM": "12 GB",
-                "internal": "256 GB"
-            },
-            "operating_system": {
-                "title_vi": "Hệ điều hành",
-                "os": "ColorOS 15, Android 15"
-            },
-            "dimensions": {
-                "title_vi": "Kích thước & Trọng lượng",
-                "height": "157.9mm",
-                "width": "74.73mm",
-                "depth": "7.42mm",
-                "weight": "187g",
-                "back_material": "Kính",
-                "frame_material": "Hợp Kim"
-            },
-            "other_features": {
-                "title_vi": "Tính năng khác",
-                "compatibility": "",
-                "dust_water_resistance": "IP66, IP68, IP69",
-                "biometrics": [
-                    "Face ID",
-                    "FaceTime"
-                ],
-                "payment": "",
-                "emergency": [],
-                "audio": [
-                    "Loa kép"
-                ],
-                "charging": {
-                    "battery": "6000 mAh",
-                    "wireless": [
-                        "SuperVOOC 80W"
-                    ],
-                    "port": "USB Type-C"
-                },
-                "sensors": [
-                    "Cảm biến gia tốc",
-                    "Cảm biến tiệm cận",
-                    "Cảm biến ánh sáng",
-                    "La bàn",
-                    "Cảm biến vân tay dưới màn hình"
-                ],
-                "special_features": [
-                    "5G support",
-                    "Bảo mật vân tay",
-                    "Face unlock",
-                    "Water resistant",
-                    "AI Phone"
-                ]
-            },
-            "G_information": {
-                "title_vi": "Thông tin chung",
-                "release_date": "2025-07"
-            }
-        },
-        {
-            "id": 6,
-            "product_id": 6,
-            "display": {
-                "title_vi": "Màn hình",
-                "size": "11 inches",
-                "technology": "Ultra Retina XDR",
-                "resolution": "2420 x 1668 pixel",
-                "features": [
-                    "Công nghệ ProMotion",
-                    "Độ sáng 1000nits, 264 ppi",
-                    "True Tone",
-                    "Công nghệ ép kín"
-                ],
-                "refresh_rate": "120Hz",
-                "screen_Style": ""
-            },
-            "camera": {
-                "title_vi": "Camera sau",
-                "rear": {
-                    "main": {
-                        "megapixels": "12MP",
-                        "aperture": "f/2.4",
-                        "focal_length": "",
-                        "sensor_size": "",
-                        "features": []
-                    },
-                    "telephoto": {
-                        "megapixels": "",
-                        "aperture": "",
-                        "focal_length": "",
-                        "zoom": ""
-                    },
-                    "ultra_wide": {
-                        "megapixels": "",
-                        "aperture": "",
-                        "focal_length": "",
-                        "field_of_view": "",
-                        "features": []
-                    },
-                    "video_recording": [
-                        "4K@24fps",
-                        "4K@25fps",
-                        "4K@30fps",
-                        "4K@60fps",
-                        "1080p@25fps",
-                        "1080p@30fps",
-                        "1080p@60fps",
-                        "720p@30fps",
-                        "Quay video ProRes lên đến 4K ở tốc độ 30 fps"
-                    ],
-                    "camera_features": [
-                        "Quay video ProRes lên đến 4K",
-                        "Phóng đại âm thanh",
-                        "Video tua nhanh có chống rung",
-                        "Video tự động lấy nét liên tiếp",
-                        "Thu phóng khi xem",
-                        "Zoom kỹ thuật số",
-                        "Xoá phông",
-                        "Tua nhanh thời gian (Time‑lapse)",
-                        "Toàn cảnh (Panorama)",
-                        "Smart HDR 4"
-                    ]
-                },
-                "front": {
-                    "title_vi": "Camera trước",
-                    "megapixels": "12MP",
-                    "aperture": "f/1.8",
-                    "features": [],
-                    "video_recording": []
-                }
-            },
-            "processor": {
-                "title_vi": "Vi xử lý & Đồ họa",
-                "chipset": "Apple M4",
-                "gpu": "Apple GPU 10 nhân",
-                "cpu": "CPU 9 lõi với 3 lõi hiệu năng và 6 lõi tiết kiệm điện"
-            },
-            "connectivity": {
-                "title_vi": "Giao tiếp & kết nối",
-                "nfc": "Không",
-                "sim": "",
-                "network": "",
-                "gps": [
-                    "GPS",
-                    "GNSS",
-                    "Mạng di động"
-                ],
-                "wifi": "Wi‑Fi 6E (802.11ax) với 4x4 MIMO5",
-                "bluetooth": "Bluetooth 5.3"
-            },
-            "storage": {
-                "title_vi": "RAM & lưu trữ",
-                "RAM": "8 GB",
-                "internal": "256 GB"
-            },
-            "operating_system": {
-                "title_vi": "Hệ điều hành",
-                "os": "iPadOS 17"
-            },
-            "dimensions": {
-                "title_vi": "Kích thước & Trọng lượng",
-                "height": "177,5mm",
-                "width": "249,7mm",
-                "depth": "5.3mm",
-                "weight": "444g",
-                "back_material": "",
-                "frame_material": ""
-            },
-            "other_features": {
-                "title_vi": "Tính năng khác",
-                "compatibility": [
-                    "Apple Pencil Pro",
-                    "Apple Pencil USB-C 2023",
-                    "Bàn phím iPad Pro 11 M4 Apple Magic Keyboard + Trackpad"
-                ],
-                "dust_water_resistance": "",
-                "biometrics": [
-                    "Face ID",
-                    "LiDAR Scanner"
-                ],
-                "payment": "Apple Pay",
-                "emergency": [
-                    "Phát Âm Thanh Không Gian"
-                ],
-                "audio": [
-                    "Hệ thống âm thanh bốn loa"
-                ],
-                "charging": {
-                    "battery": "",
-                    "wireless": [
-                        "Sạc tối đa 20 W"
-                    ],
-                    "port": "USB Type-C"
-                },
-                "sensors": [
-                    "Cảm biến gia tốc",
-                    "Cảm biến ánh sáng",
-                    "La bàn",
-                    "Con quay hồi chuyển",
-                    "Cảm biến áp kế",
-                    "Cảm biến vân tay cạnh bên"
-                ],
-                "special_features": []
-            },
-            "G_information": {
-                "title_vi": "Thông tin chung",
-                "release_date": "2024-05"
-            }
-        },
-        {
-            "id": 7,
-            "product_id": 7,
-            "display": {
-                "title_vi": "Màn hình",
-                "size": "12.4 inches",
-                "technology": "Dynamic AMOLED 2X",
-                "resolution": "1752 x 2800 pixel",
-                "features": [
-                    "650 nits",
-                    "Kính cường lực Corning Gorilla Glass",
-                    "Lớp phủ chống chói (mới)",
-                    "Độ sâu màu sắc 16M"
-                ],
-                "refresh_rate": "120Hz",
-                "screen_Style": ""
-            },
-            "camera": {
-                "title_vi": "Camera sau",
-                "rear": {
-                    "main": {
-                        "megapixels": "13.0 MP + 8.0 MP",
-                        "aperture": "f/2.4",
-                        "focal_length": "",
-                        "sensor_size": "",
-                        "features": []
-                    },
-                    "telephoto": {
-                        "megapixels": "",
-                        "aperture": "",
-                        "focal_length": "",
-                        "zoom": ""
-                    },
-                    "ultra_wide": {
-                        "megapixels": "",
-                        "aperture": "",
-                        "focal_length": "",
-                        "field_of_view": "",
-                        "features": []
-                    },
-                    "video_recording": [
-                        "UHD 4K (3840 x 2160)@30fps"
-                    ],
-                    "camera_features": [
-                        "Đèn Flash",
-                        "Tự động lấy nét",
-                        "Quét mã QR Code",
-                        "Quét tài liệu",
-                        "Zoom kỹ thuật số",
-                        "Xoá phông",
-                        "Góc siêu rộng",
-                        "Toàn cảnh (Panorama)",
-                        "Tua nhanh thời gian (Time‑lapse)",
-                        "Chế Độ Chuyên nghiệp",
-                        "HDR"
-                    ]
-                },
-                "front": {
-                    "title_vi": "Camera trước",
-                    "megapixels": "12MP",
-                    "aperture": "",
-                    "features": [],
-                    "video_recording": []
-                }
-            },
-            "processor": {
-                "title_vi": "Vi xử lý & Đồ họa",
-                "chipset": "MediaTek Dimensity 9300+",
-                "gpu": "ARM Immortalis G720",
-                "cpu": "8 nhân, 3.4GHz,2.8GHz,2GHz"
-            },
-            "connectivity": {
-                "title_vi": "Giao tiếp & kết nối",
-                "nfc": "Không",
-                "sim": "Nano-SIM + eSIM",
-                "network": "5G",
-                "gps": [
-                    "GPS",
-                    "Glonass",
-                    "Beidou",
-                    "Galileo",
-                    "QZSS"
-                ],
-                "wifi": "Wi-Fi 6E 802.11 a/b/g/n/ac/ax 2.4G+5GHz+6GHz, HE160, MIMO, 1024-QAM",
-                "bluetooth": "v5.3"
-            },
-            "storage": {
-                "title_vi": "RAM & lưu trữ",
-                "RAM": "12 GB",
-                "internal": "256 GB"
-            },
-            "operating_system": {
-                "title_vi": "Hệ điều hành",
-                "os": "Android 14, One UI 6.1.1"
-            },
-            "dimensions": {
-                "title_vi": "Kích thước & Trọng lượng",
-                "height": "285.4mm",
-                "width": "185.4mm",
-                "depth": "5.6mm",
-                "weight": "576g",
-                "back_material": "",
-                "frame_material": ""
-            },
-            "other_features": {
-                "title_vi": "Tính năng khác",
-                "compatibility": "Bút S Pen",
-                "dust_water_resistance": "IP68",
-                "biometrics": [],
-                "payment": "",
-                "emergency": [],
-                "audio": [
-                    "4 Loa AKG hỗ trợ Dolby Atmos"
-                ],
-                "charging": {
-                    "battery": "10,090 mAh",
-                    "wireless": [
-                        "Sạc tối đa 20 W"
-                    ],
-                    "port": "USB Type-C"
-                },
-                "sensors": [
-                    "Cảm biến gia tốc",
-                    "Cảm biến ánh sáng",
-                    "Con quay hồi chuyển",
-                    "Cảm biến trọng lực",
-                    "Cảm biến vân tay trong màn hình"
-                ],
-                "special_features": [
-                    "Phiên dịch viên",
-                    "Phiên dịch trực tiếp",
-                    "Trợ lý Note quyền năng",
-                    "Trợ lý ghi âm",
-                    "Chỉnh ảnh chuyên nghiệp",
-                    "Khoanh tròn để tìm kiếm với Google",
-                    "Phác thảo thông minh"
-                ]
-            },
-            "G_information": {
-                "title_vi": "Thông tin chung",
-                "release_date": "2024-10"
-            }
-        },
-        {
-            "id": 8,
-            "product_id": 8,
-            "display": {
-                "title_vi": "Màn hình",
-                "size": "11.2 inches",
-                "technology": "IPS LCD",
-                "resolution": "2136 x 3200 pixels",
-                "features": [
-                    "68 tỷ màu",
-                    "HDR10",
-                    "Dolby Vision",
-                    "800 nits",
-                    "Tỷ lệ 3:2, mật độ điểm ảnh 345 ppi",
-                    "DCI-P3"
-                ],
-                "refresh_rate": "144Hz",
-                "screen_Style": ""
-            },
-            "camera": {
-                "title_vi": "Camera sau",
-                "rear": {
-                    "main": {
-                        "megapixels": "50MP",
-                        "aperture": "f/1.8",
-                        "focal_length": " 1/2.76",
-                        "sensor_size": "0.64µm",
-                        "features": [
-                            "PDAF"
-                        ]
-                    },
-                    "telephoto": {
-                        "megapixels": "",
-                        "aperture": "",
-                        "focal_length": "",
-                        "zoom": ""
-                    },
-                    "ultra_wide": {
-                        "megapixels": "",
-                        "aperture": "",
-                        "focal_length": "",
-                        "field_of_view": "",
-                        "features": []
-                    },
-                    "video_recording": [
-                        "4K@30fps",
-                        "4K@60fps",
-                        "1080p@30fps",
-                        "1080p@60fps",
-                        "720p@30fps"
-                    ],
-                    "camera_features": [
-                        "Video kép",
-                        "Chế độ đạo diễn",
-                        "Công cụ nhắc chữ",
-                        "Chụp ảnh động",
-                        "HDR",
-                        "Tài Liệu"
-                    ]
-                },
-                "front": {
-                    "title_vi": "Camera trước",
-                    "megapixels": "32MP",
-                    "aperture": "f/2.2",
-                    "features": [],
-                    "video_recording": [
-                        "1080p@30fps",
-                        "720p@30fps"
-                    ]
-                }
-            },
-            "processor": {
-                "title_vi": "Vi xử lý & Đồ họa",
-                "chipset": "Qualcomm SM8635 Snapdragon 8s Gen 3",
-                "gpu": "Adreno 735",
-                "cpu": "1x2.8 GHz Cortex-X4 & 4x2.6 GHz Cortex-A720 & 3x1.9 GHz Cortex-A520"
-            },
-            "connectivity": {
-                "title_vi": "Giao tiếp & kết nối",
-                "nfc": "Không",
-                "sim": "",
-                "network": "",
-                "gps": [],
-                "wifi": "Wi-Fi 7, Wi-Fi Direct, 2x2 MIMO, 8x8 cho MU-MIMO",
-                "bluetooth": "v5.4"
-            },
-            "storage": {
-                "title_vi": "RAM & lưu trữ",
-                "RAM": "8 GB",
-                "internal": "256 GB"
-            },
-            "operating_system": {
-                "title_vi": "Hệ điều hành",
-                "os": "Android 15, Xiaomi HyperOS 2"
-            },
-            "dimensions": {
-                "title_vi": "Kích thước & Trọng lượng",
-                "height": "251.2mm",
-                "width": "173.4mm",
-                "depth": "6.2mm",
-                "weight": "500g",
-                "back_material": "Nhôm",
-                "frame_material": "Nhôm"
-            },
-            "other_features": {
-                "title_vi": "Tính năng khác",
-                "compatibility": "",
-                "dust_water_resistance": "",
-                "biometrics": [],
-                "payment": "",
-                "emergency": [],
-                "audio": [
-                    "4 loa",
-                    "âm thanh Dolby Atmos"
-                ],
-                "charging": {
-                    "battery": "8850 mAh",
-                    "wireless": [
-                        "Sạc nhanh 67W"
-                    ],
-                    "port": "USB Type-C"
-                },
-                "sensors": [
-                    "Cảm biến gia tốc",
-                    "Cảm biến ánh sáng",
-                    "Cảm biến tiệm cận",
-                    "Con quay hồi chuyển",
-                    "Cảm biến trọng lực",
-                    "Cảm biến vân tay cạnh bên"
-                ],
-                "special_features": [
-                    "Xiaomi HyperAI - tìm kiếm, tạo văn bản và hình ảnh",
-                    "Xiaomi HyperConnect kết nối hiệu quả"
-                ]
-            },
-            "G_information": {
-                "title_vi": "Thông tin chung",
-                "release_date": ""
-            }
-        },
-        {
-            "id": 9,
-            "product_id": 9,
-            "display": {
-                "title_vi": "Màn hình",
-                "size": "12.2 inches",
-                "technology": "Tandem OLED PaperMatte",
-                "resolution": "2800 x 1840 pixels",
-                "features": [
-                    "1.07 tỷ màu",
-                    "2000 nits",
-                    "gam màu rộng P3",
-                    "274 ppi",
-                    "Độ tương phản 2,000,000:1"
-                ],
-                "refresh_rate": "144Hz",
-                "screen_Style": ""
-            },
-            "camera": {
-                "title_vi": "Camera sau",
-                "rear": {
-                    "main": {
-                        "megapixels": "13MP",
-                        "aperture": "f/1.8 AF",
-                        "focal_length": "",
-                        "sensor_size": "",
-                        "features": []
-                    },
-                    "telephoto": {
-                        "megapixels": "",
-                        "aperture": "",
-                        "focal_length": "",
-                        "zoom": ""
-                    },
-                    "ultra_wide": {
-                        "megapixels": "8MP",
-                        "aperture": "f/2.2",
-                        "focal_length": "",
-                        "field_of_view": "",
-                        "features": [
-                            "FF",
-                            "LED Flash"
-                        ]
-                    },
-                    "video_recording": [
-                        "3840 × 2160 pixel",
-                        "1080p@30fps"
-                    ],
-                    "camera_features": [
-                        "Tua nhanh thời gian",
-                        "Ống kính góc rộng",
-                        "Ban đêm",
-                        "Chân dung",
-                        "Chuyên nghiệp",
-                        "Quay chậm",
-                        "Toàn cảnh",
-                        "Ảnh Động",
-                        "Ghi lại nụ cười",
-                        "Điều khiển bằng âm thanh",
-                        "Hẹn giờ",
-                        "Chụp liên tục"
-                    ]
-                },
-                "front": {
-                    "title_vi": "Camera trước",
-                    "megapixels": "",
-                    "aperture": "f/2.2 FF",
-                    "features": [],
-                    "video_recording": []
-                }
-            },
-            "processor": {
-                "title_vi": "Vi xử lý & Đồ họa",
-                "chipset": "",
-                "gpu": "",
-                "cpu": ""
-            },
-            "connectivity": {
-                "title_vi": "Giao tiếp & kết nối",
-                "nfc": "",
-                "sim": "",
-                "network": "",
-                "gps": [
-                    "GPS",
-                    "GLONASS",
-                    "BeiDou",
-                    "Galileo",
-                    "QZSS"
-                ],
-                "wifi": "2.4 GHz và 5 GHz",
-                "bluetooth": "v5.2"
-            },
-            "storage": {
-                "title_vi": "RAM & lưu trữ",
-                "RAM": "12 GB",
-                "internal": "256 GB"
-            },
-            "operating_system": {
-                "title_vi": "Hệ điều hành",
-                "os": "HarmonyOS 4.2"
-            },
-            "dimensions": {
-                "title_vi": "Kích thước & Trọng lượng",
-                "height": "182.53mm",
-                "width": "271.25mm",
-                "depth": "5.5mm",
-                "weight": "508g",
-                "back_material": "",
-                "frame_material": ""
-            },
-            "other_features": {
-                "title_vi": "Tính năng khác",
-                "compatibility": [
-                    "Bàn Phím Trượt HUAWEI Glide",
-                    "Bút HUAWEI M-Pencil"
-                ],
-                "dust_water_resistance": "",
-                "biometrics": [],
-                "payment": "",
-                "emergency": [],
-                "audio": [
-                    "4 loa",
-                    "HUAWEI SOUND"
-                ],
-                "charging": {
-                    "battery": "10.100 mAh",
-                    "wireless": [
-                        "Bộ sạc tiêu chuẩn hỗ trợ sạc nhanh HUAWEI",
-                        "SuperCharge, lên đến 20V/5 A"
-                    ],
-                    "port": "USB Type-C"
-                },
-                "sensors": [
-                    "Cảm biến gia tốc",
-                    "Cảm biến ánh sáng",
-                    "La bàn",
-                    "Con quay hồi chuyển",
-                    "Cảm biến trọng lực",
-                    "Cảm biến vân tay cạnh bên"
-                ],
-                "special_features": [
-                    "Ứng Dụng GoPaint",
-                    "Công nghệ NearLink"
-                ]
-            },
-            "G_information": {
-                "title_vi": "Thông tin chung",
-                "release_date": ""
-            }
-        }
-    ],
-    "muakem": [
-        {
-            "id": 1,
-            "ten": "Mua kèm sim",
-            "description": "Giảm tối đa 50k",
-            "hinh": ""
-        },
-        {
-            "id": 2,
-            "ten": "Mua kèm ốp",
-            "description": "Giảm thêm 10%",
-            "hinh": ""
-        },
-        {
-            "id": 3,
-            "ten": "Mua kèm dán",
-            "description": "Giảm thêm 10%",
-            "hinh": ""
-        },
-        {
-            "id": 4,
-            "ten": "Mua kèm loa,....",
-            "description": "Giảm thêm 5%",
-            "hinh": ""
-        }
-    ],
-    "baohanh": [
-        {
-            "id": 1,
-            "ten": "1 đổi 1 VIP 6 tháng",
-            "price": "1.300.000"
-        },
-        {
-            "id": 2,
-            "ten": "S24+ 12 tháng",
-            "price": "1.600.000"
-        },
-        {
-            "id": 3,
-            "ten": "1 đổi 1 VIP 12 tháng",
-            "price": "1.800.000"
-        },
-        {
-            "id": 4,
-            "ten": "Rơi vỡ - rớt nước",
-            "price": "2.400.000"
-        }
-    ],
-    "images": [
-        {
-            "id": 1,
-            "product_id": 1,
-            "ten": "anh1",
-            "hinh": "iphone-16-pro-max.webp"
-        },
-        {
-            "id": 2,
-            "product_id": 1,
-            "ten": "anh2",
-            "hinh": "iphone-16-pro-max-1.webp"
-        },
-        {
-            "id": 3,
-            "product_id": 1,
-            "ten": "anh3",
-            "hinh": "iphone-16-pro-max-2.webp"
-        },
-        {
-            "id": 4,
-            "product_id": 1,
-            "ten": "anh4",
-            "hinh": "iphone-16-pro-max-3.webp"
-        },
-        {
-            "id": 5,
-            "product_id": 1,
-            "ten": "anh5",
-            "hinh": "iphone-16-pro-max-4.webp"
-        },
-        {
-            "id": 6,
-            "product_id": 2,
-            "ten": "anh1",
-            "hinh": "s25_1.webp"
-        },
-        {
-            "id": 7,
-            "product_id": 2,
-            "ten": "anh2",
-            "hinh": "s25_2.webp"
-        },
-        {
-            "id": 8,
-            "product_id": 2,
-            "ten": "anh3",
-            "hinh": "s25_3.webp"
-        },
-        {
-            "id": 9,
-            "product_id": 2,
-            "ten": "anh4",
-            "hinh": "s25_4.webp"
-        },
-        {
-            "id": 10,
-            "product_id": 2,
-            "ten": "anh5",
-            "hinh": "s25_5.webp"
-        },
-        {
-            "id": 11,
-            "product_id": 3,
-            "ten": "anh1",
-            "hinh": "Xiaomi-15-Ultra-1.webp"
-        },
-        {
-            "id": 12,
-            "product_id": 3,
-            "ten": "anh2",
-            "hinh": "Xiaomi-15-Ultra-2.webp"
-        },
-        {
-            "id": 13,
-            "product_id": 3,
-            "ten": "anh3",
-            "hinh": "Xiaomi-15-Ultra-3.webp"
-        },
-        {
-            "id": 14,
-            "product_id": 3,
-            "ten": "anh4",
-            "hinh": "Xiaomi-15-Ultra-4.webp"
-        },
-        {
-            "id": 15,
-            "product_id": 3,
-            "ten": "anh5",
-            "hinh": "Xiaomi-15-Ultra-5.webp"
-        },
-        {
-            "id": 16,
-            "product_id": 4,
-            "ten": "anh1",
-            "hinh": "iphone-16e-1.webp"
-        },
-        {
-            "id": 17,
-            "product_id": 4,
-            "ten": "anh2",
-            "hinh": "iphone-16e-2.webp"
-        },
-        {
-            "id": 18,
-            "product_id": 4,
-            "ten": "anh3",
-            "hinh": "iphone-16e-3.webp"
-        },
-        {
-            "id": 19,
-            "product_id": 4,
-            "ten": "anh4",
-            "hinh": "iphone-16e-4.webp"
-        },
-        {
-            "id": 20,
-            "product_id": 4,
-            "ten": "anh5",
-            "hinh": "iphone-16e-5.webp"
-        },
-        {
-            "id": 21,
-            "product_id": 5,
-            "ten": "anh1",
-            "hinh": "oppo-reno14-1.webp"
-        },
-        {
-            "id": 22,
-            "product_id": 5,
-            "ten": "anh2",
-            "hinh": "oppo-reno14-2.webp"
-        },
-        {
-            "id": 23,
-            "product_id": 5,
-            "ten": "anh3",
-            "hinh": "oppo-reno14-3.webp"
-        },
-        {
-            "id": 24,
-            "product_id": 5,
-            "ten": "anh4",
-            "hinh": "oppo-reno14-4.webp"
-        },
-        {
-            "id": 25,
-            "product_id": 5,
-            "ten": "anh5",
-            "hinh": "oppo-reno14-5.webp"
-        },
-        {
-            "id": 26,
-            "product_id": 6,
-            "ten": "anh1",
-            "hinh": "Ipad-Pro-M4-1.webp"
-        },
-        {
-            "id": 27,
-            "product_id": 6,
-            "ten": "anh2",
-            "hinh": "Ipad-Pro-M4-2.webp"
-        },
-        {
-            "id": 28,
-            "product_id": 6,
-            "ten": "anh3",
-            "hinh": "Ipad-Pro-M4-3.webp"
-        },
-        {
-            "id": 29,
-            "product_id": 6,
-            "ten": "anh4",
-            "hinh": "Ipad-Pro-M4-4.webp"
-        },
-        {
-            "id": 30,
-            "product_id": 6,
-            "ten": "anh5",
-            "hinh": "Ipad-Pro-M4-5.webp"
-        },
-        {
-            "id": 31,
-            "product_id": 7,
-            "ten": "anh1",
-            "hinh": "Tab-S10-1.webp"
-        },
-        {
-            "id": 32,
-            "product_id": 7,
-            "ten": "anh2",
-            "hinh": "Tab-S10-2.webp"
-        },
-        {
-            "id": 33,
-            "product_id": 7,
-            "ten": "anh3",
-            "hinh": "Tab-S10-3.webp"
-        },
-        {
-            "id": 34,
-            "product_id": 7,
-            "ten": "anh4",
-            "hinh": "Tab-S10-4.png"
-        },
-        {
-            "id": 35,
-            "product_id": 7,
-            "ten": "anh5",
-            "hinh": "Tab-S10-5.webp"
-        },
-        {
-            "id": 36,
-            "product_id": 8,
-            "ten": "anh1",
-            "hinh": "xiaomi-pad-7-1.webp"
-        },
-        {
-            "id": 37,
-            "product_id": 8,
-            "ten": "anh2",
-            "hinh": "xiaomi-pad-7-2.webp"
-        },
-        {
-            "id": 38,
-            "product_id": 8,
-            "ten": "anh3",
-            "hinh": "xiaomi-pad-7-3.webp"
-        },
-        {
-            "id": 39,
-            "product_id": 8,
-            "ten": "anh4",
-            "hinh": "xiaomi-pad-7-4.webp"
-        },
-        {
-            "id": 40,
-            "product_id": 8,
-            "ten": "anh5",
-            "hinh": "xiaomi-pad-7-5.webp"
-        },
-        {
-            "id": 41,
-            "product_id": 9,
-            "ten": "anh1",
-            "hinh": "matepad_pro_4-1.webp"
-        },
-        {
-            "id": 42,
-            "product_id": 9,
-            "ten": "anh2",
-            "hinh": "matepad_pro_4-2.webp"
-        },
-        {
-            "id": 43,
-            "product_id": 9,
-            "ten": "anh3",
-            "hinh": "matepad_pro_4-3.webp"
-        },
-        {
-            "id": 44,
-            "product_id": 9,
-            "ten": "anh4",
-            "hinh": "matepad_pro_4-4.webp"
-        },
-        {
-            "id": 45,
-            "product_id": 9,
-            "ten": "anh5",
-            "hinh": "matepad_pro_4-5.webp"
-        },
-        {
-            "id": 46,
-            "product_id": 10,
-            "ten": "anh1",
-            "hinh": "Onyx-Boox-Tab-Ultra-C-Pro-1.webp"
-        },
-        {
-            "id": 47,
-            "product_id": 10,
-            "ten": "anh2",
-            "hinh": "Onyx-Boox-Tab-Ultra-C-Pro-2.webp"
-        },
-        {
-            "id": 48,
-            "product_id": 10,
-            "ten": "anh3",
-            "hinh": "Onyx-Boox-Tab-Ultra-C-Pro-3.webp"
-        },
-        {
-            "id": 49,
-            "product_id": 10,
-            "ten": "anh4",
-            "hinh": "Onyx-Boox-Tab-Ultra-C-Pro-4.webp"
-        },
-        {
-            "id": 50,
-            "product_id": 10,
-            "ten": "anh5",
-            "hinh": "Onyx-Boox-Tab-Ultra-C-Pro-5.webp"
-        }
-    ]
+      ],
+      "shipping": {
+        "name": "Nguyễn Vũ Khoa",
+        "phone": "07854963258",
+        "email": "nvkhoacoder@gmail.com",
+        "address": "Nha Hố 3 , Khánh Hoà",
+        "note": "",
+        "payment": "cod"
+      },
+      "total": 39390000,
+      "payment": "cod",
+      "status": "pending",
+      "created_at": "2025-08-13T21:48:18.071Z",
+      "timestamp": "04:48:18 14/08/2025"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "8b03",
+      "productId": 3,
+      "name": "Nvkhoacoder",
+      "phone": "nvkhoacoder544@gmail.com",
+      "userId": null,
+      "rating": 5,
+      "comment": "Sản phẩm đẹp quá",
+      "createdAt": "2025-08-12T17:38:58.478Z",
+      "isGuest": true
+    },
+    {
+      "id": "6941",
+      "productId": 4,
+      "name": "Lâm",
+      "phone": "Lamlo@gmail.com",
+      "userId": null,
+      "rating": 3,
+      "comment": "Quá tệ",
+      "createdAt": "2025-08-12T17:41:05.702Z",
+      "isGuest": true
+    },
+    {
+      "id": "caac",
+      "productId": 3,
+      "name": "Phước",
+      "phone": "phuoc@gmail.com",
+      "userId": null,
+      "rating": 4,
+      "comment": "Quá Tuyệt những vẫn có lỗi",
+      "createdAt": "2025-08-12T17:56:12.386Z",
+      "isGuest": true
+    },
+    {
+      "id": "4e01",
+      "productId": 3,
+      "name": "Trần Tấn Hào",
+      "phone": "hao123@gmail.com",
+      "userId": null,
+      "rating": 5,
+      "comment": "Xiaomi luôn nhất kkk",
+      "createdAt": "2025-08-13T04:27:20.009Z",
+      "isGuest": true
+    },
+    {
+      "id": "e2d7",
+      "productId": 3,
+      "name": "Lâm Lỏ",
+      "phone": "lamlo@gmail.com",
+      "userId": null,
+      "rating": 5,
+      "comment": "Hơn Iphone nha",
+      "createdAt": "2025-08-13T04:29:48.392Z",
+      "isGuest": true
+    },
+    {
+      "id": "77b0",
+      "productId": 2,
+      "name": "Nguyễn Vũ Khoa",
+      "phone": "nvkhoaa@gmail.com",
+      "userId": null,
+      "rating": 5,
+      "comment": "Samsung mãi đỉnh",
+      "createdAt": "2025-08-13T04:30:39.272Z",
+      "isGuest": true
+    },
+    {
+      "id": "f7d3",
+      "productId": 2,
+      "name": "Phước",
+      "phone": "phuoc@gmail.com",
+      "userId": null,
+      "rating": 3,
+      "comment": "Thua Iphone nha",
+      "createdAt": "2025-08-13T04:31:29.520Z",
+      "isGuest": true
+    },
+    {
+      "id": "8bd3",
+      "productId": 2,
+      "name": "Lâm",
+      "phone": "lam@gmail.com",
+      "userId": null,
+      "rating": 5,
+      "comment": "Không biết nói gì hơn",
+      "createdAt": "2025-08-13T04:33:10.314Z",
+      "isGuest": true
+    },
+    {
+      "id": "a5d4",
+      "productId": 2,
+      "name": "Hào",
+      "phone": "hao@gmail.com",
+      "userId": null,
+      "rating": 5,
+      "comment": "hay",
+      "createdAt": "2025-08-13T04:35:40.003Z",
+      "isGuest": true
+    },
+    {
+      "id": "3866",
+      "productId": 2,
+      "name": "An",
+      "phone": "an@gmail.com",
+      "userId": null,
+      "rating": 1,
+      "comment": "Không hay",
+      "createdAt": "2025-08-13T04:36:48.048Z",
+      "isGuest": true
+    },
+    {
+      "id": "771c",
+      "productId": 1,
+      "name": "Nvkhoaaa",
+      "phone": "nvkhoaaa@gmail.com",
+      "userId": null,
+      "rating": 5,
+      "comment": "Iphone luôn ngon và sang",
+      "createdAt": "2025-08-13T05:11:46.366Z",
+      "isGuest": true
+    }
+  ],
+  "cart": []
 }

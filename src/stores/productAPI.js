@@ -10,6 +10,7 @@ export const useProductsStore = defineStore('product', {
         kichthuoc: [],
         baohanh: [],
         image: [],
+        specifications: [],
         MobileDetail: null,
         error: null
     }),
@@ -26,6 +27,16 @@ export const useProductsStore = defineStore('product', {
 
     },
     actions: {
+        async fetchSpecifications() {
+            try {
+                const response = await axios.get(`${APIURL}/specifications`);
+                this.specifications = response.data;
+                this.error = null;
+            } catch (error) {
+                this.error = error;
+                console.error('Lỗi không tải được dữ liệu', error);
+            }
+        },
         async fetchImage() {
             try {
                 const response = await axios.get(`${APIURL}/images`);
@@ -107,5 +118,6 @@ export const useProductsStore = defineStore('product', {
                 console.error('Lỗi khi tải chi tiết sản phẩm', error)
             }
         }
-    }
+    },
+    persist: true
 })
