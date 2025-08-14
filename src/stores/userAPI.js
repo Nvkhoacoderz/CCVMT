@@ -4,20 +4,23 @@ import { defineStore } from "pinia";
 export const userAPI = defineStore("userLogin", {
   state: () => ({
     users: [],
-    user: null,
+    user: JSON.parse(localStorage.getItem("userLogin")) || null,
     error: null,
   }),
+  getters: {
+    isLoggedIn: (state) => !!state.user,
+    username: (state) => state.user?.username || "",
+    email: (state) => state.user?.email || "",
+  },
   actions: {
     async fetchUsers() {
       try {
         const response = await fetch(`${APIURL}/users`);
-
         if (!response.ok) {
           this.error = "Lỗi khi gọi API";
           this.users = [];
           return;
         }
-
         const data = await response.json();
         this.users = data;
       } catch (error) {
@@ -32,66 +35,66 @@ export const userAPI = defineStore("userLogin", {
         if (this.users.length === 0) {
           await this.fetchUsers();
         }
-
         const userData = this.users.find(
           (u) =>
             u.username.trim().toLowerCase() === username.trim().toLowerCase() &&
             u.matkhau === password
         );
-
         if (!userData) {
           this.error = "Sai tên đăng nhập hoặc mật khẩu";
           this.user = null;
+          localStorage.removeItem("userLogin");
           return false;
         }
-
         this.user = userData;
+        localStorage.setItem("userLogin", JSON.stringify(userData));
         this.error = null;
         return true;
       } catch (error) {
         this.error = error;
         this.user = null;
+        localStorage.removeItem("userLogin");
         return false;
       }
     },
+
+    logout() {
+      this.user = null;
+      localStorage.removeItem("userLogin");
+    },
+
     async register(newUser) {
       try {
         await this.fetchUsers();
-
         const existUser = this.users.find(
           (eU) => eU.username.toLowerCase() === newUser.username.toLowerCase()
         );
         const existEmail = this.users.find(
           (eU) => eU.email.toLowerCase() === newUser.email.toLowerCase()
         );
-
         if (existUser) {
           this.error = "Tên người dùng đã tồn tại";
           return false;
         }
-
         if (existEmail) {
           this.error = "Email đã được sử dụng";
           return false;
         }
-
+        // Lưu tạm vào localStorage (tùy mục đích)
         localStorage.setItem(
           "Danh sách người đăng ký",
           JSON.stringify(newUser)
         );
-
         const response = await fetch(`${APIURL}/users`, {
           method: "POST",
           headers: { "Content-type": "application/json" },
           body: JSON.stringify(newUser),
         });
-
         if (!response.ok) {
           this.error = "Lỗi khi lưu người dùng mới";
           return false;
         }
         await this.fetchUsers();
-
         return true;
       } catch (error) {
         this.error = error;

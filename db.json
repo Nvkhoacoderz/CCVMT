@@ -381,7 +381,10 @@
             "aperture": "f/2.2",
             "focal_length": "13mm",
             "field_of_view": "120°",
-            "features": ["Hybrid Focus Pixels", "Super-resolution photos"]
+            "features": [
+              "Hybrid Focus Pixels",
+              "Super-resolution photos"
+            ]
           },
           "video_recording": [
             "4K@24fps",
@@ -413,7 +416,9 @@
           "title_vi": "Camera trước",
           "megapixels": 12,
           "aperture": "f/1.9",
-          "features": ["Autofocus with Focus Pixels"],
+          "features": [
+            "Autofocus with Focus Pixels"
+          ],
           "video_recording": [
             "4K@24fps",
             "4K@25fps",
@@ -436,7 +441,14 @@
         "nfc": "Có",
         "sim": "Dual SIM (nano-SIM and eSIM) - Support for 2 eSIMs",
         "network": "5G",
-        "gps": ["GPS", "GLONASS", "Galileo", "QZSS", "BeiDou", "NavIC"],
+        "gps": [
+          "GPS",
+          "GLONASS",
+          "Galileo",
+          "QZSS",
+          "BeiDou",
+          "NavIC"
+        ],
         "wifi": "Wi-Fi 7 (802.11be) with 2x2 MIMO7",
         "bluetooth": "Bluetooth 5.3"
       },
@@ -462,9 +474,15 @@
         "title_vi": "Tính năng khác",
         "compatibility": "Compatible with AI Assistant",
         "dust_water_resistance": "IP68 (maximum depth of 6 meters up to 30 minutes) - IEC 60529",
-        "biometrics": ["Face ID", "FaceTime"],
+        "biometrics": [
+          "Face ID",
+          "FaceTime"
+        ],
         "payment": "Apple Pay",
-        "emergency": ["Emergency SOS", "Emergency and Safety Detection"],
+        "emergency": [
+          "Emergency SOS",
+          "Emergency and Safety Detection"
+        ],
         "audio": [
           "AAC",
           "APAC",
@@ -515,7 +533,11 @@
         "size": "6.9 inches",
         "technology": "Dynamic AMOLED 2X",
         "resolution": "3120 x 1440 pixels (Quad HD+)",
-        "features": ["120Hz", "2600 nits", "Corning® Gorilla® Armor 2"],
+        "features": [
+          "120Hz",
+          "2600 nits",
+          "Corning® Gorilla® Armor 2"
+        ],
         "refresh_rate": "120Hz",
         "screen_Style": "Dynamic AMOLED"
       },
@@ -600,7 +622,10 @@
         "dust_water_resistance": "IP68",
         "biometrics": "Thực hiện tác vụ liên ứng dụng bằng lời nói (Seamless Actions across Apps)",
         "payment": "Samsung Pay",
-        "emergency": ["Emergency SOS", "Emergency and Safety Detection"],
+        "emergency": [
+          "Emergency SOS",
+          "Emergency and Safety Detection"
+        ],
         "audio": "Lọc âm thanh (Audio Eraser)",
         "charging": {
           "battery": "5000 mAh",
@@ -612,7 +637,9 @@
           ],
           "port": "USB Type-C"
         },
-        "sensors": ["Cảm biến vân tay trong màn hình"],
+        "sensors": [
+          "Cảm biến vân tay trong màn hình"
+        ],
         "special_features": [
           "5G support",
           "Comes with a stylus pen",
@@ -669,7 +696,9 @@
             "aperture": "f/2.2",
             "focal_length": "",
             "field_of_view": "115°",
-            "features": ["FOV"]
+            "features": [
+              "FOV"
+            ]
           },
           "video_recording": [
             "8K@30fps",
@@ -700,7 +729,11 @@
           "title_vi": "Camera trước",
           "megapixels": 32,
           "aperture": "f/2.0",
-          "features": ["90° FOV", "Cảm biến OV32B", "Tiêu cự 21mm"],
+          "features": [
+            "90° FOV",
+            "Cảm biến OV32B",
+            "Tiêu cự 21mm"
+          ],
           "video_recording": [
             "4K@30fps",
             "4K@60fps",
@@ -843,7 +876,10 @@
             "aperture": "",
             "focal_length": "",
             "field_of_view": "",
-            "features": ["chống rung quang học", "Hybrid Focus Pixels"]
+            "features": [
+              "chống rung quang học",
+              "Hybrid Focus Pixels"
+            ]
           },
           "video_recording": [
             "4K@24fps",
@@ -870,7 +906,9 @@
           "title_vi": "Camera trước",
           "megapixels": 12,
           "aperture": "f/1.9",
-          "features": ["Camera TrueDepth hỗ trợ nhận diện khuôn mặt"],
+          "features": [
+            "Camera TrueDepth hỗ trợ nhận diện khuôn mặt"
+          ],
           "video_recording": []
         }
       },
@@ -924,9 +962,14 @@
           "Sạc không dây (tương thích sạc không dây Qi lên đến 7.5W)"
         ],
         "dust_water_resistance": "IP68 (maximum depth of 6 meters up to 30 minutes) - IEC 60529",
-        "biometrics": ["Face ID"],
+        "biometrics": [
+          "Face ID"
+        ],
         "payment": "Apple Pay",
-        "emergency": ["Emergency SOS", "Emergency and Safety Detection"],
+        "emergency": [
+          "Emergency SOS",
+          "Emergency and Safety Detection"
+        ],
         "audio": [
           "AAC",
           "APAC",
@@ -977,7 +1020,11 @@
         "size": "6.59 inches",
         "technology": "AMOLED",
         "resolution": "1256 x 2760 pixels",
-        "features": ["Tần số quét 120Hz", "độ sáng 1200 nits", "kính GG7i"],
+        "features": [
+          "Tần số quét 120Hz",
+          "độ sáng 1200 nits",
+          "kính GG7i"
+        ],
         "refresh_rate": "120Hz",
         "screen_Style": ""
       },
@@ -1019,7 +1066,9 @@
           "megapixels": 50,
           "aperture": "f/2.0",
           "features": [],
-          "video_recording": ["Có"]
+          "video_recording": [
+            "Có"
+          ]
         }
       },
       "processor": {
@@ -1033,7 +1082,12 @@
         "nfc": "Có",
         "sim": "2 Nano-SIM",
         "network": "5G",
-        "gps": ["GPS", "GLONASS", "Galileo", "BDS"],
+        "gps": [
+          "GPS",
+          "GLONASS",
+          "Galileo",
+          "BDS"
+        ],
         "wifi": "Wi-Fi 6 (802.11 a/b/g/n/ac/ax), 2.4G/5G",
         "bluetooth": "5.4 BLE"
       },
@@ -1059,13 +1113,20 @@
         "title_vi": "Tính năng khác",
         "compatibility": "",
         "dust_water_resistance": "IP66, IP68, IP69",
-        "biometrics": ["Face ID", "FaceTime"],
+        "biometrics": [
+          "Face ID",
+          "FaceTime"
+        ],
         "payment": "",
         "emergency": [],
-        "audio": ["Loa kép"],
+        "audio": [
+          "Loa kép"
+        ],
         "charging": {
           "battery": "6000 mAh",
-          "wireless": ["SuperVOOC 80W"],
+          "wireless": [
+            "SuperVOOC 80W"
+          ],
           "port": "USB Type-C"
         },
         "sensors": [
@@ -1171,7 +1232,11 @@
         "nfc": "Không",
         "sim": "",
         "network": "",
-        "gps": ["GPS", "GNSS", "Mạng di động"],
+        "gps": [
+          "GPS",
+          "GNSS",
+          "Mạng di động"
+        ],
         "wifi": "Wi‑Fi 6E (802.11ax) với 4x4 MIMO5",
         "bluetooth": "Bluetooth 5.3"
       },
@@ -1201,13 +1266,22 @@
           "Bàn phím iPad Pro 11 M4 Apple Magic Keyboard + Trackpad"
         ],
         "dust_water_resistance": "",
-        "biometrics": ["Face ID", "LiDAR Scanner"],
+        "biometrics": [
+          "Face ID",
+          "LiDAR Scanner"
+        ],
         "payment": "Apple Pay",
-        "emergency": ["Phát Âm Thanh Không Gian"],
-        "audio": ["Hệ thống âm thanh bốn loa"],
+        "emergency": [
+          "Phát Âm Thanh Không Gian"
+        ],
+        "audio": [
+          "Hệ thống âm thanh bốn loa"
+        ],
         "charging": {
           "battery": "",
-          "wireless": ["Sạc tối đa 20 W"],
+          "wireless": [
+            "Sạc tối đa 20 W"
+          ],
           "port": "USB Type-C"
         },
         "sensors": [
@@ -1265,7 +1339,9 @@
             "field_of_view": "",
             "features": []
           },
-          "video_recording": ["UHD 4K (3840 x 2160)@30fps"],
+          "video_recording": [
+            "UHD 4K (3840 x 2160)@30fps"
+          ],
           "camera_features": [
             "Đèn Flash",
             "Tự động lấy nét",
@@ -1299,7 +1375,13 @@
         "nfc": "Không",
         "sim": "Nano-SIM + eSIM",
         "network": "5G",
-        "gps": ["GPS", "Glonass", "Beidou", "Galileo", "QZSS"],
+        "gps": [
+          "GPS",
+          "Glonass",
+          "Beidou",
+          "Galileo",
+          "QZSS"
+        ],
         "wifi": "Wi-Fi 6E 802.11 a/b/g/n/ac/ax 2.4G+5GHz+6GHz, HE160, MIMO, 1024-QAM",
         "bluetooth": "v5.3"
       },
@@ -1328,10 +1410,14 @@
         "biometrics": [],
         "payment": "",
         "emergency": [],
-        "audio": ["4 Loa AKG hỗ trợ Dolby Atmos"],
+        "audio": [
+          "4 Loa AKG hỗ trợ Dolby Atmos"
+        ],
         "charging": {
           "battery": "10,090 mAh",
-          "wireless": ["Sạc tối đa 20 W"],
+          "wireless": [
+            "Sạc tối đa 20 W"
+          ],
           "port": "USB Type-C"
         },
         "sensors": [
@@ -1383,7 +1469,9 @@
             "aperture": "f/1.8",
             "focal_length": " 1/2.76",
             "sensor_size": "0.64µm",
-            "features": ["PDAF"]
+            "features": [
+              "PDAF"
+            ]
           },
           "telephoto": {
             "megapixels": "",
@@ -1419,7 +1507,10 @@
           "megapixels": "32MP",
           "aperture": "f/2.2",
           "features": [],
-          "video_recording": ["1080p@30fps", "720p@30fps"]
+          "video_recording": [
+            "1080p@30fps",
+            "720p@30fps"
+          ]
         }
       },
       "processor": {
@@ -1462,10 +1553,15 @@
         "biometrics": [],
         "payment": "",
         "emergency": [],
-        "audio": ["4 loa", "âm thanh Dolby Atmos"],
+        "audio": [
+          "4 loa",
+          "âm thanh Dolby Atmos"
+        ],
         "charging": {
           "battery": "8850 mAh",
-          "wireless": ["Sạc nhanh 67W"],
+          "wireless": [
+            "Sạc nhanh 67W"
+          ],
           "port": "USB Type-C"
         },
         "sensors": [
@@ -1525,9 +1621,15 @@
             "aperture": "f/2.2",
             "focal_length": "",
             "field_of_view": "",
-            "features": ["FF", "LED Flash"]
+            "features": [
+              "FF",
+              "LED Flash"
+            ]
           },
-          "video_recording": ["3840 × 2160 pixel", "1080p@30fps"],
+          "video_recording": [
+            "3840 × 2160 pixel",
+            "1080p@30fps"
+          ],
           "camera_features": [
             "Tua nhanh thời gian",
             "Ống kính góc rộng",
@@ -1562,7 +1664,13 @@
         "nfc": "",
         "sim": "",
         "network": "",
-        "gps": ["GPS", "GLONASS", "BeiDou", "Galileo", "QZSS"],
+        "gps": [
+          "GPS",
+          "GLONASS",
+          "BeiDou",
+          "Galileo",
+          "QZSS"
+        ],
         "wifi": "2.4 GHz và 5 GHz",
         "bluetooth": "v5.2"
       },
@@ -1586,12 +1694,18 @@
       },
       "other_features": {
         "title_vi": "Tính năng khác",
-        "compatibility": ["Bàn Phím Trượt HUAWEI Glide", "Bút HUAWEI M-Pencil"],
+        "compatibility": [
+          "Bàn Phím Trượt HUAWEI Glide",
+          "Bút HUAWEI M-Pencil"
+        ],
         "dust_water_resistance": "",
         "biometrics": [],
         "payment": "",
         "emergency": [],
-        "audio": ["4 loa", "HUAWEI SOUND"],
+        "audio": [
+          "4 loa",
+          "HUAWEI SOUND"
+        ],
         "charging": {
           "battery": "10.100 mAh",
           "wireless": [
@@ -1608,7 +1722,10 @@
           "Cảm biến trọng lực",
           "Cảm biến vân tay cạnh bên"
         ],
-        "special_features": ["Ứng Dụng GoPaint", "Công nghệ NearLink"]
+        "special_features": [
+          "Ứng Dụng GoPaint",
+          "Công nghệ NearLink"
+        ]
       },
       "G_information": {
         "title_vi": "Thông tin chung",
@@ -2417,7 +2534,9 @@
       "1081-1083 Trần Hưng Đạo, Phường An Đông, TP.HCM",
       "63 Nguyễn Cửu Vân, Phường Gia Định, TP.HCM"
     ],
-    "HN": ["162-164 Thái Hà, Phường Đống Đa, Hà Nội"]
+    "HN": [
+      "162-164 Thái Hà, Phường Đống Đa, Hà Nội"
+    ]
   },
   "muaKem": [
     {
@@ -2861,7 +2980,7 @@
       "timestamp": "00:57:28 14/08/2025"
     },
     {
-      "id": 1755121698070.3298,
+      "id": "1755121698070.3298",
       "user_id": "1",
       "items": [
         {
@@ -3012,7 +3131,114 @@
       "comment": "Iphone luôn ngon và sang",
       "createdAt": "2025-08-13T05:11:46.366Z",
       "isGuest": true
+    },
+    {
+      "id": "d421",
+      "productId": 2,
+      "name": "Nguyễn Vũ Khoa",
+      "phone": "nvkhoacoder@gmail.com",
+      "userId": "1",
+      "rating": 5,
+      "comment": "Hay",
+      "createdAt": "2025-08-14T01:14:11.022Z",
+      "isGuest": true
+    },
+    {
+      "id": "a4f2",
+      "productId": 1,
+      "name": "LamKhung",
+      "phone": "lam@gmail.com",
+      "userId": "f7c5",
+      "rating": 1,
+      "comment": "Iphone như c",
+      "createdAt": "2025-08-14T01:17:15.243Z",
+      "isGuest": false
+    },
+    {
+      "id": "0162",
+      "productId": 1,
+      "name": "locphuoc",
+      "phone": "locphuoc@gmail.com",
+      "userId": "838a",
+      "rating": 5,
+      "comment": "Quá hay",
+      "createdAt": "2025-08-14T01:22:19.347Z",
+      "isGuest": false,
+      "updatedAt": "2025-08-14T01:32:56.218Z"
     }
   ],
-  "cart": []
+  "replies": [
+    {
+      "id": "0979",
+      "reviewId": "771c",
+      "name": "Admin",
+      "comment": "Phải vậy không bạn?",
+      "userId": "838a",
+      "createdAt": "2025-08-14T01:36:52.449Z"
+    },
+    {
+      "id": "2225",
+      "reviewId": "a4f2",
+      "name": "locphuoc",
+      "comment": "Bạn mới như c",
+      "userId": "838a",
+      "createdAt": "2025-08-14T01:39:34.199Z"
+    },
+    {
+      "id": "d628",
+      "reviewId": "771c",
+      "name": "locphuoc",
+      "comment": "Hay ta",
+      "userId": "838a",
+      "createdAt": "2025-08-14T01:43:28.998Z"
+    },
+    {
+      "id": "0ce0",
+      "reviewId": "771c",
+      "name": "locphuoc",
+      "comment": "Kkk",
+      "userId": "838a",
+      "createdAt": "2025-08-14T01:44:49.230Z"
+    },
+    {
+      "id": "f838",
+      "reviewId": "a4f2",
+      "name": "locphuoc",
+      "comment": "m mới như c á",
+      "userId": "838a",
+      "createdAt": "2025-08-14T01:45:40.961Z"
+    },
+    {
+      "id": "80d7",
+      "reviewId": "a4f2",
+      "name": "locphuoc",
+      "comment": "m mới như c chứ iphone nó đã",
+      "userId": "838a",
+      "createdAt": "2025-08-14T01:51:44.489Z"
+    },
+    {
+      "id": "892b",
+      "reviewId": "a4f2",
+      "name": "Nguyễn Vũ Khoa",
+      "comment": "bạn hay quá ta , gà mà cứ thể hiện",
+      "userId": "1",
+      "createdAt": "2025-08-14T01:54:34.995Z"
+    },
+    {
+      "id": "9866",
+      "reviewId": "0162",
+      "name": "Nguyễn Vũ Khoa",
+      "comment": "100đ",
+      "userId": "1",
+      "createdAt": "2025-08-14T01:55:08.815Z"
+    },
+    {
+      "id": "032e",
+      "reviewId": "771c",
+      "name": "Nguyễn Vũ Khoa",
+      "comment": "hay bạn",
+      "userId": "1",
+      "createdAt": "2025-08-14T01:56:53.756Z"
+    }
+  ]
 }

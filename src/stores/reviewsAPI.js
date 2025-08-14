@@ -5,12 +5,13 @@ import { APIURL } from "@/constaint";
 export const useAppStore = defineStore("review", {
   state: () => ({
     users: [],
-    reviews: [], // reviews cho product hiện tại đang xem
-    reviewsByProduct: {}, // Cache reviews theo productId: { [productId]: [reviews] }
+    reviews: [],
+    reviewsByProduct: {},
     guests: [],
     loading: false,
     error: null,
-    currentProductId: null, // Track product hiện tại
+    currentProductId: null,
+    replies: [],
   }),
   actions: {
     // Users
@@ -38,25 +39,36 @@ export const useAppStore = defineStore("review", {
       this.guests = this.guests.filter((g) => g.id !== id);
     },
 
-    // Reviews - Fetch reviews cho một product cụ thể
+    // FIX: Fetch replies cho một review cụ thể
+    async fetchRepliesForReview(reviewId) {
+      try {
+        const response = await axios.get(
+          `${APIURL}/replies?reviewId=${reviewId}`
+        );
+        return response.data || [];
+      } catch (error) {
+        console.error(`Không thể tải replies cho review ${reviewId}:`, error);
+        return [];
+      }
+    },
+
+    // FIX: Reviews - Fetch reviews cho một product cụ thể VÀ replies
     async fetchReviewsByProduct(productId) {
       this.loading = true;
       try {
         // Set current product
         this.currentProductId = productId;
 
-        // Kiểm tra cache trước
-        if (this.reviewsByProduct[productId]) {
-          this.reviews = this.reviewsByProduct[productId];
-          this.loading = false;
-          return;
-        }
-
         const response = await axios.get(
           `${APIURL}/reviews?productId=${productId}`
         );
 
-        const productReviews = response.data;
+        const productReviews = response.data || [];
+
+        // FIX: Fetch replies cho mỗi review
+        for (let review of productReviews) {
+          review.replies = await this.fetchRepliesForReview(review.id);
+        }
 
         // Lưu vào cache
         this.reviewsByProduct[productId] = productReviews;
@@ -73,12 +85,17 @@ export const useAppStore = defineStore("review", {
       }
     },
 
-    // Fetch tất cả reviews (dùng cho cache hoặc admin)
+    // FIX: Fetch tất cả reviews với replies
     async fetchAllReviews() {
       this.loading = true;
       try {
         const response = await axios.get(`${APIURL}/reviews`);
-        const allReviews = response.data;
+        const allReviews = response.data || [];
+
+        // Fetch replies cho mỗi review
+        for (let review of allReviews) {
+          review.replies = await this.fetchRepliesForReview(review.id);
+        }
 
         // Group reviews theo productId
         this.reviewsByProduct = allReviews.reduce((acc, review) => {
@@ -90,8 +107,7 @@ export const useAppStore = defineStore("review", {
           return acc;
         }, {});
 
-        // Không set vào this.reviews để tránh hiển thị tất cả
-        // Chỉ set nếu có currentProductId
+        // Set reviews nếu có currentProductId
         if (
           this.currentProductId &&
           this.reviewsByProduct[this.currentProductId]
@@ -103,6 +119,128 @@ export const useAppStore = defineStore("review", {
       } catch (error) {
         this.error = "Không thể tải tất cả đánh giá";
         console.error(error);
+      } finally {
+        this.loading = false;
+      }
+    },
+
+    async updateReview({
+      id,
+      comment,
+      name,
+      email,
+      rating,
+      productId,
+      userId,
+    }) {
+      this.loading = true;
+      try {
+        const oldReview = this.reviews.find((r) => r.id === id);
+        const updatedReview = {
+          ...oldReview,
+          comment:
+            typeof comment !== "undefined" ? comment : oldReview?.comment,
+          name: typeof name !== "undefined" ? name : oldReview?.name,
+          email: typeof email !== "undefined" ? email : oldReview?.email,
+          rating: typeof rating !== "undefined" ? rating : oldReview?.rating,
+          productId:
+            typeof productId !== "undefined" ? productId : oldReview?.productId,
+          userId: typeof userId !== "undefined" ? userId : oldReview?.userId,
+          updatedAt: new Date().toISOString(),
+        };
+
+        const response = await axios.put(
+          `${APIURL}/reviews/${id}`,
+          updatedReview
+        );
+        const data = response.data;
+
+        // FIX: Giữ lại replies khi update
+        data.replies = oldReview?.replies || [];
+
+        // Cập nhật lại cache/danh sách
+        if (this.reviewsByProduct[updatedReview.productId]) {
+          const idx = this.reviewsByProduct[updatedReview.productId].findIndex(
+            (r) => r.id === id
+          );
+          if (idx !== -1)
+            this.reviewsByProduct[updatedReview.productId][idx] = data;
+        }
+        const idx = this.reviews.findIndex((r) => r.id === id);
+        if (idx !== -1) this.reviews[idx] = data;
+
+        this.error = null;
+        return data;
+      } catch (error) {
+        this.error = "Không thể cập nhật đánh giá";
+        throw error;
+      } finally {
+        this.loading = false;
+      }
+    },
+
+    // Trong reviewsAPI.js - sửa addReply function
+    async addReply({ reviewId, name, comment, userId }) {
+      // Kiểm tra xem reply đã tồn tại chưa
+      const existingReview = this.reviews.find((r) => r.id === reviewId);
+      if (existingReview && existingReview.replies) {
+        const duplicateReply = existingReview.replies.find(
+          (r) =>
+            r.comment === comment &&
+            r.userId === userId &&
+            Math.abs(new Date(r.createdAt) - new Date()) < 5000 // trong 5 giây
+        );
+        if (duplicateReply) {
+          console.log("Duplicate reply detected, skipping...");
+          return duplicateReply;
+        }
+      }
+
+      this.loading = true;
+      try {
+        const newReply = {
+          reviewId,
+          name,
+          comment,
+          userId,
+          createdAt: new Date().toISOString(),
+        };
+
+        // Gửi lên server
+        const response = await axios.post(`${APIURL}/replies`, newReply);
+        const addedReply = response.data;
+
+        // Cập nhật local state
+        const review = this.reviews.find((r) => r.id === reviewId);
+        if (review) {
+          if (!review.replies) {
+            review.replies = [];
+          }
+          review.replies.push(addedReply);
+        }
+
+        // Cập nhật cache
+        if (
+          this.currentProductId &&
+          this.reviewsByProduct[this.currentProductId]
+        ) {
+          const cachedReview = this.reviewsByProduct[
+            this.currentProductId
+          ].find((r) => r.id === reviewId);
+          if (cachedReview) {
+            if (!cachedReview.replies) {
+              cachedReview.replies = [];
+            }
+            cachedReview.replies.push(addedReply);
+          }
+        }
+
+        this.error = null;
+        return addedReply;
+      } catch (error) {
+        this.error = "Không thể gửi trả lời";
+        console.error("Add reply error:", error);
+        throw error;
       } finally {
         this.loading = false;
       }
@@ -133,7 +271,9 @@ export const useAppStore = defineStore("review", {
 
         const response = await axios.post(`${APIURL}/reviews`, newReview);
         const addedReview = response.data;
-        
+
+        // FIX: Khởi tạo replies array cho review mới
+        addedReview.replies = [];
 
         // Thêm vào cache
         if (!this.reviewsByProduct[productId]) {
@@ -141,11 +281,10 @@ export const useAppStore = defineStore("review", {
         }
         this.reviewsByProduct[productId].unshift(addedReview);
 
-
-        // // Nếu đang xem product này thì cập nhật reviews hiển thị
-        // if (this.currentProductId === productId) {
-        //   this.reviews.unshift(addedReview);
-        // }
+        // Nếu đang xem product này thì cập nhật reviews hiển thị
+        if (this.currentProductId === productId) {
+          this.reviews.unshift(addedReview);
+        }
 
         // Nếu là khách chưa đăng nhập thì lưu vào mảng guests
         if (isGuest) {
